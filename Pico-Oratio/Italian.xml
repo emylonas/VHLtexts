@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="../Template/schema/VHLTEINew.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <?TEIVERSION 1.3.0. Last updated on February 1st 2009.?>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Oratio</title>
+                <author>Pico</author>
+                <respStmt>
+                    <resp>Revised and edited by</resp>
+                    <name>Andrew Ashton</name>
+                    <name>Elli Mylonas</name>
+                    <name>Dongbo Wang</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Scholarly Technology Group, Brown University</distributor>
+                <address>
+                    <addrLine>Box 1841, Brown University, Providence, RI 02912</addrLine>
+                </address>
+                <availability>
+                    <p>Freely available on a non-commercial basis.</p>
+                </availability>
+                <date when="1968">2008</date>
+            </publicationStmt>
+            <sourceDesc n="[NUMBER FROM THE SOURCE FILE sourceDesc ELEMENT IF APPLICABLE]">
+                <bibl>[DESCRIPTION FROM SOURCE FILE IF APPLICABLE]</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>[PROJECT DESCRIPTION BY ELLI/ANDY]</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>[ANY EDITORIAL STATEMENTS BY MASSIMO/ELLI/ANDY]</p>
+            </editorialDecl>
+            <!-- THIS WILL NEED TO BE TWEAKED FOR EACH FILE? WILL CLARIFY
+                <refsDecl xml:id="ASLREF">
+                <cRefPattern
+                matchPattern="(\S+) ([^.]+)\.(.*)"
+                replacementPattern="#xpath(//div1[@n='$1']/div2/[@n='$2']//lb[@n='$3'])">
+                <p>A reference is created by assembling the following,
+                in the reverse order as that listed here:
+                <list>
+                <item>the <att>n</att> value of the preceding <gi>lb</gi>
+                </item>
+                <item>a period</item>
+                <item>the <att>n</att> value of the ancestor <gi>div2</gi>
+                </item>
+                <item>a space</item>
+                <item>the <att>n</att> value of the parent <gi>div1</gi>
+                </item>
+                </list>
+                </p>
+                </cRefPattern>
+                </refsDecl>-->
+        </encodingDesc>
+        <!-- NOT SURE ABOUT THESE, WILL TALK TO SYD 
+            <encodingDesc>
+            <tagsDecl>
+            <rendition id="r.head">indent(1)case(allcaps)</rendition>
+            <rendition id="r.p">break(yes)pre(¶)</rendition>
+            <rendition id="r.trailer">align(center)</rendition>
+            <tagUsage gi="trailer" render="r.trailer"></tagUsage>
+            <tagUsage gi="p" render="r.p"></tagUsage>
+            <tagUsage gi="head" render="r.head"></tagUsage>
+            </tagsDecl>
+            </encodingDesc>-->
+        <revisionDesc>
+            <change when="1991-11-11">Revised 06/2009 by STG</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <div type="section" n="§1" xml:id="sec001">
+                    <p>Preambolo<anchor type="annotation" n="1" xml:id="legacy1"/></p>
+                    <div type="body">
+                        <p xml:id="sec001001" n="1"> Ho letto, molto venerabili Padri,<anchor type="annotation" n="2" xml:id="legacy2"/> nelle fonti degli Arabi<anchor type="annotation" n="3" xml:id="legacy3"/> che Abdalla Saraceno<anchor type="annotation" n="4" xml:id="legacy4"/> interrogato su che cosa, in questa sorta
+                            di scena del mondo, scorgesse di sommamente mirabile, rispose che non
+                            scorgeva nulla di più mirabile dell'uomo. </p>
+                        <p xml:id="sec001002" n="2"> Con questo detto concorda quello di Mercurio:
+                            «Grande miracolo, o Asclepio, è l'uomo»<anchor type="annotation" n="5" xml:id="legacy5"/>. </p>
+                    </div>
+                </div>
+                <div type="section" n="§2" xml:id="sec002">
+                    <p>Insufficienza delle motivazioni correnti circa la superioritá umana</p>
+                    <div type="body">
+                        <p xml:id="sec002001" n="3"> A me che pensavo al senso di queste
+                            affermazioni non erano sufficienti le molte cose che da molti sono
+                            addotte circa l'eccellenza della natura umana<anchor type="annotation" n="6" xml:id="legacy6"/>: che l'uomo è principio di comunicazione tra le creature,
+                            familiare alle superiori, sovrano sulle inferiori; per la perspicacia
+                            dei sensi, per l'indagine razionale e per il lume dell'intelligenza
+                            interprete della natura<anchor type="annotation" n="7" xml:id="legacy7"/>; interstizio
+                            tra la fissitá dell'eterno e il flusso del tempo e (come dicono i
+                                persiani)<anchor type="annotation" n="8" xml:id="legacy8"/> copula, anzi imeneo del
+                            mondo, rispetto agli angeli (ne dá testimonianza Davide)<anchor type="annotation" n="9" xml:id="legacy9"/> solo un poco inferiore. </p>
+                    </div>
+                </div>
+                <div type="section" n="§3" xml:id="sec003">
+                    <p>La scoperta finale</p>
+                    <div type="body">
+                        <p xml:id="sec003001" n="4"> Cose grandi queste, ma non le principali, tali
+                            cioè da consentirgli di rivendicare a buon diritto il privilegio della
+                            somma ammirazione. </p>
+                        <p xml:id="sec003002" n="5"> Perché infatti non ammirare di più gli stessi
+                            angeli e i beatissimo cori del cielo? </p>
+                        <p xml:id="sec003003" n="6"> Alla fine è sembrato di aver capito perché
+                            l'uomo sia tra gli esseri viventi il più felice e quindi il più degno di
+                            ammirazione, e quale sia alfine, nella concatenazione del tutto, la
+                            condizione che egli ha avuto in sorte, che non solo i bruti, ma anche
+                            gli astri, ma anche le intelligenze ultraterrene gli invidiano<anchor type="annotation" n="10" xml:id="legacy10"/>. </p>
+                        <p xml:id="sec003004" n="7"> Cosa incredibile e mirabile! </p>
+                        <p xml:id="sec003005" n="8"> E come altrimenti? Giacché è a causa di quella
+                            propriamente l'uomo è detto e stimato un grande miracolo e un
+                            meraviglioso essere animato. </p>
+                        <p xml:id="sec003006" n="9"> Ma quale sia udite, Padri e con orecchio
+                            benigno, conforme alla vostra umanitá, siate indulgenti verso questa mia
+                            opera. </p>
+                    </div>
+                </div>
+                <div type="section" n="§4" xml:id="sec004">
+                    <p>Il racconto della creazione</p>
+                    <div type="body">
+                        <p xml:id="sec004001" n="10"> Giá il sommo Padre, Dio architetto aveva
+                            foggiato questa dimora del mondo, che noi vediamo, il tempio
+                            augustissimo della divinitá, secondo le leggi della sapienza arcana. </p>
+                        <p xml:id="sec004002" n="11"> Aveva ornato con le intelligenze la regione
+                            iperurania; aveva animato i globi eterei di anime eterne; aveva riempito
+                            le parti escrementizie e sozze del mondo inferiore con turba di animali
+                            di ogni specie. </p>
+                        <p xml:id="sec004003" n="12"> Ma, compiuta l'opera, l'artefice desiderava
+                            che vi fosse qualcuno che sapesse apprezzare il significato di tanto
+                            lavoro, che ne sapesse amare la bellezza, ammirarne la grandezza<anchor type="annotation" n="11" xml:id="legacy11"/>. </p>
+                        <p xml:id="sec004004" n="13"> Perciò, terminata ogni cosa, come attestano
+                            Mosè e Timeo, pensò alla fine di produrre l'uomo<anchor type="annotation" n="12" xml:id="legacy12"/>. </p>
+                        <p xml:id="sec004005" n="14"> Ma tra gli archetipi non c'era di che dar
+                            formare la nuova progenie, non c'era nei tesori qualcosa a elargire in
+                            ereditá al figlio, non c'era tra i seggi di tutto il mondo dove potesse
+                            sedere il contemplatore dell'universo. </p>
+                        <p xml:id="sec004006" n="15"> Tutto era ormai pieno; tutto era stato
+                            distribuito tra gli ordini, sommi, medi, infimi. </p>
+                        <p xml:id="sec004007" n="16"> Ma sarebbe stato tuttavia indegno della
+                            potestá paterna venir meno in quest'ultimo parto, quais fosse incapace
+                            di generare; indegno della sapienza,ondeggiare per mancanza di consiglio
+                            in un'opera necessaria; indegno dell'amore benefico che colui che
+                            avrebbe lodato negli altri la divina liberalitá fosse indotto a
+                            condannarla a suo riguardo. </p>
+                    </div>
+                </div>
+                <div type="section" n="§5" xml:id="sec005">
+                    <p>Il discorso di Dio all'uomo</p>
+                    <div type="body">
+                        <p xml:id="sec005001" n="17"> Stabilì infine l'attimo artefice che a colui
+                            cui non si poteva dare nulla di proprio fosse comune quanto apparteneva
+                            ai singoli<anchor type="annotation" n="13" xml:id="legacy13"/>. </p>
+                        <p xml:id="sec005002" n="18"> Prese perciò l'uomo, opera dall'immagine non
+                                definita<anchor type="annotation" n="14" xml:id="legacy14"/>, e postolo nel mezzo del
+                                mondo<anchor type="annotation" n="15" xml:id="legacy15"/> così gli parlò: «Non ti
+                            abbiamo dato, o Adamo, una dimora certa, né un sembiante proprio, né una
+                            prerogativa peculiare affinché avessi e possedessi come desideri e come
+                            senti la dimora, il sembiante, le prerogative che tu da te stesso avrai
+                            scelto. </p>
+                        <p xml:id="sec005003" n="19"> La natura agli altri esseri, una volta
+                            definita, è costretta entro le leggi da noi dettate. </p>
+                        <p xml:id="sec005004" n="20"> Nel tuo caso sarai tu, non costretto da alcuna
+                            limitazione, secondo il tuo arbitrio, nella cui mano ti ho posto, a
+                            decidere su di essa. </p>
+                        <p xml:id="sec005005" n="21"> Ti ho posto in mezzo al mondo, perché di qui
+                            potessi più facilmente guardare attorno a quanto è nel mondo. </p>
+                        <p xml:id="sec005006" n="22"> Non ti abbiamo fatto né celeste né terreno, né
+                            mortale né immortale<anchor type="annotation" n="16" xml:id="legacy16"/>, perché come
+                            libero, straordinario<anchor type="annotation" n="17" xml:id="legacy17"/>plasmatore e
+                            scultore di te stesso, tu ti possa foggiare da te stesso nella forma che
+                            avrai preferito. </p>
+                        <p xml:id="sec005007" n="23"> Potrai degenerare nei esseri inferiori, che
+                            sono i bruti; potrai rigenerarti, secondo la tua decisione, negli esseri
+                            superiori, che sono divini». </p>
+                    </div>
+                </div>
+                <div type="section" n="§6" xml:id="sec006">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec006001" n="24"> O somma liberalitá di Dio Padre,<anchor type="annotation" n="18" xml:id="legacy18"/> somma e mirabile felicitá
+                                dell'uomo!<anchor type="annotation" n="19" xml:id="legacy19"/>
+                        </p>
+                        <p xml:id="sec006002" n="25"> Al quale è dato avere ciò che desidera, essere
+                            ciò che vuole. </p>
+                        <p xml:id="sec006003" n="26"> I bruti nascendo recano seco (come dice
+                            Lucilio) dall'utero della madre tutto ciò che possederanno.<anchor type="annotation" n="20" xml:id="legacy20"/>
+                        </p>
+                        <p xml:id="sec006004" n="27"> Gli spiriti superni o sin dall'inizio o poco
+                            dopo diventarono quello che saranno nelle perpetue eternitá. </p>
+                        <p xml:id="sec006005" n="28"> Nell'uomo nascente il Padre infuse semi di
+                            ogni tipo e germi d'ogni specie di vita. </p>
+                        <p xml:id="sec006006" n="29"> I quali cresceranno in colui che li avrá
+                            coltivati e in lui daranno i loro frutti. Se saranno vegetali, diventerá
+                            pianta; se sensibili [sensitivo?] abbrutirá. Se razionali, riuscirá
+                            animale celeste. Se intellettuali, sará angelo e figlio di Dio.<anchor type="annotation" n="21" xml:id="legacy21"/>
+                        </p>
+                        <p xml:id="sec006007" n="31"> E se, non contento della sorte di nessuna
+                            creatura, si raccoglierá nel centro della sua unitá, fattosi uno spirito
+                            solo con Dio, nella solitaria caligine<anchor type="annotation" n="22" xml:id="legacy22"/>
+                            del Padre, colui che è collocato sopra tutte le cose su tutte
+                            primeggerá. </p>
+                    </div>
+                </div>
+                <div type="section" n="§7" xml:id="sec007">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec007001" n="32"> Chi non ammirerá questo nostro
+                                camaleonte?<anchor type="annotation" n="23" xml:id="legacy23"/>
+                        </p>
+                        <p xml:id="sec007002" n="33"> O piuttosto chi ammirerá qualsivoglia altro
+                            [essere] di più? </p>
+                        <p xml:id="sec007003" n="34"> Non a torto, Asclepio Ateniese disse di lui
+                            che, per la sua natura cangiante e metamorfica, nei misteri si
+                            manifestava attraverso [era simboleggiato da] Proteo.<anchor type="annotation" n="24" xml:id="legacy24"/>
+                        </p>
+                        <p xml:id="sec007004" n="35"> Di qui quelle metamorfosi celebrate presso gli
+                            Ebrei e i Pitagorici. </p>
+                    </div>
+                </div>
+                <div type="section" n="§8" xml:id="sec008">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec008001" n="36"> Infatti anche la più segreta teologia degli
+                            Ebrei ora trasforma Enoch santo nell'angelo della divinitá, che chiamano
+                            &lt;Metatron&gt;, ora in altri spiriti numinosi.<anchor type="annotation" n="25" xml:id="legacy25"/>
+                        </p>
+                        <p xml:id="sec008002" n="37"> E i Pitagorici deformano gli uomini scellerati
+                            in bruti e, se si crede ad Empedocle, anche in piante.<anchor type="annotation" n="26" xml:id="legacy26"/>
+                        </p>
+                        <p xml:id="sec008003" n="38"> Imitando costoro Maometto ripeteva spesso e a
+                            ragione che chi si è allontanato dalla legge divina riesce un bruto. </p>
+                        <p xml:id="sec008004" n="39"> Infatti non è la corteccia che fa la pianta,
+                            ma la natura stordita e non senziente; non il cuoio che fa la giumenta
+                            ma l'anima bruta e sensuale; non il corpo circolare che fa il cielo, ma
+                            la retta ragione; non la separazione dal corpo che fa l'angelo, ma
+                            l'intelligenza spirituale. </p>
+                        <p xml:id="sec008005" n="40"> Se vedrai qualcuno dedito al ventre strisciare
+                            per terra, non è uomo quello che vedi ma pianta; se [vedrai qualcuno]
+                            qualcuno come da Calipso accecato con vani miraggi della fantasia e,
+                            succube di seducente incantesimo, fatto servo dei sensi è bruto quello
+                            che vedi, non uomo. </p>
+                        <p xml:id="sec008006" n="41"> Se [vedrai] un filosofo discernente ogni cosa
+                            con retta ragione, veneralo; è animale celeste, non terreno. </p>
+                        <p xml:id="sec008007" n="42"> Se [vedrai] un puro contemplante, ignaro del
+                            corpo, relegato nei penetrali della mente, questi non è animale terreno,
+                            non celeste: questi è uno spirito più augusto, rivestito di carne umana.
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§9" xml:id="sec009">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec009001" n="43"> Chi dunque non ammirerá l'uomo? </p>
+                        <p xml:id="sec009002" n="44"> Il quale non immeritatamente nelle sacre
+                            scritture Mosaiche e Cristiane viene designato ora con il nome di ogni
+                            [essere di] carne, ora con quello di ogni creatura, dal momento che egli
+                            stesso foggia, plasma e trasforma il proprio aspetto in quello di ogni
+                            [essere di] carne, il proprio ingegno in quello di ogni creatura. </p>
+                        <p xml:id="sec009003" n="45"> Per questo motivo il Persiano Evante, ove
+                            spiega la teologia Caldaica, scrive che non è dell'uomo alcuna sua
+                            immagine innata, ma molte esteriori e avventizie. </p>
+                        <p xml:id="sec009004" n="46"> Di qui quel detto dei Caldei che l'uomo è
+                            animale di natura varia multiforme e incostante. </p>
+                    </div>
+                </div>
+                <div type="section" n="§10" xml:id="sec010">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec010001" n="47"> Ma a che fine tutto questo? </p>
+                        <p xml:id="sec010002" n="48"> Affinchè comprendiamo, dal momento che siamo
+                            nati nella condizione di essere ciò che vogliamo, di doverci curare di
+                            questo principalmente, che non si dica di noi che essendo in onore, non
+                            ci siamo accorti di esserci fatti simili a bruti e a stolti giumenti. </p>
+                        <p xml:id="sec010003" n="49"> Ma piuttosto [rammentiamo] quel detto del
+                            profeta Asaph: «Siete [tutti] dei e figli dell'eccelso», affinchè,
+                            abusando della indulgentissima liberalitá del Padre, non ci rendiamo da
+                            salutare nociva la libera scelta che egli ci diede. </p>
+                        <p xml:id="sec010004" n="50"> Ci invada l'animo una sacra ambizione così che
+                            non contenti delle cose mediocri aneliamo alle somme, e ci sforziamo di
+                            conseguirle con tutte le forze (poiché possiamo se lo vogliamo). </p>
+                        <p xml:id="sec010005" n="51"> Disdegniamo le cose terrene, non teniam conto
+                            di quelle celesti e, trascurando una buona volta tutto ciò che è del
+                            mondo, voliamo alla curia oltremondana prossima all'eminentissima
+                            divinitá. </p>
+                        <p xml:id="sec010006" n="52"> Ivi, come tramandano i sacri misteri,
+                            Serafini, Cherubini e Troni occupano i primi posti; e di quelli anche
+                            noi, riluttanti a cedere e insofferenti dei secondi [posti], emuliamo la
+                            dignitá e la gloria. </p>
+                        <p xml:id="sec010007" n="53"> A loro saremo, volendo, in nulla inferiori.
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§11" xml:id="sec011">
+                    <p>La natura degli angeli superiori</p>
+                    <div type="body">
+                        <p xml:id="sec011001" n="54"> Ma in che modo, o insomma con quali opere? </p>
+                        <p xml:id="sec011002" n="55"> Vediamo le loro opere, la loro vita. </p>
+                        <p xml:id="sec011003" n="56"> Se la vivremo anche noi (e certo lo possiamo),
+                            avremo giá uguagliato la loro sorte. </p>
+                        <p xml:id="sec011004" n="57"> Arde il Serafino del fuoco d'amore; rifulge il
+                            Cherubino dello splendore dell'intelletto; sta il Trono nella saldezza
+                            del giudizio. </p>
+                        <p xml:id="sec011005" n="58"> Quindi, se dediti alla vita attiva assumeremo
+                            la cura delle cose inferiori con giusta considerazione, saremo resi
+                            saldi con la stabile saldezza dei Troni. </p>
+                        <p xml:id="sec011006" n="59"> Se sciolti dalle azioni, meditando nella
+                            creazione il Creatore, nel Creatore la creazione, opereremo nella quiete
+                            della contemplazione, risplenderemo da ogni parte di luce cherubica. </p>
+                        <p xml:id="sec011007" n="60"> Se arderemo d'amore solo per il Creatore, del
+                            suo fuoco che tutto consuma, c'infiammeremo d'un tratto a immagine dei
+                                Serafini<anchor type="annotation" n="27" xml:id="legacy27"/>. </p>
+                        <p xml:id="sec011008" n="61"> Sul Trono, cioè sul giusto giudice, sta Dio,
+                            giudice dei secoli. </p>
+                        <p xml:id="sec011009" n="62"> Sul Cherubino, cioè sul contemplatore, vola e
+                            quasi covandolo<anchor type="annotation" n="28" xml:id="legacy28"/> gli infonde calore. </p>
+                        <p xml:id="sec011010" n="63"> Infatti lo spirito del Signore è portato sulle
+                            acque, le acque, si dice, che sono sopra i cieli e, come è scritto nel
+                            libro di Giobbe, lodano Dio con inni antelucani<anchor type="annotation" n="29" xml:id="legacy29"/>. </p>
+                        <p xml:id="sec011011" n="64"> E il Serafino, cioè l'amante, è in Dio e Dio è
+                            in lui, e Dio e lui sono uno solo. </p>
+                        <p xml:id="sec011012" n="65"> Grande è la potenza dei Troni che raggiungiamo
+                            nel giudicare; somma è l'altezza dei Serafini che raggiungiamo
+                            nell'amore. </p>
+                    </div>
+                </div>
+                <div type="section" n="§12" xml:id="sec012">
+                    <p>L'ispirazione degli angeli</p>
+                    <div type="body">
+                        <p xml:id="sec012001" n="66"> Ma come può qualcuno giudicare o amare quel
+                            che non si conosce? </p>
+                        <p xml:id="sec012002" n="67"> Mosè amò il Dio che vide e, quale giudice,
+                            spiegò al popolo quello che, quale contemplatore, aveva visto prima sul
+                            monte. </p>
+                        <p xml:id="sec012003" n="68"> Perciò il Cherubino, nella sua posizione
+                            intermedia, ci prepara al fuoco serafico e ci illumina per il giudizio
+                            dei Troni. </p>
+                        <p xml:id="sec012004" n="69"> Questo è il nodo delle prime menti, l'ordine
+                            palladico, che presiede alla filosofia contemplativa: questo dobbiamo in
+                            primo luogo emulare e desiderare, e in egual misura capire, per essere
+                            rapiti ai fastigi dell'amore e discendere istruiti e preparati ai
+                            compiti dell'azione. </p>
+                        <p xml:id="sec012005" n="70"> Conviene quindi, se dobbiamo modellare la
+                            nostra vita sulla vita dei Cherubini, avere davanti agli occhi e ben
+                            distinta l'idea di quale e come sia la loro vita, quali le loro azioni e
+                            quali le opere. </p>
+                        <p xml:id="sec012006" n="71"> Ma poiché non è concesso che noi (che siamo
+                            carne e conosciamo solo le cose terrene) raggiungiamo questo modello per
+                            conto nostro, accostiamoci agli antichi padri: essi, per la familiaritá
+                            e la consuetudine che avevano con queste cose, ce ne possono dare
+                            testimonianza ricchissima e certa. </p>
+                        <p xml:id="sec012007" n="72"> Consultiamo l'apostolo Paolo, vaso d'elezione,
+                            su quali fossero le attivitá degli eserciti dei Cherubini che vide
+                            quando fu elevato al terzo cielo. </p>
+                        <p xml:id="sec012008" n="73"> Risponderá, come interpreta Dionigi, che si
+                            purificano, sono illuminati e poi giungono a perfezione. </p>
+                    </div>
+                </div>
+                <div type="section" n="§13" xml:id="sec013">
+                    <p>La preparazione dell'anima</p>
+                    <div type="body">
+                        <p xml:id="sec013001" n="74"> Noi dunque, emulando in terra la vita dei
+                            Cherubini, dominando con la scienza morale l'impeto delle passioni,
+                            disperdendo la tenebra della ragione con la dialettica (come lavando via
+                            le sozzure dell'ignoranza e del vizio), purghiamo l'anima perché gli
+                            affetti non si scatenino senza freni o la ragione di quando in quando
+                            sconsideratamente deliri. </p>
+                        <p xml:id="sec013002" n="75"> Quindi nell'anima composta e purificata
+                            diffondiamo la luce della filosofia morale, per renderla infine perfetta
+                            con la conoscenza delle cose divine. </p>
+                    </div>
+                </div>
+                <div type="section" n="§14" xml:id="sec014">
+                    <p>Le scale di Giacobbe</p>
+                    <div type="body">
+                        <p xml:id="sec014001" n="76"> E, per non limitarci ai nostri padri,
+                            consultiamo il patriarca Giacobbe, la cui immagine risplende incisa
+                            nella sede della gloria. </p>
+                        <p xml:id="sec014002" n="77"> Ci istruirá il padre sapientissimo, che
+                            dormiva nel mondo terreno e vegliava in quello superiore<anchor type="annotation" n="30" xml:id="legacy30"/>. </p>
+                        <p xml:id="sec014003" n="78"> Ma ci insegnerá tramite una figura (giacché
+                            così tutto ad essi si accadeva) che vi sono scale che si protendono dal
+                            fondo della terra al sommo dei cieli, nelle quali si distingue una lunga
+                            serie di gradini, sulla cui sommitá siede il Signore, mentre gli angeli
+                            contemplanti vi salgono e vi discendono in modo alterno. </p>
+                    </div>
+                </div>
+                <div type="section" n="§15" xml:id="sec015">
+                    <p>Il nostro avvicinamento alle scale di Giacobbe</p>
+                    <div type="body">
+                        <p xml:id="sec015001" n="79"> Ma se noi, volendo imitare la vita degli
+                            angeli, dobbiamo fare lo stesso, vi chiedo: chi oserá toccare le scale
+                            del Signore, o con piede impuro o con mani non monde? </p>
+                        <p xml:id="sec015002" n="80"> Secondo i misteri, è vietato che chi è impuro
+                            tocchi ciò che è puro. </p>
+                        <p xml:id="sec015003" n="81"> Ma quali sono questi piedi? </p>
+                        <p xml:id="sec015004" n="82"> Quali queste mani? </p>
+                        <p xml:id="sec015005" n="83"> Il piede dell'anima è senza dubbio quella sua
+                            parte più vile che si appoggia alla materia come al suolo terreno;
+                            quella facoltá (dico) che alimenta e nutre, fomite di libidine e maestra
+                            di mollezza sensuale<anchor type="annotation" n="31" xml:id="legacy31"/>. </p>
+                        <p xml:id="sec015006" n="84"> E perché non chiamare mani dell'anima la sua
+                            parte irascibile, la quale, militando a servizio del desiderio, per esso
+                            combatte e come predatrice rapina sotto il sole e nell'arena pubblica
+                            quello che il desiderio divora riposando all'ombra? </p>
+                        <p xml:id="sec015007" n="85"> Per non essere respinti da quelle scale come
+                            profani e impuri, laviamo con la filosofia morale come nella corrente di
+                            un fiume queste mani, questi piedi, cioè tutta la parte sensibile in cui
+                            hanno sede le lusinghe corporee che trattengono l'anima, come si suol
+                            dire, obtorto collo. </p>
+                        <p xml:id="sec015008" n="86"> Ma neppure questo basterá, se vorremo divenire
+                            compagni degli angeli che percorrono salendo e discendendo la scala di
+                            Giacobbe, a meno che non siamo ben preparati e istruiti ad essere
+                            promossi debitamente di grado in grado, a non uscire mai dal percorso
+                            della scala e ad affrontare i movimenti reciproci. </p>
+                        <p xml:id="sec015009" n="87"> E quando avremo raggiunto questo punto con
+                            l'arte del discorso o del ragionamento, animati ormai dallo spirito
+                            cherubico, cioè filosofando secondo i gradi della natura, tutto
+                            penetrando dal centro al centro, ora discenderemo smembrando con
+                            violenza titanica l'uno nei molti, come Osiride; ora saliremo radunando
+                            con forza apollinea i molti nell'uno, come le membra di Osiride<anchor type="annotation" n="32" xml:id="legacy32"/>, finché riposando nel seno del Padre, che
+                            è al sommo della scala, diventeremo perfetti nella felicitá teologica.
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§16" xml:id="sec016">
+                    <p>La pace e la natura duplice dell'anima</p>
+                    <div type="body">
+                        <p xml:id="sec016001" n="88"> E chiediamo al giusto Giobbe, che prima di
+                            venire alla vita strinse un patto con il Dio della vita<anchor type="annotation" n="33" xml:id="legacy33"/>, che cosa il sommo Dio desideri di più in
+                            quei milioni di angeli che gli stanno dappresso, ed egli risponderá
+                            certamente: la pace, secondo quello che si legge nel libro di Giobbe:
+                            «Colui che fa la pace nei cieli». </p>
+                        <p xml:id="sec016002" n="89"> E poiché l'ordine medio interpreta i precetti
+                            dell'ordine sommo per gli inferiori, interpreti per noi le parole del
+                            teologo Giobbe il filosofo Empedocle. </p>
+                        <p xml:id="sec016003" n="90"> Egli ci presenta (come attestano i suoi carmi)
+                            tramite i simboli della discordia e dell'amicizia, ovvero della guerra e
+                            della pace, le due nature della nostra anima: una di esse ci eleva al
+                            cielo e l'altra ci precipita negli inferi. </p>
+                        <p xml:id="sec016004" n="91"> In questi carmi si lamenta di essere
+                            trascinato nell'abisso, sospinto dalla lotta e dalla discordia, simile a
+                            un folle ed esiliato lontano dagli dei<anchor type="annotation" n="34" xml:id="legacy34"/>. </p>
+                    </div>
+                </div>
+                <div type="section" n="§17" xml:id="sec017">
+                    <p>La teologia come soccorso per l'anima travolta</p>
+                    <div type="body">
+                        <p xml:id="sec017001" n="92"> La discordia, o Padri, assume in noi davvero
+                            molte forme; abbiamo gravi lotte interne e peggio che guerre civili in
+                            casa nostra. </p>
+                        <p xml:id="sec017002" n="93"> Esse sono tali che, se noi non le vorremo e se
+                            aspireremo a quella pace che ci sollevi così in alto da collocarci fra
+                            gli eletti del Signore, solamente la filosofia potrá dominarle
+                            completamente dentro di noi e sedarle. La filosofia morale, in primo
+                            luogo, se l'uomo bramerá soltanto una tregua con i suoi nemici,
+                            reprimerá le sfrenate scorrerie della bestia multiforme e la furia, la
+                            rabbia e la tracotanza del leone<anchor type="annotation" n="35" xml:id="legacy35"/>. </p>
+                        <p xml:id="sec017003" n="94"> Quindi, se con più avveduto consiglio vorremo
+                            per noi la sicurezza di una pace perenne, essa verrá e soddisferá
+                            generosamente i nostri desideri in quanto, uccise entrambe le bestie,
+                            quasi immolando la scrofa<anchor type="annotation" n="36" xml:id="legacy36"/>, stabilirá
+                            fra la carne e lo spirito un inviolabile patto di santissima pace. </p>
+                        <p xml:id="sec017004" n="95"> La dialettica calmerá la ragione ansiosamente
+                            agitata fra le contraddizioni del discorso e le capziositá del
+                            sillogismo. </p>
+                        <p xml:id="sec017005" n="96"> La filosofia naturale pacificherá le liti
+                            dell'opinione e i dissidi che, da una parte e dall'altra, tormentano,
+                            sconcertano e dilacerano l'anima inquieta. </p>
+                        <p xml:id="sec017006" n="97"> Ma li acquieterá così da farci ricordare che
+                            la natura, come ha detto Eraclito, è generata dalla guerra e per questo
+                            è chiamata da Omero «contesa». </p>
+                        <p xml:id="sec017007" n="98"> In essa, perciò, non si danno a noi vera
+                            quiete e stabile pace, che sono invece dono e privilegio della sua
+                            signora, la santissima teologia. </p>
+                        <p xml:id="sec017008" n="99"> Essa, mostrandoci la via che a questa conduce,
+                            ci accompagnerá da lei che, vedendoci da lontano affannati, griderá:
+                            «Venite a me, voi che siete affaticati; venite e io vi ristorerò; venite
+                            a me e io vi darò la pace che il mondo e la natura non possono darvi».
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§18" xml:id="sec018">
+                    <p>La ricerca della pace da parte dell'anima e la sua unione con Dio</p>
+                    <div type="body">
+                        <p xml:id="sec018001" n="100"> Chiamati con tanta dolcezza, invitati con
+                            tanta benevolenza, volando all'abbraccio della beatissima madre con
+                            piede alato come Mercuri terreni, godremo della pace tanto desiderata. è
+                            questa la santissima pace, l'unione inseparabile, l'amicizia concorde,
+                            per cui tutte le anime in quell'unica mente che è al si sopra di ogni
+                            mente, non solo si accordano ma, in un certo modo ineffabile, si fondono
+                            intimamente in una cosa sola<anchor type="annotation" n="37" xml:id="legacy37"/>. </p>
+                        <p xml:id="sec018002" n="101"> Questa è l'amicizia che i Pitagorici dicono
+                            essere il fine di tutta la filosofia, la pace che il Signore attua nei
+                            suoi cieli e che gli angeli discendendo in terra annunziarono agli
+                            uomini di buona volontá, perché per essa gli uomini salendo in cielo
+                            diventassero angeli. </p>
+                        <p xml:id="sec018003" n="102"> Auguriamo questa pace agli amici e al nostro
+                            tempo; auguriamola ad ogni casa in cui entriamo e alla nostra anima
+                            affinché diventi così essa stessa dimora di Dio; affinché cioè, scosse
+                            via le impuritá con la morale e la dialettica, adornatasi della
+                            molteplice filosofia come di magnificenza regale, coronato il sommo
+                            delle porte con il serto della teologia, il Re della Gloria discenda e,
+                            venendo col Padre, prenda dimora presso di lei. </p>
+                        <p xml:id="sec018004" n="103"> E se la nostra anima si mostrerá degna di
+                            tanto ospite - immensa è la bontá di lui - vestita di oro come di manto
+                            nuziale e circondata dalla molteplice varietá delle scienze, accoglierá
+                            il bellissimo ospite non più come ospite, ma come sposo; e per non
+                            essere mai separata da lui, desidererá separarsi dal suo popolo e,
+                            dimentica della casa del padre, e persino di se stessa, vorrá morire a
+                            se stessa per vivere nello sposo, al cui cospetto preziosa, certo, è la
+                            morte dei santi, morte, dico, se morte può chiamarsi quella pienezza di
+                            vita nella cui meditazione i sapienti fecero consistere l'esercizio
+                            della filosofia<anchor type="annotation" n="38" xml:id="legacy38"/>. </p>
+                    </div>
+                </div>
+                <div type="section" n="§19" xml:id="sec019">
+                    <p>L'allegoria mosaica del tabernacolo</p>
+                    <div type="body">
+                        <p xml:id="sec019001" n="104"> E citiamo anche lo stesso Mosè, di poco
+                            inferiore a quella pienezza sorgiva di sacrosanta e ineffabile
+                            intelligenza, del cui nettare si inebriano gli angeli<anchor type="annotation" n="39" xml:id="legacy39"/>. </p>
+                        <p xml:id="sec019002" n="105"> Udiremo il giudice venerando stabilire le
+                            leggi per noi che abitiamo nella deserta solitudine del corpo: «Gli
+                            impuri, che hanno ancora bisogno della morale, abitino col volgo fuori
+                            del tabernacolo a cielo scoperto, purificandosi come i sacerdoti
+                            tessali. </p>
+                        <p xml:id="sec019003" n="106"> Coloro che hanno giá messo ordine nella loro
+                            condotta, e che sono giá stati accolti nel santuario, non tocchino
+                            ancora le cose sacre, ma prima servano come diligenti leviti alle cose
+                            della filosofia dedicandosi alla dialettica. </p>
+                        <p xml:id="sec019004" n="107"> Poi, ammessi anche loro alle cose sacre del
+                            sacerdozio della filosofia, contemplino ora i variopinti ornamenti della
+                            reggia superiore di Dio, cioè la decorazione siderea e regale, ora il
+                            celeste candelabro a sette fiamme, ora le fodere di pelli, perché,
+                            ammessi ad entrare nei recessi del tempio in virtù dei meriti della
+                            sublimitá teologica, godano della gloria della divinitá senza la
+                            mediazione di alcun velo d'immagine<anchor type="annotation" n="40" xml:id="legacy40"/>. </p>
+                        <p xml:id="sec019005" n="108"> Questo certamente Mosè ci comanda e
+                            comandando ci ammonisce, ci incita e ci esorta a preparare a noi stessi
+                            tramite la filosofia, finché ci è possibile, la strada alla futura
+                            gloria celeste. </p>
+                    </div>
+                </div>
+                <div type="section" n="§20" xml:id="sec020">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec020001" n="109"> In realtá non soltanto i misteri
+                                mosaici<anchor type="annotation" n="41" xml:id="legacy41"/> o cristiani, bensì anche
+                            la teologia degli antichi<anchor type="annotation" n="42" xml:id="legacy42"/> ci mostra
+                            l'utilitá e la dignitá delle arti liberali di cui sono qui venuto a
+                            discutere. </p>
+                        <p xml:id="sec020002" n="110"> A cos'altro mirava infatti l'osservanza, nei
+                            misteri greci, dei diversi gradi iniziatici? Solo dopo essersi
+                            purificati tramite quelle arti che, dicevamo, sono in certo modo
+                            espiatorie, e cioè la morale e la dialettica,<anchor type="annotation" n="43" xml:id="legacy43"/> gli iniziati ottenevano l'ammissione ai misteri.<anchor type="annotation" n="44" xml:id="legacy44"/>
+                        </p>
+                        <p xml:id="sec020003" n="111"> La quale in che altro può consistere se non
+                            nell'interpretazione della natura più recondita per il tramite della
+                            filosofia? </p>
+                        <p xml:id="sec020004" n="112"> A questo punto erano finalmente preparati al
+                            sopraggiungere dell'<figure>
+                                <graphic url="epopteia.gif"/>
+                            </figure>,<anchor type="annotation" n="45" xml:id="legacy45"/> cioè dell'intima visione
+                            delle cose divine mediante il lume della teologia. </p>
+                        <p xml:id="sec020005" n="113"> Chi non desiderebbe di venire iniziato a tali
+                            sacri rituali? </p>
+                        <p xml:id="sec020006" n="114"> Chi, messa da parte ogni umana sollecitudine,
+                            disprezzando i beni della fortuna e trascurando il corpo, non vorrebbe
+                            divenire, mentre ancora si trova qui sulla terra, commensale degli dèi,
+                            e madido del nettare dell'eternitá ricevere, animale mortale, il dono
+                            dell'immortalitá? </p>
+                        <p xml:id="sec020007" n="115"> Chi non vorrebbe venir pervaso dall'afflato
+                            di quei furori socratici<anchor type="annotation" n="46" xml:id="legacy46"/> che Platone
+                            celebra nel Fedro, ed esserne trasportato, dopo rapidissimo viaggio,
+                            nella Gerusalemme celeste, fuggendo prontamente in un remeggio d'ali e
+                            di piedi da qui - ossia da questo mondo, che è consegnato al maligno? </p>
+                        <p xml:id="sec020008" n="116"> Verremo condotti via, o Padri, verremo
+                            condotti via dai furori socratici, che a tal segno ci faranno uscir di
+                            mente, da porre la nostra mente e noi stessi in Dio. </p>
+                        <p xml:id="sec020009" n="117"> Verremo condotti via da essi, comunque, solo
+                            se prima avremo condotto a termine noi stessi quello che sta in noi;
+                            infatti se da un lato, mediante la morale, le forze delle passioni
+                            saranno state opportunamente tese, nelle debite proporzioni, secondo le
+                            misure armoniche, così da accordarsi l'una all'altra in perdurante
+                            consonanza, e se dall'altro lato la ragione, mediante la dialettica,
+                            procederá a tempo nel suo cammino, allora, eccitati dal furore delle
+                            muse, attraverso l'udito interiore berremo la celeste armonia. </p>
+                        <p xml:id="sec020010" n="118"> Allora Bacco, condottiero delle Muse,<anchor type="annotation" n="47" xml:id="legacy47"/> nei suoi misteri (cioè tramite segni
+                            visibili della natura) mostrerá a noi che filosofiamo le cose invisibili
+                            di Dio, e ci inebrierá dell'abbondanza della casa di Dio, dove se in
+                            tutto saremo fedeli come Mosé, la santissima teologia a noi accostandosi
+                            ci animerá di un duplice furore. </p>
+                        <p xml:id="sec020011" n="119"> Infatti sollevati fino alla sua altissima
+                            specola, di lì commisurando all'indivisa eternitá le cose che sono, che
+                            sono state e che saranno, e rimirando la primeva bellezza, di quelle
+                            saremo i febei vati, di questa saremo gli alati amanti, e infine,
+                            sospinti, come da un estro, da ineffabile amore, trovandoci fuori di noi
+                            stessi quasi fossimo Serafini ardenti, ricolmi della divinitá, ormai non
+                            saremo più noi stessi, ma quegli stesso che ci fece. </p>
+                    </div>
+                </div>
+                <div type="section" n="§21" xml:id="sec021">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec021001" n="120"> I sacri nomi di Apollo, se indaghiamo i loro
+                            significati e i misteri in essi celati, mostrano a sufficienza come quel
+                            dio sia, non meno che vate, filosofo. </p>
+                        <p xml:id="sec021002" n="121"> Ma avendo Ammonio<anchor type="annotation" n="48" xml:id="legacy48"/> su questo argomento giá detto quanto basta, non ho motivo
+                            di trattarne ora altrimenti; rivolgiamo invece il nostro pensiero, o
+                            Padri, ai tre precetti delfici,<anchor type="annotation" n="49" xml:id="legacy49"/>
+                            assolutamente necessari a coloro che intendono entrare nel tempio,
+                            sacrosanto e augustissimo, non del falso, ma del vero Apollo che
+                            illumina ogni anima che viene in questo mondo; vi accorgerete che essi a
+                            null'altro ci esortano, se non ad abbracciare con tutte le nostre forze
+                            la filosofia tripartita della quale stiamo qui discutendo. </p>
+                        <p xml:id="sec021003" n="122"> Infatti il celebre <figure>
+                                <graphic url="meden.gif"/>
+                            </figure> («nulla di troppo») giustamente prescrive quale regola e norma
+                            di ogni virtù il criterio della medietá, di cui tratta la morale. </p>
+                        <p xml:id="sec021004" n="123"> Segue poi il famoso <figure>
+                                <graphic url="gnothi.gif"/>
+                            </figure> («conosci te stesso»), che ci incita e ci sprona alla
+                            conoscenza della natura tutta, della quale la natura dell'uomo
+                            costituisce l'elemento intermedio e per così dire la miscela. </p>
+                        <p xml:id="sec021005" n="124"> Chi infatti conosce se stesso, in se stesso
+                            conosce ogni cosa, come ebbero a scrivere prima Zoroastro e poi Platone
+                            nell'Alcibiade. </p>
+                        <p xml:id="sec021006" n="125"> Da ultimo, una volta che la filosofia
+                            naturale ci abbia illuminati con questa conoscenza, ormai vicinissimi a
+                            Dio, dicendo <figure>
+                                <graphic url="ei.gif"/>
+                            </figure> («tu sei») ci rivolgeremo al vero Apollo con un saluto
+                            teologico, chiamandolo così con espressione familiare e del pari felice.
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§22" xml:id="sec022">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec022001" n="126"> Ma consultiamo anche il sapientissimo
+                                Pitagora,<anchor type="annotation" n="50" xml:id="legacy50"/> sapiente soprattutto
+                            perché mai si ritenne degno di tale nome.<anchor type="annotation" n="51" xml:id="legacy51"/>
+                        </p>
+                        <p xml:id="sec022002" n="127"> Ci prescriverá in primo luogo di «non sedere
+                            sopra il moggio», esortandoci con ciò a non disperdere, abbandonandola
+                            nell'ozio e nell'inerzia, quella parte razionale con cui l'anima misura,
+                            giudica ed esamina ogni cosa; ma al contrario a indirizzarla e a
+                            incitarla costantemente con l'esercizio e la regola della dialettica. </p>
+                        <p xml:id="sec022003" n="128"> Inoltre ci indicherá due cose dalle quali
+                            dobbiamo prima di tutto guardarci: e cioè dal mingere contro il sole e
+                            dal tagliarci le unghie durante il sacrificio. </p>
+                        <p xml:id="sec022004" n="129"> Ma dopo che, grazie alla morale, avremo
+                            espulso da noi i torbidi appetiti di piaceri superflui, ed avremo
+                            reciso, quasi fossero unghie, le acuminate esuberanze dell'ira e gli
+                            artigli dell'animositá, allora dovremo finalmente disporci a prender
+                            parte ai sacri rituali, cioè ai giá menzionati misteri di Bacco, e a
+                            dedicarci a quella contemplazione di cui giustamente il sole vien detto
+                            essere per noi padre e guida. </p>
+                        <p xml:id="sec022005" n="130"> Da ultimo Pitagora ci esorterá a «nutrire il
+                            gallo», cioè ad alimentare la parte divina dell'anima con la conoscenza
+                            delle cose divine, quasi si trattasse di solido cibo e di celeste
+                            ambrosia. </p>
+                        <p xml:id="sec022006" n="131"> Questo è il gallo il cui sguardo incute paura
+                            e rispetto al leone, cioè ad ogni potere terreno. </p>
+                        <p xml:id="sec022007" n="132"> Questo è quel gallo a cui, leggiamo in
+                            Giobbe, fu data l'intelligenza. </p>
+                        <p xml:id="sec022008" n="133"> Quando questo gallo canta rinsavisce l'uomo
+                            che si trova nell'errore. </p>
+                        <p xml:id="sec022009" n="134"> Questo gallo nel crepuscolo mattutino unisce
+                            il suo canto alle lodi che gli astri del mattino rendono a Dio. </p>
+                        <p xml:id="sec022010" n="135"> Questo è il gallo che Socrate in punto di
+                            morte, allorché sperava di congiungere il divino dell'anima sua alla
+                            divinitá di un mondo più grande, disse di dovere ad Esculapio, ovvero al
+                            medico delle anime, giacché ormai si trovava oltre qualunque pericolo di
+                            malattia corporale. </p>
+                    </div>
+                </div>
+                <div type="section" n="§23" xml:id="sec023">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec023001" n="136"> Ma esaminiamo ora anche le tradizioni dei
+                                Caldei,<anchor type="annotation" n="52" xml:id="legacy52"/> e ci accorgeremo (se
+                            prestiamo loro fede) che le arti che aprono ai mortali la via verso la
+                            felicitá sono le stesse anche per loro. </p>
+                        <p xml:id="sec023002" n="137"> Gli interpreti caldei riportano una sentenza
+                            di Zoroastro secondo la quale l'anima è alata e, quando perde le ali,
+                            precipita nel corpo, mentre vola di nuovo in cielo allorché le ali
+                            ricrescono. </p>
+                        <p xml:id="sec023003" n="138"> Domandandogli i discepoli in che modo
+                            potessero ottenere anime dalle ali ben piumate e capaci di volare,
+                            rispose: «Irrorate le ali con acque di vita». </p>
+                        <p xml:id="sec023004" n="139"> E chiedendogli ancora dove potessero
+                            attingere queste acque, rispose loro con una parabola (come era suo
+                            costume): «Il paradiso di Dio è purificato e irrigato da quattro fiumi. </p>
+                        <p xml:id="sec023005" n="140"> Da questi traete le acque per voi salvifiche. </p>
+                        <p xml:id="sec023006" n="141"> Quello che scorre da settentrione ha nome ,
+                            che significa ciò che è retto, e quello che scorre da occidente si
+                            chiama , che vuol dire espiazione; quello che viene da oriente si chiama
+                            , che sta per luce, mentre quello che scorre da meridione ha nome , che
+                            possiamo tradurre come pietá». </p>
+                        <p xml:id="sec023007" n="142"> Ora riflettete attentamente e considerate, o
+                            Padri, a cosa mirino queste dottrine di Zoroastro: di certo a null'altro
+                            se non a farci espiare con la scienza morale, quasi si trattasse di
+                            flutti iberici, la sozzura dei nostri occhi; e a farci rettificare lo
+                            sguardo con la dialettica, quasi fosse una livella boreale. </p>
+                        <p xml:id="sec023008" n="143"> Poi a far sì che, contemplando la natura, ci
+                            abituiamo alla luce ancor flebile della veritá, quasi fosse il primo
+                            albeggiare del sole; perché infine possiamo, grazie alla pietá teologica
+                            e al santissimo culto di Dio, sostenere saldamente, quasi fossimo aquile
+                            del cielo, l'abbagliante splendore del sole meridiano. </p>
+                        <p xml:id="sec023009" n="144"> Sono queste, forse, le famose conoscenze
+                            mattutine, meridiane e vespertine dapprima cantate da Davide e poi
+                            ampiamente spiegate da Agostino. </p>
+                        <p xml:id="sec023010" n="145"> Questa è la luce meridiana che infiamma in
+                            linea retta i Serafini e che del pari illumina i Cherubini. </p>
+                        <p xml:id="sec023011" n="146"> Questa è la regione verso la quale
+                            costantemente tendeva l'antico padre Abramo. </p>
+                        <p xml:id="sec023012" n="147"> Questo il luogo dove, secondo le dottrine dei
+                            cabalisti e degli Arabi, non c'è posto per gli spiriti impuri. </p>
+                        <p xml:id="sec023013" n="148"> E, se è lecito render pubblico, sia pure
+                            sotto forma di enigma, qualcosa dei più reconditi misteri,<anchor type="annotation" n="53" xml:id="legacy53"/> dopo che la repentina caduta dal cielo ha
+                            condannato il capo dell'uomo alla vertigine e, stando a Geremia, la
+                            morte entrata dalle finestre ci ha colpito al fegato e al petto,
+                            invochiamo la presenza di Raffaele,<anchor type="annotation" n="54" xml:id="legacy54"/>
+                            medico celeste, affinché ci liberi tramite la morale e la dialettica,
+                            quasi fossero salvifici medicamenti. </p>
+                        <p xml:id="sec023014" n="149"> Allora, recuperata la buona salute, verrá
+                            ormai a dimorare in noi la forza di Dio, Gabriele, il quale guidandoci
+                            attraverso le meraviglie della natura e mostrandoci ovunque la virtù e
+                            il potere di Dio, ci consegnerá infine al sommo sacerdote Michele, che
+                            congedatici ormai noi dal servizio filosofico, ci renderá onore con le
+                            insegne del sacerdozio teologico, quasi fossero una corona di pietre
+                            preziose. </p>
+                    </div>
+                </div>
+                <div type="section" n="§24" xml:id="sec024">
+                    <p>In che modo la concezione attuale della filosofia differisce dalla mia</p>
+                    <div type="body">
+                        <p xml:id="sec024001" n="150"> Per questi motivi, o molto venerandi Padri,
+                            mi sono sentito, non solamente incoraggiato, ma addirittura investito
+                            del dovere di dedicarmi allo studio della filosofia. </p>
+                        <p xml:id="sec024002" n="151"> E non avevo certo intenzione di parlarne, se
+                            non per replicare <anchor type="annotation" n="55" xml:id="legacy55"/> a quanti sono
+                            soliti condannare lo studio della filosofia soprattutto negli uomini di
+                            più alto rango<anchor type="annotation" n="56" xml:id="legacy56"/> o, in genere, in coloro
+                            ai quali tocca in sorte una discreta fortuna<anchor type="annotation" n="57" xml:id="legacy57"/>. </p>
+                        <p xml:id="sec024003" n="152"> Infatti tutto questo filosofare (e questa è
+                            davvero una delle sventure della nostra epoca) viene ormai trattato con
+                            disprezzo e insultato<anchor type="annotation" n="58" xml:id="legacy58"/>, piuttosto che
+                            essere tenuto in onore e gloria. </p>
+                        <p xml:id="sec024004" n="153"> A tal punto si è impadronita delle menti di
+                            quasi tutti questa convinzione esiziale e mostruosa che o non si debba
+                            fare della filosofia per nulla, o che siano in pochi a doverla
+                                fare<anchor type="annotation" n="59" xml:id="legacy59"/>. </p>
+                        <p xml:id="sec024005" n="154"> Quasiché l'avere dinanzi agli occhi, tra le
+                            mani, con quell'evidenza che deriva dalla ricerca<anchor type="annotation" n="60" xml:id="legacy60"/>, le cause delle cose, le vie della
+                            natura, la ragione dell'universo, i disegni di Dio, i misteri dei cieli
+                            e della terra, sia cosa di nessun valore, a meno che uno non possa o
+                            ricercare avidamente attraverso ciò una qualche forma di potere o
+                            procacciarsi un guadagno. </p>
+                        <p xml:id="sec024006" n="155"> Anzi, si è scesi talmente in basso (ed è
+                            davvero doloroso), che ormai si considerano sapienti solo coloro i quali
+                            usano la filosofia<anchor type="annotation" n="61" xml:id="legacy61"/> alla stregua di una
+                                merce<anchor type="annotation" n="62" xml:id="legacy62"/>. Sarebbe come<anchor type="annotation" n="63" xml:id="legacy63"/> vedere la pudica Pallade, presente fra
+                            gli uomini per dono degli dèi, bandita, cacciata, sbeffeggiata, e priva
+                            di chi l'ami, di chi la protegga, a meno che lei stessa - come una
+                            prostituta che ha accettato<anchor type="annotation" n="64" xml:id="legacy64"/> il ricavo
+                            meschino della verginitá perduta - non rechi nelle tasche<anchor type="annotation" n="65" xml:id="legacy65"/> dell'amante il mal guadagnato denaro.
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§25" xml:id="sec025">
+                    <p>Dichiarazione personale sul valore e sul senso della filosofia</p>
+                    <div type="body">
+                        <p xml:id="sec025001" n="156"> E dico tutte queste cose io - non senza
+                            dolore e indignazione grandissimi - non tanto verso i principi, quanto
+                            semmai verso i filosofi della nostra epoca, i quali sono convinti e
+                            sostengono apertamente che non si deve fare della filosofia per la
+                            ragione che non esiste per i filosofi nessuna ricompensa, nessun premio
+                            stabilito. E dicono questo, sebbene mostrino con evidenza, giá solo
+                            usando quell'unica parola<anchor type="annotation" n="66" xml:id="legacy66"/>, di non
+                            essere veri filosofi. </p>
+                        <p xml:id="sec025002" n="157"> Perciò, dal momento che tutta la loro vita Ë
+                            stata consacrata o al denaro o all'ambizione, sono incapaci di
+                            abbracciare la conoscenza in sé e per sé della veritá. </p>
+                        <p xml:id="sec025003" n="158"> Invece io mi attribuirò il merito - e non mi
+                            vergognerò affatto di tessere le lodi di me stesso a questo riguardo -
+                            di non aver mai fatto della filosofia con nessun altro intento tranne
+                            quello di essere, appunto, filosofo, e di non aver né sperato né
+                            richiesto dai miei studi, dalle mie veglie, alcuna ricompensa o frutto
+                            diverso dal nutrimento del mio animo e dalla conoscenza della veritá, da
+                            me sempre sommamente ricercata. </p>
+                        <p xml:id="sec025004" n="159"> E di essa sono sempre stato desideroso e l'ho
+                            sempre amata moltissimo, al punto che, messa da parte ogni
+                            preoccupazione privata e pubblica, mi sono dedicato con tutto me stesso
+                            all'ozio contemplativo<anchor type="annotation" n="67" xml:id="legacy67"/>, dal quale
+                            nessuna calunnia degli invidiosi, nessuna maldicenza dei nemici della
+                            sapienza è riuscita finora a distogliermi, né vi riuscirá mai in futuro. </p>
+                        <p xml:id="sec025005" n="160"> Proprio la filosofia mi ha insegnato a
+                            dipendere dalla mia coscienza piuttosto che dai giudizi altrui, e a
+                            riflettere sempre non tanto su come evitare col mio comportamento che si
+                            parli male di me<anchor type="annotation" n="68" xml:id="legacy68"/>, quanto semmai su
+                            come non dire o fare io stesso del male. </p>
+                    </div>
+                </div>
+                <div type="section" n="§26" xml:id="sec026">
+                    <p>L'elenco delle accuse e l'atteggiamento di difesa senza astio</p>
+                    <div type="body">
+                        <p xml:id="sec026001" n="161"> Pertanto, molto venerabili Padri, non ero
+                            ignaro del fatto che questa mia proposta di discussione<anchor type="annotation" n="69" xml:id="legacy69"/>, per tutti voi che siete a favore delle
+                            arti liberali e che questa disputa avete voluto onorare della vostra
+                            molto autorevole presenza, si sarebbe rivelata tanto gradita e amabile,
+                            quanto fastidiosa e sgradita sarebbe invece stata per molti altri. E so
+                            che non mancano coloro i quali hanno disprezzato la mia impresa prima di
+                            adesso e continuano a farlo anche ora adducendo vari motivi. </p>
+                        <p xml:id="sec026002" n="162"> Così le buone e sante azioni tese al
+                            conseguimento della virtù sono solite avere, se non più, certo non meno
+                                denigratori<anchor type="annotation" n="70" xml:id="legacy70"/> di quelle ingiuste e
+                            malvagie perpetrate per vizio<anchor type="annotation" n="71" xml:id="legacy71"/>. </p>
+                        <p xml:id="sec026003" n="163"> Ci sono quelli che non approvano tutto questo
+                            genere di discussioni e quest'uso dei dibattiti intellettuali pubblici,
+                            poiché li ritengono una forma di ostentazione fatta più per sfoggio di
+                            ingegno e di conoscenza che non per accrescere il proprio sapere. </p>
+                        <p xml:id="sec026004" n="164"> Poi vi sono coloro che, per la veritá, non
+                            disprezzano questo tipo di esercizio, ma non lo approvano per niente in
+                            me, siccome io a questa etá, avendo cioè solamente ventitré anni<anchor type="annotation" n="72" xml:id="legacy72"/>, ho osato proporre una discussione sui
+                            sublimi arcani della teologia cristiana, sulle più ardue questioni della
+                            filosofia, su discipline inesplorate, in una cittá famosissima, dinanzi
+                            a un vastissimo congresso di uomini dottissimi, dinanzi al senato
+                            apostolico. </p>
+                        <p xml:id="sec026005" n="165"> Altri ancora, sebbene mi concedano di
+                            discutere, non vogliono permettermi di trattare novecento argomenti,
+                            accusandomi ingiustamente di fare ciò tanto per inutile ostentazione
+                            quanto senza disporre delle forze necessarie. </p>
+                        <p xml:id="sec026006" n="166"> Io mi sarei arreso anche subito ai loro
+                            rimproveri se così mi avesse insegnato la filosofia che io professo, e
+                            anche ora non risponderei, come essa insegna<anchor type="annotation" n="73" xml:id="legacy73"/>, se pensassi che questa nostra discussione fosse stata
+                            avviata con l'intento di litigare fino alla rissa. </p>
+                        <p xml:id="sec026007" n="167"> Perciò mettiamo da parte ogni proposito di
+                            ostile provocazione<anchor type="annotation" n="74" xml:id="legacy74"/>, allontanando
+                            anche dai nostri animi<anchor type="annotation" n="75" xml:id="legacy75"/> quell'astio che
+                            Platone sostiene essere sempre assente dalla schiera degli dèi, e
+                            valutiamo amichevolmente se io debba dare l'avvio a questa discussione e
+                            se inoltre debba farlo su temi così numerosi. </p>
+                    </div>
+                </div>
+                <div type="section" n="§27" xml:id="sec027">
+                    <p>Risposta a un primo ordine di accuse</p>
+                    <div type="body">
+                        <p xml:id="sec027001" n="168"> In primo luogo non ho certamente intenzione
+                            di dire molto a quanti criticano con malevolenza l'usanza di discutere
+                            in pubblico, dal momento che questa colpa, se di colpa si deve parlare,
+                            mi accomuna non solo a tutti voi, esimi dottori, che piuttosto spesso
+                            avete assolto - non senza lode e onore grandissimi - a tale dovere, ma
+                            anche a Platone e ad Aristotele e ai più famosi filosofi di tutti i
+                            tempi. </p>
+                        <p xml:id="sec027002" n="169"> Ed essi avevano la ferma certezza che, per
+                            ottenere la conoscenza della veritá che cercavano, non ci fosse nulla di
+                            meglio dell'esercizio il più possibile assiduo della discussione. </p>
+                        <p xml:id="sec027003" n="170"> Infatti, allo stesso modo in cui i
+                                muscoli<anchor type="annotation" n="76" xml:id="legacy76"/> del corpo si
+                            irrobustiscono con la ginnastica, così senz'ombra di dubbio, in questa
+                            sorta di palestra intellettuale<anchor type="annotation" n="77" xml:id="legacy77"/>, le
+                            forze dell'anima divengono di gran lunga più salde e vigorose. </p>
+                        <p xml:id="sec027004" n="171"> Così che io mi sono persuaso che sia i poeti
+                            attraverso le tanto celebrate armi di Pallade, sia gli Ebrei quando
+                            sostengono che<figure>
+                                <graphic url="brzl.gif"/>
+                            </figure><anchor type="annotation" n="78" xml:id="legacy78"/>, il ferro, è il simbolo dei
+                            sapienti, non hanno voluto dirci nient'altro che questo: tali dispute
+                            molto onorevoli sono del tutto<anchor type="annotation" n="79" xml:id="legacy79"/>
+                            necessarie al conseguimento della sapienza. </p>
+                        <p xml:id="sec027005" n="172"> E così, si dá il caso che anche i caldei
+                            richiedano, al momento della nascita di colui che è destinato a
+                            diventare filosofo, quell'oroscopo<anchor type="annotation" n="80" xml:id="legacy80"/> in
+                            cui Marte dista di un terzo dello zodiaco<anchor type="annotation" n="81" xml:id="legacy81"/> anche da Mercurio, quasiché, tolti questi incontri e queste
+                            contese, ogni filosofia debba risultare sonnolenta e pigra. </p>
+                    </div>
+                </div>
+                <div type="section" n="§28" xml:id="sec028">
+                    <p>Replica alla seconda accusa</p>
+                    <div type="body">
+                        <p xml:id="sec028001" n="173"> A dire il vero però, è più difficile un mio
+                            piano di difesa contro questi che mi dicono inadeguato a un tale
+                            compito: infatti, mi sembra che, se mi sarò proclamato alla sua altezza,
+                            forse subirò l'accusa di immodestia insieme a quella di avere
+                            un'eccessiva considerazione di me stesso, se invece ammetterò di non
+                            esserne all'altezza, sarò tacciato di temerarietá e di imprudenza. </p>
+                        <p xml:id="sec028002" n="174"> Vedete in quale difficoltá sono
+                                incappato<anchor type="annotation" n="82" xml:id="legacy82"/>, in che situazione mi
+                            sono cacciato<anchor type="annotation" n="83" xml:id="legacy83"/>, in quanto che non posso
+                            senza colpa promettere, per mia parte<anchor type="annotation" n="84" xml:id="legacy84"/>,
+                            ciò che subito dopo non posso senza colpa non mantenere. </p>
+                        <p xml:id="sec028003" n="175"> Forse potrei citare quel famoso detto di
+                                Giobbe<anchor type="annotation" n="85" xml:id="legacy85"/> che sostiene che lo spirito
+                            esiste ed è davvero presente in tutti gli uomini, e con Timoteo
+                            ripetere: «Nessuno disprezzi la tua giovane etá». </p>
+                        <p xml:id="sec028004" n="176"> Ma per parlare in coscienza potrei
+                                dire<anchor type="annotation" n="86" xml:id="legacy86"/> con tutta sinceritá che in me
+                            non v'è nulla di grande o di singolare; pur senza negare di essere
+                                forse<anchor type="annotation" n="87" xml:id="legacy87"/> avido di apprendere e
+                            desideroso delle virtù, tuttavia non mi attribuisco né pretendo<anchor type="annotation" n="88" xml:id="legacy88"/> il titolo di dotto. </p>
+                        <p xml:id="sec028005" n="177"> A chi mi chieda come e perché io abbia
+                            caricato sulle mie spalle un peso tanto grande, risponderò che non fu
+                            certo perché io non fossi consapevole della mia debolezza, bensì perché
+                            sapevo che è proprio<anchor type="annotation" n="89" xml:id="legacy89"/> di questo genere
+                            di battaglie, quelle intellettuali, il fatto che in esse l'esser vinti
+                            sia in realtá un guadagno. </p>
+                        <p xml:id="sec028006" n="178"> Ne consegue che tutti i più deboli possono e
+                            debbono non tanto sottrarsi a tali battaglie, ma anzi a pieno diritto
+                            ricercarle. </p>
+                        <p xml:id="sec028007" n="179"> Dal momento che colui che perde riceve dal
+                            vincitore un beneficio, e non un'offesa, proprio perché - grazie ad esso
+                            - torna a casa anche più ricco di quando era partito, ossia più colto e
+                            più pronto ad intraprendere future battaglie. </p>
+                        <p xml:id="sec028008" n="180"> Animato da questa speranza io, pur essendo un
+                            debole soldato, non ho avuto nessun timore di combattere una battaglia
+                            tanto difficile contro gli avversari più forti e valorosi. </p>
+                        <p xml:id="sec028009" n="181"> E tuttavia, se ciò sia stato intrapreso con
+                            sconsideratezza o meno, lo si può giudicare più propriamente a partire
+                            dall'esito della contesa piuttosto che dalla mia etá. </p>
+                    </div>
+                </div>
+                <div type="section" n="§29" xml:id="sec029">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec029001" n="182"> CiÚ che mi resta, in terzo luogo,<anchor type="annotation" n="90" xml:id="legacy90"/> Ë rispondere a chi si sente offeso dal
+                            gran numero delle tesi che ho proposto, come se questo peso gravasse
+                            sulle loro spalle e non fossi piuttosto solo io a dover sopportare
+                            questa fatica, per quanto grande essa sia. </p>
+                        <p xml:id="sec029002" n="183"> C'Ë vera insolenza e troppo puntiglio nel
+                            voler porre un limite all'operosit‡ degli altri e, come dice Cicerone,
+                            esigere la mediocrit‡ in ciÚ che tanto pi˘ Ë bello quanto pi˘ Ë
+                                grande.<anchor type="annotation" n="91" xml:id="legacy91"/>
+                        </p>
+                        <p xml:id="sec029003" n="184"> Dinanzi a un'impresa cosÏ rischiosa, era
+                            senz'altro necessario o che fossi sconfitto o che avessi successo; in
+                            caso di successo non vedo perchÈ quello che Ë encomiabile compiere in
+                            dieci questioni venga giudicato colpevole se compiuto in novecento. </p>
+                        <p xml:id="sec029004" n="185"> Se poi fossi sconfitto, essi avranno di che
+                            accusarmi, se mi odiano, o di che scusarmi, se mi amano. </p>
+                        <p xml:id="sec029005" n="186"> Infatti, che sia stato un giovane, per
+                            debolezza d'ingegno e scarsa dottrina, a soccombere in un'impresa cosÏ
+                            importante e cosÏ grande, sar‡ un fatto degno di perdono piuttosto che
+                            di accusa. </p>
+                        <p xml:id="sec029006" n="187"> E anzi, come dice il poeta, se mancheran le
+                            forze, lode certo vi sar‡ per l'ardire; in grandi imprese gi‡ l'aver
+                            voluto Ë sufficiente.</p>
+
+                        <p xml:id="sec029007" n="188"> Infatti, se Ë vero che molti ai nostri
+                            giorni, imitando Gorgia da Leontini,<anchor type="annotation" n="92" xml:id="legacy92"/>
+                            usano proporre, non senza essere approvati, la discussione non solo di
+                            novecento questioni, ma addirittura di tutte le questioni di tutte le
+                                arti,<anchor type="annotation" n="93" xml:id="legacy93"/> perchÈ non deve essere
+                            permesso a me, e senza biasimo, discutere di questioni numerose certo,
+                            ma almeno precise e determinate? </p>
+                    </div>
+                </div>
+                <div type="section" n="§30" xml:id="sec030   ">
+                    <p>30</p>
+                    <div type="body">
+                        <p xml:id="sec030001" n="189"> Ma costoro dicono che questa Ë impresa
+                            superflua e ambiziosa. </p>
+                        <p xml:id="sec030002" n="190"> Io invece sostengo di non averla compiuta
+                            come cosa superflua, ma per necessit‡, perchÈ loro stessi, se
+                            considerassero con me le ragioni del filosofare, dovrebbero ammettere
+                            anche controvoglia che Ë cosa assolutamente necessaria. </p>
+                        <p xml:id="sec030003" n="191"> Infatti, quelli che si sono accodati a una
+                            qualunque scuola filosofica, schierandosi per esempio a favore di
+                                Tommaso<anchor type="annotation" n="94" xml:id="legacy94"/> o di Scoto,<anchor type="annotation" n="95" xml:id="legacy95"/> gli autori che ora si trovano nelle mani
+                            dei pi˘, loro sÏ possono mettere a repentaglio la loro dottrina anche in
+                            una discussione di poche questioni. </p>
+                        <p xml:id="sec030004" n="192"> Io invece mi sono proposto, senza giurare
+                            sulla parola di nessuno,<anchor type="annotation" n="96" xml:id="legacy96"/> di
+                            diffondermi su tutti i maestri della filosofia, di esaminare ogni
+                            pagina, di conoscere tutte le scuole.<anchor type="annotation" n="97" xml:id="legacy97"/>
+                        </p>
+                        <p xml:id="sec030005" n="193"> PerciÚ, dovendo io parlare di tutti i
+                            filosofi, per non sembrare legato ad una dottrina particolare qualora
+                            avessi, come ne fossi il difensore, trascurato le altre, non potevano
+                            non essere moltissime le questioni che si riferivano nell'insieme a
+                            tutti quanti, anche se per ciascuno di loro ne fossero state proposte
+                            solo poche.<anchor type="annotation" n="98" xml:id="legacy98"/>
+                        </p>
+                        <p xml:id="sec030006" n="194"> E non mi si rimproveri che ´dovunque mi
+                            portano le circostanze, mi lascio portare come ospiteª.<anchor type="annotation" n="99" xml:id="legacy99"/>
+                        </p>
+                        <p xml:id="sec030007" n="195"> Infatti, il principio per cui chi studia ogni
+                            genere di scrittori non manchi di leggere tutte le opere che puÚ, fu
+                            osservato da tutti gli antichi e soprattutto da Aristotele, che per
+                            questa ragione fu chiamato da Platone [anagnostes] , ossia
+                                lettore,<anchor type="annotation" n="100" xml:id="legacy100"/> ed Ë davvero segno di
+                            chiusura mentale confinarsi all'interno di una sola scuola, sia essa il
+                                Portico<anchor type="annotation" n="101" xml:id="legacy101"/> o l'Accademia.<anchor type="annotation" n="102" xml:id="legacy102"/>
+                        </p>
+                        <p xml:id="sec030008" n="196"> E non puÚ scegliere la propria scuola fra
+                            tutte quante senza sbagliare, chi non le abbia prima conosciute tutte da
+                                vicino.<anchor type="annotation" n="103" xml:id="legacy103"/>
+                        </p>
+                        <p xml:id="sec030009" n="197"> Per di pi˘ in ciascuna scuola c'Ë qualche
+                            cosa di peculiare, che essa non ha in comune con le altre. </p>
+                    </div>
+                </div>
+                <div type="section" n="§31" xml:id="sec031">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec031001" n="198"> E ora, per cominciare dai nostri,<anchor type="annotation" n="104" xml:id="legacy104"/> ai quali Ë giunta da ultimo la
+                            filosofia, in Giovanni Scoto troviamo una vigorosa dialettica,<anchor type="annotation" n="105" xml:id="legacy105"/> in Tommaso un solido equilibrio,<anchor type="annotation" n="106" xml:id="legacy106"/> in Egidio<anchor type="annotation" n="107" xml:id="legacy107"/> una nitida precisione, in Francesco<anchor type="annotation" n="108" xml:id="legacy108"/> una penetrante acutezza, in
+                                Alberto<anchor type="annotation" n="109" xml:id="legacy109"/> un'ampiezza maestosa e
+                            antica, in Enrico,<anchor type="annotation" n="110" xml:id="legacy110"/> per quel che mi Ë
+                            parso, una costante e veneranda elevatezza. </p>
+                        <p xml:id="sec031002" n="199"> Tra gli Arabi,<anchor type="annotation" n="111" xml:id="legacy111"/> in AverroË<anchor type="annotation" n="112" xml:id="legacy112"/> troviamo una
+                            fermezza incrollabile, in Avempace<anchor type="annotation" n="113" xml:id="legacy113"/> e
+                            in al-Farabi<anchor type="annotation" n="114" xml:id="legacy114"/> una ponderata
+                            riflessione, in Avicenna<anchor type="annotation" n="115" xml:id="legacy115"/> una divina
+                            sublimit‡ platonica. </p>
+                        <p xml:id="sec031003" n="200"> Tra i Greci<anchor type="annotation" n="116" xml:id="legacy116"/> la filosofia Ë limpida in generale e casta in particolare; Ë ricca e
+                            copiosa in Simplicio,<anchor type="annotation" n="117" xml:id="legacy117"/> elegante e
+                            compendiosa in Temistio,<anchor type="annotation" n="118" xml:id="legacy118"/> coerente e
+                            dotta in Alessandro,<anchor type="annotation" n="119" xml:id="legacy119"/> profonda ed
+                            elaborata in Teofrasto,<anchor type="annotation" n="120" xml:id="legacy120"/> scorrevole e
+                            aggraziata in Ammonio.<anchor type="annotation" n="121" xml:id="legacy121"/>
+                        </p>
+                        <p xml:id="sec031004" n="201"> Se ci volgiamo poi ai platonici,<anchor type="annotation" n="122" xml:id="legacy122"/> per ricordarne pochi soltanto, in
+                                Porfirio<anchor type="annotation" n="123" xml:id="legacy123"/> piacer‡ l'abbondanza
+                            degli argomenti e la complessa religiosit‡, in Giamblico<anchor type="annotation" n="124" xml:id="legacy124"/> si venereranno i misteri dei barbari e
+                            la filosofia pi˘ segreta, in Plotino<anchor type="annotation" n="125" xml:id="legacy125"/>
+                            non c'Ë nessuna cosa che si ammiri particolarmente, perchÈ si fa
+                            ammirare dovunque, egli che Ë inteso appena e con fatica dai platonici
+                            per come parla, con linguaggio sapientemente allusivo, in modo divino
+                            delle cose divine, e delle cose umane in modo molto superiore all'umano
+                            . </p>
+                        <p xml:id="sec031005" n="202"> Non mi occupo dei pi˘ recenti: Proclo,<anchor type="annotation" n="126" xml:id="legacy126"/> col lussureggiare della sua esuberanza
+                            asiatica, e tutti quelli che gli hanno fatto seguito, Ermia,<anchor type="annotation" n="127" xml:id="legacy127"/> Damascio,<anchor type="annotation" n="128" xml:id="legacy128"/> Olimpiodoro<anchor type="annotation" n="129" xml:id="legacy129"/> e molti
+                            altri, nei quali rifulge sempre quel [to Theion] , ossia quel che di
+                            divino che Ë caratteristica peculiare dei platonici. </p>
+                    </div>
+                </div>
+                <div type="section" n="§32" xml:id="sec032">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec032001" n="203"> Si aggiunga poi che se c'Ë una scuola che
+                            combatte i principi pi˘ veri e che dileggia calunniosamente le buone
+                            ragioni dell'ingegno, essa non indebolisce, ma rafforza la verit‡ e
+                            nemmeno la spegne, ma la ravviva come una fiamma scossa dal
+                                movimento.<anchor type="annotation" n="130" xml:id="legacy130"/>
+                        </p>
+                        <p xml:id="sec032002" n="204"> Per questo motivo ho voluto presentare le
+                            opinioni non di una sola dottrina, come sarebbe piaciuto a qualcuno, ma
+                            di tutte quante, in modo che dal confronto di pi˘ scuole e dalla
+                            discussione di diverse filosofie risplendesse pi˘ chiaramente nell'animo
+                            nostro, come sole nascente dall'alto, quel ´fulgore della verit‡ª di cui
+                            parla Platone nelle sue lettere.<anchor type="annotation" n="131" xml:id="legacy131"/>
+                        </p>
+                        <p xml:id="sec032003" n="205"> A che cosa sarebbe servito trattare soltanto
+                            la filosofia dei latini, cioË quella di Alberto, di Tommaso, di Scoto,
+                            di Egidio, di Francesco, di Enrico, trascurando i greci e gli arabi? </p>
+                        <p xml:id="sec032004" n="206"> Proprio quando tutta la sapienza Ë passata
+                            dai barbari ai greci e dai greci a noi?<anchor type="annotation" n="132" xml:id="legacy132"/>
+                        </p>
+                        <p xml:id="sec032005" n="207"> Per questo i nostri pensatori hanno sempre
+                            creduto che a proposito di filosofia bastasse loro attenersi alle
+                            scoperte degli altri e coltivare le dottrine altrui.<anchor type="annotation" n="133" xml:id="legacy133"/>
+                        </p>
+                        <p xml:id="sec032006" n="208"> A che cosa sarebbe servito discutere con i
+                            peripatetici di cose naturali senza chiamare in causa anche l'Accademia
+                            dei platonici, la cui dottrina anche sulle cose divine fu sempre
+                            ritenuta, come testimonia Agostino,<anchor type="annotation" n="134" xml:id="legacy134"/>
+                            la pi˘ santa fra tutte le filosofie e che ora, per quanto ne so, sono io
+                            il primo dopo molti secoli, e sia detto senza voler suscitare alcuna
+                            gelosia, a mettere alla prova di una discussione pubblica? </p>
+                        <p xml:id="sec032007" n="209"> A che cosa sarebbe servito trattare, tante
+                            quant'erano, le opinioni degli altri, se, accedendo al convito dei
+                            sapienti come chi non rechi la sua parte,<anchor type="annotation" n="135" xml:id="legacy135"/> non avessi portato nulla di mio, nulla che non fosse
+                            elaborato e prodotto dal mio ingegno?<anchor type="annotation" n="136" xml:id="legacy136"/>
+                        </p>
+                        <p xml:id="sec032008" n="210"> E' davvero poco dignitoso, come dice
+                                Seneca,<anchor type="annotation" n="137" xml:id="legacy137"/> conoscere solo attraverso
+                            i libri e, come se le scoperte dei predecessori avessero precluso la via
+                            alla nostra ricerca, come se in noi si fosse esaurito il vigore
+                            naturale, non trarre da noi stessi nulla che, se non dimostra la verit‡,
+                            almeno la indichi sia pur lontanamente. </p>
+                        <p xml:id="sec032009" n="211"> Infatti, se il contadino odia la sterilit‡
+                            nel campo e il marito nella moglie, sicuramente la mente divina odier‡
+                            tanto pi˘ l'anima infeconda che gli Ë congiunta e associata, quanto di
+                            gran lunga pi˘ nobile Ë il frutto che si attende da lei. </p>
+                    </div>
+                </div>
+                <div type="section" n="§33" xml:id="sec033">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec033001" n="212"> PerciÚ io, non contento di avere aggiunto,
+                            oltre alle dottrine comuni, molte cose tratte dall'antichissima teologia
+                            di Ermete Trismegisto,<anchor type="annotation" n="138" xml:id="legacy138"/> molte altre
+                            ricavate dagli insegnamenti dei Caldei<anchor type="annotation" n="139" xml:id="legacy139"/> e di Pitagora<anchor type="annotation" n="140" xml:id="legacy140"/> e molte altre ancora
+                            derivanti dai misteri pi˘ riposti degli ebrei,<anchor type="annotation" n="141" xml:id="legacy141"/> ho proposto alla discussione anche numerose scoperte e
+                            riflessioni soltanto mie,<anchor type="annotation" n="142" xml:id="legacy142"/> riguardanti
+                            le cose naturali e quelle divine. </p>
+                    </div>
+                </div>
+                <div type="section" n="§34" xml:id="sec034">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec034001" n="213"> In primo luogo ho proposto l'accordo tra
+                            Platone e Aristotele, a cui molti credevano gi‡ prima di me, ma che
+                            nessuno aveva sufficientemente dimostrato.<anchor type="annotation" n="143" xml:id="legacy143"/> Boezio, tra i latini, aveva promesso di farlo, ma non si
+                            trova che abbia mai fatto quello che sempre si propose di fare.<anchor type="annotation" n="144" xml:id="legacy144"/>
+                        </p>
+                        <p xml:id="sec034002" n="214"> Anche Simplicio, tra i greci, l'aveva detto,
+                            ma avesse mai mantenuto quello che aveva promesso!<anchor type="annotation" n="145" xml:id="legacy145"/>
+                        </p>
+                        <p xml:id="sec034003" n="215"> E Agostino<anchor type="annotation" n="146" xml:id="legacy146"/>
+                            scrive che tra gli accademici non erano pochi quelli che con le loro
+                            sottilissime argomentazioni avevano cercato di dimostrare la stessa
+                            cosa, ossia che la filosofia di Platone e di Aristotele Ë la stessa. </p>
+                        <p xml:id="sec034004" n="216"> E Giovanni il Grammatico,<anchor type="annotation" n="147" xml:id="legacy147"/> pur affermando che Platone differisce da
+                            Aristotele solo per coloro che non capiscono quello che Platone dice, ha
+                            tuttavia lasciato ai posteri il compito di dimostrarlo. </p>
+                        <p xml:id="sec034005" n="217"> Ho anche aggiunto numerose tesi in cui
+                            sostengo che talune affermazioni di Scoto e di Tommaso, giudicate
+                            discordanti, sono invece in accordo<anchor type="annotation" n="148" xml:id="legacy148"/> e
+                            numerose altre in cui sostengo la stessa cosa per affermazioni simili di
+                            AverroË e di Avicenna.<anchor type="annotation" n="149" xml:id="legacy149"/>
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§35" xml:id="sec035">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec035001" n="218"> In secondo luogo, chi comprender‡ non solo le
+                            tesi che ho escogitato sulla filosofia aristotelica e su quella
+                                platonica,<anchor type="annotation" n="150" xml:id="legacy150"/> ma anche le
+                            settantadue tesi nuove<anchor type="annotation" n="151" xml:id="legacy151"/> che ho
+                            proposto in fisica e in metafisica ñ se non sono in errore, cosa che mi
+                            sar‡ chiara tra poco ñ potr‡ risolvere qualunque questione gli sia
+                            proposta su cose naturali e divine con principi affatto diversi da
+                            quelli che ci vengono insegnati dalla filosofia che si insegna nelle
+                            scuole ed Ë coltivata dai maestri del nostro tempo. </p>
+                        <p xml:id="sec035002" n="219"> E, Padri, il fatto che io, nei miei primi
+                            anni, nella tenera et‡ in cui come qualcuno pretende Ë appena permesso
+                            leggere le opere altrui, voglia introdurre una nuova filosofia,<anchor type="annotation" n="152" xml:id="legacy152"/> non deve indurre tanto alla meraviglia,
+                            quanto alla lode se essa Ë sostenibile, o alla condanna se essa Ë
+                            confutabile; e infine, chi giudicher‡ di queste mie scoperte e della mia
+                            cultura, dovr‡ contare, piuttosto che gli anni dell'autore, i meriti o i
+                            demeriti di quelle dottrine. </p>
+                    </div>
+                </div>
+                <div type="section" n="§36" xml:id="sec036">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec036001" n="220"> C'Ë poi, oltre a quella, un'altra maniera di
+                            filosofare per mezzo dei numeri che ho presentato come nuova, ma che in
+                            verit‡ Ë antica anch'essa e fu seguita dai teologi prischi,<anchor type="annotation" n="153" xml:id="legacy153"/> da Pitagora in particolare, da
+                                Aglaofemo,<anchor type="annotation" n="154" xml:id="legacy154"/> da Filolao,<anchor type="annotation" n="155" xml:id="legacy155"/> da Platone e dai primi platonici.<anchor type="annotation" n="156" xml:id="legacy156"/>
+                        </p>
+                        <p xml:id="sec036002" n="221"> Ma oggi, come altre teorie illustri, Ë caduta
+                            talmente in disuso per l'incuria dei posteri, che si stenta a trovarne
+                            qualche traccia. </p>
+                        <p xml:id="sec036003" n="222"> Nell'Epinomide,<anchor type="annotation" n="157" xml:id="legacy157"/> Platone scrive che fra tutte le arti liberali e le scienze
+                            contemplative quella principale e massimamente divina Ë la scienza del
+                            numerare. </p>
+                        <p xml:id="sec036004" n="223"> E domandandosi perchÈ l'uomo sia il pi˘
+                            sapiente di tutti gli animali, risponde: ´perchÈ sa numerareª.<anchor type="annotation" n="158" xml:id="legacy158"/>
+                        </p>
+                        <p xml:id="sec036005" n="224"> Anche Aristotele cita questa massima nei
+                                Problemi.<anchor type="annotation" n="159" xml:id="legacy159"/>
+                        </p>
+                        <p xml:id="sec036006" n="225"> Abumasar<anchor type="annotation" n="160" xml:id="legacy160"/>
+                            scrive che questo detto, ´colui che sa numerare conosce ogni cosaª, era
+                            del babilonese Avenzoar.<anchor type="annotation" n="161" xml:id="legacy161"/>
+                        </p>
+                        <p xml:id="sec036007" n="226"> Ma queste cose non potrebbero essere
+                            assolutamente vere se per arte del numerare essi avessero inteso quella
+                            in cui oggi sono abilissimi soprattutto i mercanti; anche Platone lo
+                                conferma,<anchor type="annotation" n="162" xml:id="legacy162"/> quando ci ammonisce
+                            apertamente a non credere che questa aritmetica divina sia l'aritmetica
+                            che usano i mercanti. </p>
+                        <p xml:id="sec036008" n="227"> Siccome, dopo lunghi studi a lume di lucerna,
+                            mi sembra di avere esaminato a fondo quell'aritmetica che viene
+                            celebrata in tale maniera, per metterla in discussione mi sono impegnato
+                            a rispondere pubblicamente secondo la scienza dei numeri a
+                            settantaquattro questioni<anchor type="annotation" n="163" xml:id="legacy163"/> che sono
+                            considerate le pi˘ importanti tra quelle che riguardano le realt‡
+                            fisiche e quelle divine. </p>
+                    </div>
+                </div>
+                <div type="section" n="§37" xml:id="sec037">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec037001" n="228"> Ho proposto anche teoremi di argomento
+                                magico,<anchor type="annotation" n="164" xml:id="legacy164"/> nei quali ho mostrato che
+                            ci sono due forme di magia; di queste, una dipende completamente
+                            dall'opera e dal volere dei demoni ed Ë, in fede mia, esecrabile e
+                            mostruosa. </p>
+                        <p xml:id="sec037002" n="229"> L'altra, se la si esamina bene, non Ë
+                            nient'altro che la compiuta perfezione della filosofia naturale. </p>
+                        <p xml:id="sec037003" n="230"> I Greci parlano di entrambe, ma chiamano la
+                            prima [goeteian], non degnandola nemmeno del nome di magia, mentre col
+                            nome proprio ed esclusivo di [mageian] designano l'altra, intesa come
+                            sapienza somma e perfetta. </p>
+                        <p xml:id="sec037004" n="231"> Infatti, come dice Porfirio,<anchor type="annotation" n="165" xml:id="legacy165"/> in lingua persiana mago ha lo stesso
+                            significato che ha per noi interprete e cultore di cose divine. </p>
+                        <p xml:id="sec037005" n="232"> Dunque Ë grande, anzi grandissima, o Padri,
+                            la disparit‡ e la differenza<anchor type="annotation" n="166" xml:id="legacy166"/> tra
+                            queste due arti. </p>
+                        <p xml:id="sec037006" n="233"> La prima Ë condannata e aborrita non solo
+                            dalla religione cristiana, ma anche da tutte le leggi e in ogni stato
+                            ben costituito. </p>
+                        <p xml:id="sec037007" n="234"> La seconda Ë approvata e abbracciata da tutti
+                            i sapienti e da ogni popolo amante delle cose celesti e divine. </p>
+                        <p xml:id="sec037008" n="235"> La prima Ë la pi˘ fraudolenta tra tutte le
+                            arti, la seconda Ë la filosofia pi˘ alta e pi˘ santa; la prima Ë sterile
+                            e vana, la seconda Ë salda, degna di fede e certa.<anchor type="annotation" n="167" xml:id="legacy167"/>
+                        </p>
+                        <p xml:id="sec037009" n="236"> La prima, chiunque l'ha praticata l'ha sempre
+                            nascosta, perchÈ sarebbe stata vergognosa e insultante per il suo
+                            autore; dalla seconda, fin dall'antichit‡, tutti si sono sempre attesi
+                            grandissima celebrit‡ e gloria negli studi.<anchor type="annotation" n="168" xml:id="legacy168"/>
+                        </p>
+                        <p xml:id="sec037010" n="237"> Della prima non si Ë mai occupato nessun
+                            filosofo e nessun uomo desideroso di apprendere arti benefiche; per
+                            imparare la seconda Pitagora, Empedocle,<anchor type="annotation" n="169" xml:id="legacy169"/> Democrito,<anchor type="annotation" n="170" xml:id="legacy170"/> Platone
+                            hanno attraversato il mare e al loro ritorno l'hanno insegnata e
+                            considerata come la pi˘ importante delle arti arcane.<anchor type="annotation" n="171" xml:id="legacy171"/>
+                        </p>
+                        <p xml:id="sec037011" n="238"> La prima non si fonda su nessun principio e
+                            non Ë approvata da nessun autore sicuro; la seconda, come se fosse
+                            nobilitata da genitori illustri, ha soprattutto due autori,
+                                Zalmoxide,<anchor type="annotation" n="172" xml:id="legacy172"/> imitato da Abari
+                                líIperboreo,<anchor type="annotation" n="173" xml:id="legacy173"/> e Zoroastro,<anchor type="annotation" n="174" xml:id="legacy174"/> non quello che forse si crede,<anchor type="annotation" n="175" xml:id="legacy175"/> ma il figlio di Oromasio.<anchor type="annotation" n="176" xml:id="legacy176"/>
+                        </p>
+                        <p xml:id="sec037012" n="239"> Se chiediamo a Platone che cosa sia la magia
+                            di tutti e due, risponder‡, nell'Alcibiade, che la magia di Zoroastro
+                            non Ë altro che quella conoscenza delle cose divine che i re persiani
+                            insegnavano ai loro figli, perchÈ imparassero a reggere l'ordine
+                            politico sul modello dell'ordine del mondo.<anchor type="annotation" n="177" xml:id="legacy177"/>
+                        </p>
+                        <p xml:id="sec037013" n="240"> E risponder‡, nel Carmide,<anchor type="annotation" n="178" xml:id="legacy178"/> che la magia di Zalmoxide Ë la medicina
+                            dell'anima, ossia quella con cui si ottiene l'equilibrio dell'anima,
+                            cosÏ come con l'altra si ottiene la salute del corpo. </p>
+                    </div>
+                </div>
+                <div type="section" n="§38" xml:id="sec038">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec038001" n="241"> Seguirono poi le loro tracce Caronda,<anchor type="annotation" n="179" xml:id="legacy179"/> Damigeron,<anchor type="annotation" n="180" xml:id="legacy180"/> Apollonio,<anchor type="annotation" n="181" xml:id="legacy181"/>
+                                Ostane<anchor type="annotation" n="182" xml:id="legacy182"/> e Dardano.<anchor type="annotation" n="183" xml:id="legacy183"/>
+                        </p>
+                        <p xml:id="sec038002" n="242"> Le seguÏ anche Omero, che, come tutte le
+                            altre forme di sapienza, dissimulÚ anche questa sotto le peregrinazioni
+                            del suo Ulisse,<anchor type="annotation" n="184" xml:id="legacy184"/> come mostrerÚ un
+                            giorno in una mia Teologia poetica.<anchor type="annotation" n="185" xml:id="legacy185"/>
+                        </p>
+                        <p xml:id="sec038003" n="243"> Le seguirono Eudosso ed Ermippo.<anchor type="annotation" n="186" xml:id="legacy186"/>
+                        </p>
+                        <p xml:id="sec038004" n="244"> Le seguirono quasi tutti coloro che
+                            studiarono a fondo i misteri pitagorici e platonici. </p>
+                        <p xml:id="sec038005" n="245"> Tra gli autori pi˘ recenti, poi, ne trovo tre
+                            che ne scoprirono le tracce, l'arabo al-Kindi,<anchor type="annotation" n="187" xml:id="legacy187"/> Ruggero Bacone<anchor type="annotation" n="188" xml:id="legacy188"/> e
+                            Guglielmo di Parigi.<anchor type="annotation" n="189" xml:id="legacy189"/>
+                        </p>
+                        <p xml:id="sec038006" n="246"> Anche Plotino<anchor type="annotation" n="190" xml:id="legacy190"/> la cita, l‡ dove dimostra che il mago Ë il ministro e non
+                            l'artefice della natura; quell'uomo sapientissimo approva e giustifica
+                            questo genere di magia, mentre aborrisce l'altra a tal punto che,
+                            invitato a riti di demoni maligni, disse opportunamente che era meglio
+                            che essi andassero da lui, piuttosto che lui da loro.<anchor type="annotation" n="191" xml:id="legacy191"/>
+                        </p>
+                        <p xml:id="sec038007" n="247"> Infatti, come la prima magia rende l'uomo
+                            sottomesso e schiavo di potenze maligne, cosÏ la seconda lo rende loro
+                            signore e padrone. </p>
+                        <p xml:id="sec038008" n="248"> La prima, insomma, non puÚ rivendicare per sÈ
+                            nÈ il nome di arte, nÈ il nome di scienza; la seconda invece, piena di
+                            elevatissimi misteri, comprende la profondissima contemplazione delle
+                            cose pi˘ recondite fino alla conoscenza dell'intera realt‡ natutrale. </p>
+                        <p xml:id="sec038009" n="249"> Essa, quasi richiamando in piena luce dai
+                            loro nascosti recessi le virt˘ sparse e disseminate nel mondo dall'opera
+                            benefica di Dio, non compie tanto i miracoli, ma piuttosto serve
+                            assiduamente la natura che li compie. </p>
+                        <p xml:id="sec038010" n="250"> Essa, avendo esaminato intimamente con uno
+                            sguardo pi˘ penetrante quell'accordarsi di tutte le cose che i Greci con
+                            una parola pi˘ espressiva chiamano [sumpatheian]<anchor type="annotation" n="192" xml:id="legacy192"/> e avendo osservato la reciproca
+                            cognizione che le cose naturali hanno l'una dell'altra, rivolgendo a
+                            ciascuna di esse gli allettamenti connaturali e appropriati, quelli che
+                            sono chiamati [le iugges]<anchor type="annotation" n="193" xml:id="legacy193"/> dei maghi,
+                            fa venire alla luce, quasi ne fosse l'artefice, i miracoli che si
+                            nascondono nei recessi dell'universo, in grembo alla natura, e negli
+                            arcani anfratti divini; e come il contadino sposa gli olmi alle
+                                viti,<anchor type="annotation" n="194" xml:id="legacy194"/> cosÏ il mago marita la
+                            terra al cielo, ossia le realt‡ inferiori alle qualit‡ e alle virt˘ di
+                            quelle superiori. </p>
+                        <p xml:id="sec038011" n="251"> Ne consegue che quanto la prima magia si
+                            rivela mostruosa e nociva, tanto la seconda si rivela salutare e divina. </p>
+                        <p xml:id="sec038012" n="252"> Soprattutto perchÈ la prima, assoggettando
+                            l'uomo ai nemici di Dio, lo allontana da lui, mentre la seconda lo
+                            spinge a un'ammirazione tale delle opere di Dio, che per affinit‡ ne
+                            seguono con assoluta certezza la carit‡, la fede e la speranza. </p>
+                        <p xml:id="sec038013" n="253"> Nulla infatti induce alla religione e al
+                            culto di Dio quanto l'assidua contemplazione delle sue meraviglie;
+                            quindi, dopo averle ben esplorate con l'aiuto di quella magia naturale
+                            di cui stiamo parlando, incitati pi˘ ardentemente al culto e all'amore
+                            dell'artefice, saremo costretti a cantare: ´pieni sono i cieli, piena Ë
+                            tutta la terra della maest‡ della tua gloriaª.<anchor type="annotation" n="195" xml:id="legacy195"/>
+                        </p>
+                        <p xml:id="sec038014" n="254">Della magia ho parlato abbastanza e ne ho
+                            parlato perchÈ so che sono molti quelli che, come i cani che abbaiano
+                            sempre contro gli sconosciuti, allo stesso modo spesso condannano e
+                            odiano quello che non comprendono. </p>
+                    </div>
+                </div>
+        </body>
+    </text>
+</TEI>

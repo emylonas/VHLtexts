@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="../Template/schema/VHLTEINew.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <?TEIVERSION 1.3.0. Last updated on February 1st 2009.?>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Oratio</title>
+                <author>Pico</author>
+                <respStmt>
+                    <resp>Revised and edited by</resp>
+                    <name>Andrew Ashton</name>
+                    <name>Elli Mylonas</name>
+                    <name>Dongbo Wang</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Scholarly Technology Group, Brown University</distributor>
+                <address>
+                    <addrLine>Box 1841, Brown University, Providence, RI 02912</addrLine>
+                </address>
+                <availability>
+                    <p>Freely available on a non-commercial basis.</p>
+                </availability>
+                <date when="1968">2008</date>
+            </publicationStmt>
+            <sourceDesc n="[NUMBER FROM THE SOURCE FILE sourceDesc ELEMENT IF APPLICABLE]">
+                <bibl>[DESCRIPTION FROM SOURCE FILE IF APPLICABLE]</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>[PROJECT DESCRIPTION BY ELLI/ANDY]</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>[ANY EDITORIAL STATEMENTS BY MASSIMO/ELLI/ANDY]</p>
+            </editorialDecl>
+            <!-- THIS WILL NEED TO BE TWEAKED FOR EACH FILE? WILL CLARIFY
+                <refsDecl xml:id="ASLREF">
+                <cRefPattern
+                matchPattern="(\S+) ([^.]+)\.(.*)"
+                replacementPattern="#xpath(//div1[@n='$1']/div2/[@n='$2']//lb[@n='$3'])">
+                <p>A reference is created by assembling the following,
+                in the reverse order as that listed here:
+                <list>
+                <item>the <att>n</att> value of the preceding <gi>lb</gi>
+                </item>
+                <item>a period</item>
+                <item>the <att>n</att> value of the ancestor <gi>div2</gi>
+                </item>
+                <item>a space</item>
+                <item>the <att>n</att> value of the parent <gi>div1</gi>
+                </item>
+                </list>
+                </p>
+                </cRefPattern>
+                </refsDecl>-->
+        </encodingDesc>
+        <!-- NOT SURE ABOUT THESE, WILL TALK TO SYD 
+            <encodingDesc>
+            <tagsDecl>
+            <rendition id="r.head">indent(1)case(allcaps)</rendition>
+            <rendition id="r.p">break(yes)pre(¶)</rendition>
+            <rendition id="r.trailer">align(center)</rendition>
+            <tagUsage gi="trailer" render="r.trailer"></tagUsage>
+            <tagUsage gi="p" render="r.p"></tagUsage>
+            <tagUsage gi="head" render="r.head"></tagUsage>
+            </tagsDecl>
+            </encodingDesc>-->
+        <revisionDesc>
+            <change when="1991-11-11">Revised 06/2009 by STG</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <div type="section" n="§1" xml:id="sec001">
+                    <p>Preamble<anchor type="annotation" n="1" xml:id="legacy1"/></p>
+                    <div type="body">
+                        <p xml:id="sec001001" n="1"> I have read, most esteemed Fathers,<anchor type="annotation" n="2" xml:id="legacy2"/> in the records of the Arabians,<anchor type="annotation" n="3" xml:id="legacy3"/> that Abdallah the Saracen<anchor type="annotation" n="4" xml:id="legacy4"/> when questioned as to what, on this stage,
+                            so to say, of the world, could be seen most worthy of wonder, replied
+                            that there is nothing to be seen more wonderful that man. </p>
+                        <p xml:id="sec001002" n="2"> In agreement with this opinion is the saying of
+                            Hermes: «A great miracle, Asclepius, is man».<anchor type="annotation" n="5" xml:id="legacy5"/>
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§2" xml:id="sec002">
+                    <p>The current reasons for human pre-eminence are not satisfying</p>
+                    <div type="body">
+                        <p xml:id="sec002001" n="3"> Still, when I weighed the reasons for these
+                            sayings, the numerous considerations advanced by many men to explain the
+                            excellence of human nature<anchor type="annotation" n="6" xml:id="legacy6"/> did not
+                            fully persuade me: that man is the intermediary between creatures, the
+                            familiar of the higher beings, the king of the things beneath him; by
+                            the acuteness of his senses, by the inquiry of his reason and by the
+                            light of his intelligence the interpreter of nature;<anchor type="annotation" n="7" xml:id="legacy7"/> set midway between fixed eternity and
+                            fleeting time and, (as the Persians say)<anchor type="annotation" n="8" xml:id="legacy8"/> the bond, or rather the wedding-song of the world, on David's
+                                testimony,<anchor type="annotation" n="9" xml:id="legacy9"/> but little lower that
+                            angels. </p>
+                    </div>
+                </div>
+                <div type="section" n="§3" xml:id="sec003">
+                    <p>The final discovery</p>
+                    <div type="body">
+                        <p xml:id="sec003001" n="4"> These reason are great, nevertheless they are
+                            not the principal grounds, that is, those for which man may rightfully
+                            claim for himself the privilege of the highest admiration. </p>
+                        <p xml:id="sec003002" n="5"> Why should we not admire more the angels
+                            themselves and the beatific choirs of heaven? </p>
+                        <p xml:id="sec003003" n="6"> At last, however, it seems to me that I have
+                            come to understand why man is the most fortunate of beings and
+                            consequently worthy of all admiration, and what finally is the condition
+                            which is his lot in the universal order, a condition to be envied not
+                            only by brutes but even by the stars and by the intelligences dwelling
+                            beyond this world.<anchor type="annotation" n="10" xml:id="legacy10"/>
+                        </p>
+                        <p xml:id="sec003004" n="7"> A thing surpassing belief and a wondrous one. </p>
+                        <p xml:id="sec003005" n="8"> Still, why should it not be? For it is on this
+                            ground that man is rightly called and considered a great miracle and a
+                            living creature worthy of all admiration. </p>
+                        <p xml:id="sec003006" n="9"> But hear, Fathers, exactly what this condition
+                            is and, in the name of your humanity, grant your benign audition to my
+                            work. </p>
+                    </div>
+                </div>
+                <div type="section" n="§4" xml:id="sec004">
+                    <p>The history of the creation</p>
+                    <div type="body">
+                        <p xml:id="sec004001" n="10"> The supreme Father, God the Architect, had
+                            already built this cosmic home we behold, the most sacred temple of
+                            divinity, according to the laws of the mysterious wisdom. </p>
+                        <p xml:id="sec004002" n="11"> He had already adorned the supercelestial
+                            region with intelligences, quickened the heavely globes with eternal
+                            souls and filled the excrementary and filthy parts of the lower world
+                            with a multitude of animals of every kind. </p>
+                        <p xml:id="sec004003" n="12"> But when the work was finished, the Craftsman
+                            still longed that there were someone to ponder the meaning of so great a
+                            work, to love its beauty, and to wonder at its vastness.<anchor type="annotation" n="11" xml:id="legacy11"/>
+                        </p>
+                        <p xml:id="sec004004" n="13"> Therefore, when everything was done (as Moses
+                            and Timaeus testify), He finally bethought himself of bringing forth
+                                man.<anchor type="annotation" n="12" xml:id="legacy12"/>
+                        </p>
+                        <p xml:id="sec004005" n="14"> But there was not among the archetypes that
+                            from which he could fashion a new offspring, nor in his treasure-houses
+                            anything which he might bestow on his new son as an inheritance, nor
+                            among the seats of the universe any place where the latter might sit to
+                            contemplate the universe. </p>
+                        <p xml:id="sec004006" n="15"> All was now complete; all things had heen
+                            assigned to the highest, the middle, and the lowest orders. </p>
+                        <p xml:id="sec004007" n="16"> But it was not in the nature of the Father's
+                            power to fail in his final creation; it was not in the nature of his
+                            wisdom to hesitate through lack of counsel in a needful matter, nor it
+                            was in the nature of his beneficient love that he who would praise the
+                            divine generosity in all other things should be obliged to condemn it in
+                            regard to himself. </p>
+                    </div>
+                </div>
+                <div type="section" n="§5" xml:id="sec005">
+                    <p>God's address to man</p>
+                    <div type="body">
+                        <p xml:id="sec005001" n="17"> At last the best of makers decreed that the
+                            creature to whom he had been anable to give anything wholly his own,
+                            should have in common whatever belonged to every other being.<anchor type="annotation" n="13" xml:id="legacy13"/>
+                        </p>
+                        <p xml:id="sec005002" n="18"> He therefore took man, this creature of
+                            indeterminate image,<anchor type="annotation" n="14" xml:id="legacy14"/> set him in the
+                            middle of the world<anchor type="annotation" n="15" xml:id="legacy15"/> and thus spoke to
+                            him: «We have given you, Adam, no fixed seat nor features proper to
+                            yourself nor endowment peculiar to you alone, in order that whatever
+                            seat, whatever features, whatever endowment you may responsibly desire,
+                            these same you may have and possess according to your desire and
+                            judgement. </p>
+                        <p xml:id="sec005003" n="19"> Once defined, the nature of all other beings,
+                            is constrained within the laws prescribed by us. </p>
+                        <p xml:id="sec005004" n="20"> Constrained by no limits, you may determine it
+                            for yourself, according to your own free will, in whose hand we have
+                            placed you. </p>
+                        <p xml:id="sec005005" n="21"> I have placed you at the world's center so
+                            that you may thence more easily look around atwhatever is in the world. </p>
+                        <p xml:id="sec005006" n="22"> We have made you neither of heaven nor of
+                            earth, neither mortal nor immortal,<anchor type="annotation" n="16" xml:id="legacy16"/> so
+                            that you may, as the free and extraordinary<anchor type="annotation" n="17" xml:id="legacy17"/> shaper of yourself, fashion yourself in the form you will
+                            prefer. </p>
+                        <p xml:id="sec005007" n="23"> It will be in your power to degenerate into
+                            the lower forms of life, which are brutish; you shall have the power,
+                            according to your soul's judgement, to be reborn into the higher orders,
+                            which are divine». </p>
+                    </div>
+                </div>
+                <div type="section" n="§6" xml:id="sec006">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec006001" n="24"> O supreme liberality<anchor type="annotation" n="18" xml:id="legacy18"/> of God the Father and wonderful happiness<anchor type="annotation" n="19" xml:id="legacy19"/> of man! </p>
+                        <p xml:id="sec006002" n="25"> To him is given to be what he desires and what
+                            he wills.<anchor type="annotation" n="20" xml:id="legacy20"/>
+                        </p>
+                        <p xml:id="sec006003" n="26"> As soon as they are born, brutes bring with
+                            them “from their mother’s womb,”<anchor type="annotation" n="21" xml:id="legacy21"/> as
+                            Lucilius says, all that they are going to possess. </p>
+                        <p xml:id="sec006004" n="27"> Superior spirits have been, either from the
+                            beginning or soon after, that which they are perpetually going to be
+                            throughout eternity. </p>
+                        <p xml:id="sec006005" n="28"> The Father infused in man, at birth, every
+                            sort of seed and sprouts of every kind of life.<anchor type="annotation" n="22" xml:id="legacy22"/>
+                        </p>
+                        <p xml:id="sec006006" n="29"> These seeds will grow and bear their fruit in
+                            each man who will cultivate them. </p>
+                        <p xml:id="sec006007" n="30"> If he cultivates his vegetable seeds, he will
+                            become a plant. If he cultivates his sensitive seeds, he will become
+                            brutish. If he cultivates his rational seeds, he will become a heavenly
+                            animal. If he cultivates his intellectual seeds, he will be an angel and
+                            a son of God.<anchor type="annotation" n="23" xml:id="legacy23"/>
+                        </p>
+                        <p xml:id="sec006008" n="31"> And if he is not contented with the fate of
+                            any creature, he will gather himself into the center of his own unity
+                            and, become one spirit with God, will join the solitary darkness<anchor type="annotation" n="24" xml:id="legacy24"/> of the Father, who is above all things,
+                            and will stand ahead of all things. </p>
+                    </div>
+                </div>
+                <div type="section" n="§7" xml:id="sec007">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec007001" n="32"> Who will not wonder at this chameleon?<anchor type="annotation" n="25" xml:id="legacy25"/>
+                        </p>
+                        <p xml:id="sec007002" n="33"> Or rather, who will admire any other being
+                            more? </p>
+                        <p xml:id="sec007003" n="34"> Not without reasons, Asclepius the
+                                Athenian<anchor type="annotation" n="26" xml:id="legacy26"/> said that in the secret
+                            rites he [man] was symbolized by Proteus, because of his changing and
+                            metamorphous nature.<anchor type="annotation" n="27" xml:id="legacy27"/>
+                        </p>
+                        <p xml:id="sec007004" n="35"> Hence the metamorphoses celebrated among the
+                                Jews<anchor type="annotation" n="28" xml:id="legacy28"/> and the Pythagoreans.<anchor type="annotation" n="29" xml:id="legacy29"/>
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§8" xml:id="sec008">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec008001" n="36"> Indeed, even the most secret Hebrew theology
+                            at one time transforms holy Enoch into an angel of divinity, whom they
+                            call metatron, and at other times it reshapes other men into other
+                                spirits.<anchor type="annotation" n="30" xml:id="legacy30"/>
+                        </p>
+                        <p xml:id="sec008002" n="37"> According to Pythagoreans, wicked men are
+                            deformed into brutes, and if you believe Empedocles, into plants as
+                                well.<anchor type="annotation" n="31" xml:id="legacy31"/>
+                        </p>
+                        <p xml:id="sec008003" n="38"> Imitating them, Mohammed often repeated that
+                            he who strays from divine law becomes a brute. </p>
+                        <p xml:id="sec008004" n="39"> Indeed, it is not the bark which makes the
+                            plant, but dull and non-sentient nature; not the hide which makes a
+                            horse or other beast of burden, but a brutal and sensual soul; not the
+                            circular body which makes the heaven(s), but right reason; not the
+                            separation from the body which makes the angel, but spiritual
+                            intelligence. </p>
+                        <p xml:id="sec008005" n="40"> If you see someone, a slave to his belly,
+                            crawling on the ground, it is not a man you see but a plant; if you see
+                            someone who, as though blinded by Calipso with empty imaginations, under
+                            a seductive spell, is enslaved by his senses, it a brute you see, not a
+                            man. </p>
+                        <p xml:id="sec008006" n="41"> If you see a philosopher discerning things
+                            with right reason, worship him; he is a heavenly not an earthly animal. </p>
+                        <p xml:id="sec008007" n="42"> If you see a pure contemplator, oblivious to
+                            his body, absorbed in the recesses of the mind, this is neither an
+                            earthly nor a heavenly animal: this is a superior spirit, clothed with
+                            human flesh. </p>
+                    </div>
+                </div>
+                <div type="section" n="§9" xml:id="sec009">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec009001" n="43"> Who, then, will not admire man? </p>
+                        <p xml:id="sec009002" n="44"> Not undeservedly, in the Mosaic and Christian
+                            Scriptures he is called at times with the name of every flesh, at times
+                            of every creature, for he fashions, shapes and transforms<anchor type="annotation" n="32" xml:id="legacy32"/> his own look into that of every flesh,
+                            his own mind into that of every creature.<anchor type="annotation" n="33" xml:id="legacy33"/>
+                        </p>
+                        <p xml:id="sec009003" n="45"> Accordingly, Evantes the Persian, explaining
+                            Chaldaean theology, writes that no inner image belongs to man, but many
+                            exterior and derived ones.<anchor type="annotation" n="34" xml:id="legacy34"/>
+                        </p>
+                        <p xml:id="sec009004" n="46"> Hence that saying of the Chaldaens that man is
+                            animal by nature, diverse, multiform and inconstant. </p>
+                    </div>
+                </div>
+                <div type="section" n="§10" xml:id="sec010">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec010001" n="47"> Yet, what is the reason of all this? </p>
+                        <p xml:id="sec010002" n="48"> It is in order for us to understand that,
+                            because we were born with the option to be what we want to be, we must
+                            take most care of this; lest people say of us that, being held in honor,
+                            we did not realize that we reduced ourselves to brutes and mindless
+                            beasts of burden. </p>
+                        <p xml:id="sec010003" n="49"> Let us rather remember the saying of Asaph the
+                            prophet: “You are all gods and sons of the most high,”<anchor type="annotation" n="35" xml:id="legacy35"/> unless abusing the most indulgent
+                            liberality of the Father, we turn from beneficial to harmful the free
+                            choice he bestowed on us. </p>
+                        <p xml:id="sec010004" n="50"> Let a holy ambition pervade our soul, so that,
+                            not satisfied with mediocre things, we strive for the loftiest and apply
+                            ourselves with all our strength to pursue them (because we can achieve
+                            them, if we want). </p>
+                        <p xml:id="sec010005" n="51"> . Let us spurn earthly things, disregard the
+                                celestial,<anchor type="annotation" n="36" xml:id="legacy36"/> and reject all that is
+                            of this world, in order to fly to the otherwordly court near the most
+                            eminent divinity. </p>
+                        <p xml:id="sec010006" n="52"> There, as sacred mysteries reveal, Seraphim,
+                            Cherubim and Thrones occupy the first places; let us emulate their
+                            dignity and glory, unwilling as we are to yield to them and unable to
+                            endure second place. </p>
+                        <p xml:id="sec010007" n="53"> If so we wish, we will not be at all inferior
+                            to them. </p>
+                    </div>
+                </div>
+                <div type="section" n="§11" xml:id="sec011">
+                    <p>The Nature of the Highest Angels</p>
+                    <div type="body">
+                        <p xml:id="sec011001" n="54"> But in what way, or by doing what? </p>
+                        <p xml:id="sec011002" n="55"> Let us see what they do, what life they lead. </p>
+                        <p xml:id="sec011003" n="56"> If we live that life (and indeed we can), we
+                            will be equal to their lot. </p>
+                        <p xml:id="sec011004" n="57"> The Seraph burns with the fire of love; the
+                            Cherub shines with the splendor of intelligence; the Throne stands in
+                            the steadfastness of judgment. </p>
+                        <p xml:id="sec011005" n="58"> Therefore if we, being dedicated to an active
+                            life, undertake the care of inferior things with proper consideration of
+                            their worth, we will be strengthened by the steadfast solidity of the
+                            Thrones. </p>
+                        <p xml:id="sec011006" n="59"> If we, being unburdened by actions, meditate
+                            on the Creator in His creation and on creation in the Creator, we will
+                            be engaged in the tranquillity of contemplation; we will shine on all
+                            sides with Cherubic light. </p>
+                        <p xml:id="sec011007" n="60"> If we burn for the Creator alone, with
+                            charity, with its all-consuming fire, we will burst into flame in the
+                            likeness of the Seraphim<anchor type="annotation" n="37" xml:id="legacy37"/>. </p>
+                        <p xml:id="sec011008" n="61"> Upon the Throne, that is upon the just judge,
+                            sits God, the Judge of all time. </p>
+                        <p xml:id="sec011009" n="62"> Over the Cherub, that is over the
+                            contemplator, He flies and, almost brooding over him<anchor type="annotation" n="38" xml:id="legacy38"/>, imbues him with warmth. </p>
+                        <p xml:id="sec011010" n="63"> Indeed, the Spirit of the Lord is carried over
+                            the waters, the waters that, it is said, are above the Heavens and that
+                            praise God in the pre-dawn hymns in the book of Job<anchor type="annotation" n="39" xml:id="legacy39"/>. </p>
+                        <p xml:id="sec011011" n="64"> And the Seraph, that is the lover, is in God
+                            and God is in him; and God and he are one. </p>
+                        <p xml:id="sec011012" n="65"> Great is the power of the Thrones that we may
+                            reach by judging; supreme is the height of the Seraphim that we may
+                            reach by loving. </p>
+                    </div>
+                </div>
+                <div type="section" n="§12" xml:id="sec012">
+                    <p>The Angels As Inspiration to Man</p>
+                    <div type="body">
+                        <p xml:id="sec012001" n="66"> And yet in what manner can anyone either judge
+                            or love things unknown? </p>
+                        <p xml:id="sec012002" n="67"> Moses loved the Lord Whom he saw and, as a
+                            judge, he administered to the people the things that he earlier saw on
+                            the mountain as a contemplator. </p>
+                        <p xml:id="sec012003" n="68"> Hence the Cherub, located in the middle
+                            position, prepares us for the Seraphic fire and likewise illuminates us
+                            for the judgment of the Thrones. </p>
+                        <p xml:id="sec012004" n="69"> This is the bond of the First Minds, the order
+                            of Pallas, the guardian of contemplative philosophy. First we must
+                            emulate him, thirst after him and to the same degree understand him in
+                            order that we may be raised to the heights of love and descend well
+                            taught and prepared to the duties of action. </p>
+                        <p xml:id="sec012005" n="70"> And so it is valuable, if our life is to be
+                            modeled on the example of the Cherubs' life, to have before our eyes an
+                            idea of what their life is and what it is like, what their actions are
+                            and what works are theirs. </p>
+                        <p xml:id="sec012006" n="71"> Because we, who are flesh and know only
+                            earthly things, are not permitted to follow their model of our own
+                            accord, let us consult the ancient Fathers for they, to whom these
+                            things were common and well known, can provide us with certain and
+                            abundant evidence of its nature. </p>
+                        <p xml:id="sec012007" n="72"> Let us inquire of the apostle Paul, the chosen
+                            vessel, about the activities of the Cherubic hosts that he saw when
+                            raised up to the third heaven. </p>
+                        <p xml:id="sec012008" n="73"> He will certainly answer, according to the
+                            interpretation of Dionysius, that they are cleansed, then illuminated
+                            and afterwards are perfected. </p>
+                    </div>
+                </div>
+                <div type="section" n="§13" xml:id="sec013">
+                    <p>The Preparation of the Soul</p>
+                    <div type="body">
+                        <p xml:id="sec013001" n="74"> We, emulating the Cherubic life on Earth,
+                            curbing the drive of the emotions through moral science, dispersing the
+                            darkness of reason through dialectic (as if washing away the squalor of
+                            ignorance and vices), therefore purge our souls lest our emotions run
+                            amok or our reason imprudently run off course at any time. </p>
+                        <p xml:id="sec013002" n="75"> Then well we imbue our purified and prepared
+                            soul with the light of natural philosophy so that afterwards we may
+                            perfect it with the knowledge of divine things. </p>
+                    </div>
+                </div>
+                <div type="section" n="§14" xml:id="sec014">
+                    <p>Jacob's Ladder</p>
+                    <div type="body">
+                        <p xml:id="sec014001" n="76"> And lest our Fathers be enough for us, let us
+                            consult Jacob the patriarch whose image shines, chiseled in the dwelling
+                            place of glory. </p>
+                        <p xml:id="sec014002" n="77"> The most wise father, asleep in the lower
+                            world and awake in the higher, will illumine us<anchor type="annotation" n="40" xml:id="legacy40"/>. </p>
+                        <p xml:id="sec014003" n="78"> But he will teach us through a figure (in this
+                            way all things were known to them) that there is a ladder which
+                            stretches from the lowest earth to the highest Heavens and that is
+                            marked by a series of many rungs. God is at its height and the
+                            contemplative angels move up and down it in turns. </p>
+                    </div>
+                </div>
+                <div type="section" n="§15" xml:id="sec015">
+                    <p>Our Approach to Jacob's Ladder</p>
+                    <div type="body">
+                        <p xml:id="sec015001" n="79"> So, if we are to carry out these things in our
+                            efforts to imitate the angelic life, who, I ask, will dare to touch the
+                            Ladder of God, either with an unclean foot or with unwashed hands? </p>
+                        <p xml:id="sec015002" n="80"> As the mysteries have it, it is unlawful to
+                            touch the clean with the unclean. </p>
+                        <p xml:id="sec015003" n="81"> But what feet are these? </p>
+                        <p xml:id="sec015004" n="82"> What hands? </p>
+                        <p xml:id="sec015005" n="83"> To be sure, the foot of the soul is that part
+                            which is most despicable, that which leans upon matter as if on earthly
+                            soil; it is the faculty, I say, that feeds and nourishes, I say, the
+                            kindling wood of lust and the teacher of sensual weakness<anchor type="annotation" n="41" xml:id="legacy41"/>. </p>
+                        <p xml:id="sec015006" n="84"> And why not call the hands of the soul its
+                            irascible part, that which fights on behalf of desire, battles for it
+                            and like a plunderer takes away in broad daylight and the public arena
+                            the things that desire, resting in the shade, then devours? </p>
+                        <p xml:id="sec015007" n="85"> These hands, these feet, are the entire
+                            sensual part of the body in which resides the attraction that holds the
+                            soul back, as they say, obtorto collo. Let us wash them in moral
+                            philosophy like in a flowing river lest we be held back from the ladder
+                            as wicked and unclean. </p>
+                        <p xml:id="sec015008" n="86"> And yet not even this will be enough if we
+                            wish to be companions to the angels who hasten up and down Jacob's
+                            ladder unless we are first well prepared and instructed to be promoted
+                            from step to step, to wheel away nowhere from the course of the ladder,
+                            and to encounter the reciprocal movements. </p>
+                        <p xml:id="sec015009" n="87"> Once we, inspired by the Cherubic spirit, have
+                            reached this point through the art of speaking or of reasoning, that is,
+                            philosophizing according to the grades of Nature, penetrating the whole
+                            from the center to the center, we will then descend, dashing the one
+                            into many with Titanic force like Osiris, and ascend, drawing together
+                            with Apollonian force the many into one like Osiris' limbs<anchor type="annotation" n="42" xml:id="legacy42"/> until at last, resting in the bosom of
+                            the Father Who is at the top of the ladder, we will be made perfect in
+                            theological bliss. </p>
+                    </div>
+                </div>
+                <div type="section" n="§16" xml:id="sec016">
+                    <p>Peace and the Dual Nature of the Soul</p>
+                    <div type="body">
+                        <p xml:id="sec016001" n="88"> And let us inquire with just Job, who entered
+                            into a pact of life with the God of life before he was brought into
+                                being<anchor type="annotation" n="43" xml:id="legacy43"/>, as to what God the Highest
+                            desires among those tens of hundreds of thousands who are there present
+                            before Him: he will certainly answer peace, in accordance with that
+                            which is written in Job: «He who makes peace in the heavens». </p>
+                        <p xml:id="sec016002" n="89"> And since the middle order interprets the
+                            precepts of the highest order for the lower ones, let now Empedocles the
+                            philosopher interpret for us the words of Job the theologian. </p>
+                        <p xml:id="sec016003" n="90"> Empedocles, as his songs attest, presents to
+                            us through the symbols of conflict and friendship, or of war and peace,
+                            the dual nature that is set in our souls: one of them lifts us upwards
+                            to the heavens and the other drags us down into the depths. </p>
+                        <p xml:id="sec016004" n="91"> In these songs he deplores being tossed into
+                            the depths, driven by conflict and discord like a madman and banished
+                            from the gods<anchor type="annotation" n="44" xml:id="legacy44"/>. </p>
+                    </div>
+                </div>
+                <div type="section" n="§17" xml:id="sec017">
+                    <p>Theology As Succor for the Soul Fraught with Strife</p>
+                    <div type="body">
+                        <p xml:id="sec017001" n="92"> Manifold indeed, Oh Fathers, is the discord in
+                            us; we grave internal, more than civil, wars in our home. </p>
+                        <p xml:id="sec017002" n="93"> They are such that, if we desire them not, if
+                            we yearn after that peace which will lift us up and set us among God's
+                            most exalted ones, only moral philosophy will be able to still the
+                            troubles within us and bring us calm. If in our inner self we greatly
+                            desire above all else a truce from our enemies, we will beat down the
+                            unbridled stampede of the manifold beast, the aggression, ire and
+                            arrogance of the lion<anchor type="annotation" n="45" xml:id="legacy45"/>. </p>
+                        <p xml:id="sec017003" n="94"> Then, if thinking rightly, we yearn for the
+                            safety of perpetual peace for ourselves, it will come and liberally
+                            satisfy our desires; indeed, both beasts having been sacrificed like a
+                            stuck sow<anchor type="annotation" n="46" xml:id="legacy46"/>, it will ratify an
+                            everlasting pact of the most holy peace between the flesh and the
+                            spirit. </p>
+                        <p xml:id="sec017004" n="95"> Dialectic will calm the tumults of reason
+                            agitated and tossed about between the contradictions of speech and the
+                            captiousness of syllogism. </p>
+                        <p xml:id="sec017005" n="96"> Natural philosophy will allay the differences
+                            of opinion and disagreements which from all sides vex, perplex and
+                            afflict our restless soul. </p>
+                        <p xml:id="sec017006" n="97"> But it will bring harmony in such a way as to
+                            remind us that nature is the offspring of war, as Heraclitus said, and
+                            for this reason it is called by Homer «contention». </p>
+                        <p xml:id="sec017007" n="98"> For this reason it is said that in philosophy
+                            true rest and stable peace cannot reveal themselves to us alone, that
+                            this is the duty and privilege of its mistress, that is, of the most
+                            holy theology. </p>
+                        <p xml:id="sec017008" n="99"> She will show us the way to this peace and
+                            like a companion will lead us. Seeing us hurrying along from afar, she
+                            will call out, «Come to me, you who exert yourselves in vain; come and I
+                            will restore you; come to me and I will give you that peace which the
+                            world and nature cannot give to you». </p>
+                    </div>
+                </div>
+                <div type="section" n="§18" xml:id="sec018">
+                    <p>The Soul's Search for Peace and Its Union with God</p>
+                    <div type="body">
+                        <p xml:id="sec018001" n="100"> So gently called, so kindly invited, we will
+                            then fly away into the embrace of the most blessed Mother like
+                            terrestrial Mercuries with winged feet; thoroughly will we enjoy the
+                            longed-for peace. This is that most holy peace, the indissoluble bond,
+                            the harmonious friendship in which all souls, in one mind, a Mind that
+                            is above all minds, are not only in agreement but indeed, in a certain
+                            ineffable way, inwardly become one<anchor type="annotation" n="47" xml:id="legacy47"/>. </p>
+                        <p xml:id="sec018002" n="101"> This is that friendship which the
+                            Pythagoreans call the end of all philosophy, that peace which God makes
+                            in His heavens, which the angels who came down to earth announced to men
+                            of good will so that these men would, ascending to heaven, be
+                            transformed by it into angels. </p>
+                        <p xml:id="sec018003" n="102"> Let us desire this peace for our friends, for
+                            our times; let us desire it for whatever home we enter. Let us desire it
+                            for our soul so that in it may be made a house of the Lord, so that,
+                            after casting off its impurities through moral philosophy and dialectic,
+                            our soul may adorn itself with multi-faceted philosophy, as if with
+                            royal magnificence, may crown the heights of her doors with the garlands
+                            of theology, and finally so that the King of Glory may descend, together
+                            with the Father, to make a home in it. </p>
+                        <p xml:id="sec018004" n="103"> If our soul shows herself to be worthy of
+                            such a Guest (for immense is His Clemency) clad in gold, like a wedding
+                            toga, surrounded by a diverse variety of sciences, she will receive Him
+                            not as a Guest but as a Bridegroom. She will wish to be separated from
+                            her people so as not to be separated from Him. Having forgotten her own
+                            father's home, indeed, having forgotten herself, she will wish to die in
+                            herself that she may live in her Spouse in Whose sight the death of His
+                            saints is truly precious. This is the death, I say, if one must call
+                            that plenitude of life death, whose contemplation is, according to the
+                            sages, the study of philosophy<anchor type="annotation" n="48" xml:id="legacy48"/>. </p>
+                    </div>
+                </div>
+                <div type="section" n="§19" xml:id="sec019">
+                    <p>Moses' Allegory of the Tabernacle</p>
+                    <div type="body">
+                        <p xml:id="sec019001" n="104"> Let us take as an example Moses, himself just
+                            a bit inferior to the fountainlike fullness of sacrosanct and ineffable
+                            intelligence whose nectar inebriates the angels<anchor type="annotation" n="49" xml:id="legacy49"/>. </p>
+                        <p xml:id="sec019002" n="105"> We will hear the venerable Judge thus declare
+                            His laws to us who live in the empty solitude of this body: «Let those
+                            who are unclean and as yet in need of moral philosophy dwell with the
+                            masses outside the tabernacle in the open air while they purify
+                            themselves like the priests of Thessaly. </p>
+                        <p xml:id="sec019003" n="106"> Let those who have already put their behavior
+                            in order and have been received into the sanctuary not let lay hands
+                            upon the sacred things but first, in the service of dialectic, let them
+                            serve the holy things of philosophy like diligent Levites. </p>
+                        <p xml:id="sec019004" n="107"> Once they are allowed access to the holy
+                            things in the priesthood of philosophy, let them contemplate the
+                            multicolored aspect of the higher kingdom of God, that is, the divine,
+                            princely decoration, as well as the celestial candelabra adorned with
+                            seven lights. Let them behold the skins so that they, permitted at last
+                            into the recesses of the temple through the merits of theological
+                            sublimity, may rejoice in the glory of the Divinity without any veil of
+                            a likeness coming in between» <anchor type="annotation" n="50" xml:id="legacy50"/>. </p>
+                        <p xml:id="sec019005" n="108"> These things Moses truly commands of us and
+                            in commanding instructs, incites and encourages so that through
+                            philosophy we may prepare for ourselves, while we are able, the path to
+                            the future celestial glory. </p>
+                    </div>
+                </div>
+                <div type="section" n="§20" xml:id="sec020">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec020001" n="109"> In fact, however, not only the Mosaic and
+                            Christian mysteries,<anchor type="annotation" n="51" xml:id="legacy51"/> but also the
+                            theology of the ancients<anchor type="annotation" n="52" xml:id="legacy52"/> show us the
+                            dignity and value of the liberal arts which I am about to discuss. </p>
+                        <p xml:id="sec020002" n="110"> For at what else was the observance of the
+                            different degrees of initiation in Greek mysteries aimed? Only after
+                            having been purified through the arts which we might call expiatory,
+                            moral philosophy and dialectic,<anchor type="annotation" n="53" xml:id="legacy53"/> the
+                            initiates could gain entrance to the mysteries.<anchor type="annotation" n="54" xml:id="legacy54"/>
+                        </p>
+                        <p xml:id="sec020003" n="111"> And what else can such admission possibly
+                            signify if not an interpretation by means of philosophy of the most
+                            hidden nature? </p>
+                        <p xml:id="sec020004" n="112"> At this point they were finally prepared for
+                            the coming of <figure>
+                                <graphic url="epopteia.gif"/>
+                            </figure>,<anchor type="annotation" n="55" xml:id="legacy55"/> that is the intimate vision
+                            of divine things by the light of theology. </p>
+                        <p xml:id="sec020005" n="113"> Who would not long to be initiated into such
+                            sacred rites? </p>
+                        <p xml:id="sec020006" n="114"> Who would not desire, putting aside all human
+                            concerns, despising the goods of fortune and neglecting the body, to
+                            become a guest at the table of the gods while still living on earth,
+                            and, soaked in the nectar of eternity, to receive, though still a mortal
+                            animal, the gift of immortality? </p>
+                        <p xml:id="sec020007" n="115"> Who would not wish to be so inspired by the
+                            Socratic frenzies that Plato celebrates in the Phaedrus, that he is
+                            transferred after a quick course, fleeing readily with oarlike strokes
+                            of wings and feet, from here (that is, from this world set on evil) to
+                            the heavenly Jerusalem? </p>
+                        <p xml:id="sec020008" n="116"> We shall be led away, Fathers, we shall be
+                            led away by the Socratic frenzies,<anchor type="annotation" n="56" xml:id="legacy56"/>
+                            which will so lift us out of our mind as to put our mind and ourselves
+                            in God. </p>
+                        <p xml:id="sec020009" n="117"> We shall be led away by them, however, only
+                            if we ourselves first complete that which is ours to do; for, if through
+                            moral philosophy the forces of our passions have been correctly attuned,
+                            in the correct proportions, based on harmonic measure, so as to be tuned
+                            one to the other in lasting consonance; and if, through dialectic, our
+                            reason has progressed by measured advance, only then, stirred by the
+                            frenzy of the Muses, we shall drink the heavenly harmony with our inmost
+                            hearing. </p>
+                        <p xml:id="sec020010" n="118"> Then Bacchus, the leader of the Muses,<anchor type="annotation" n="57" xml:id="legacy57"/> through his mysteries (that is, through
+                            the visible signs of nature) will show us, who philosophize, the
+                            invisible things of God, and will make us drunk with the abundance of
+                            God's house, in which, if we prove entirely faithful, like Moses, most
+                            sacred theology shall draw close to us, animating us with redoubled
+                            frenzy. </p>
+                        <p xml:id="sec020011" n="119"> For we, raised to her most eminent height,
+                            thence comparing to indivisible eternity all things that are and shall
+                            be and have been and admiring their primeval beauty, shall be the
+                            Phoebean seers; of this beauty we shall become the winged lovers. And at
+                            last, roused by ineffable love as if by a sting, and borne outside
+                            ourselves like burning Seraphim, filled with the godhead, we shall be no
+                            longer ourselves, but He Himself Who made us. </p>
+                    </div>
+                </div>
+                <div type="section" n="§21" xml:id="sec021">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec021001" n="120"> The sacred names of Apollo, if anyone
+                            investigates their meanings and hidden mysteries, sufficiently show that
+                            that God is, no less than a seer, a philosopher. </p>
+                        <p xml:id="sec021002" n="121"> But since Ammonius<anchor type="annotation" n="58" xml:id="legacy58"/> has amply examined this matter, there is no reason for me
+                            to treat it further; but, Fathers, let us recall the three Delphic
+                                precepts,<anchor type="annotation" n="59" xml:id="legacy59"/> which are absolutely
+                            necessary to those who are to enter the most holy and august temple, not
+                            of the false, but of the true Apollo who lighteth every soul that cometh
+                            into this world; you will realize that they exhort us to nothing else
+                            but to embrace with all our strength the tripartite philosophy that we
+                            now discuss. </p>
+                        <p xml:id="sec021003" n="122"> For the famous maxim, <figure>
+                                <graphic url="meden.gif"/>
+                            </figure>(that is: «Nothing too much»), rightly prescribes as rule and
+                            norm for every virtue the criterion of the "mean", of which moral
+                            philosophy speaks. </p>
+                        <p xml:id="sec021004" n="123"> Then the maxim, <figure>
+                                <graphic url="gnothi.gif"/>
+                            </figure> (that is: «Know thyself»), urges and exhorts us to the
+                            knowledge of all nature, of which the nature of man is the intermediate
+                            and, so to speak, the mixture. </p>
+                        <p xml:id="sec021005" n="124"> For he who knows himself, in himself knows
+                            all things, as first Zoroaster wrote, and later Plato in the Alcibiades. </p>
+                        <p xml:id="sec021006" n="125"> Finally, once natural philosophy has
+                            enlightened us with this knowledge, and we, being very close to God and
+                            saying <figure>
+                                <graphic url="ei.gif"/>
+                            </figure> (that is: «You are»), we shall address by a theological
+                            salutation the true Apollo on intimate and likewise blissful terms. </p>
+                    </div>
+                </div>
+                <div type="section" n="§22" xml:id="sec022">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec022001" n="126"> But let us also consult Pythagoras,<anchor type="annotation" n="60" xml:id="legacy60"/> the wisest of men, and wise precisely
+                            because he never deemed himself worthy of that name.<anchor type="annotation" n="61" xml:id="legacy61"/>
+                        </p>
+                        <p xml:id="sec022002" n="127"> He will firstly advise us «not to sit on a
+                            bushel», that is, not to lose, abandoning it to sloth and inaction, that
+                            rational part by which the soul measures, judges and considers all
+                            things; but rather, by the exercise and the rule of dialectic, to direct
+                            and to stimulate it unremittingly. </p>
+                        <p xml:id="sec022003" n="128"> Then he will point out to us two things to be
+                            avoided above all: that is, making water facing the sun and cutting our
+                            nails while offering sacrifice. </p>
+                        <p xml:id="sec022004" n="129"> But after we have evacuated the lax appetites
+                            of our too-abundant pleasures through moral philosophy, and pared away,
+                            like nails, the sharp points of wrath and the claws of animosity, only
+                            then shall we finally begin to take part in the sacred rites, that is,
+                            in the above mentioned mysteries of Bacchus, and to dedicate ourselves
+                            to that contemplation of which the sun is rightly named the father and
+                            the guide. </p>
+                        <p xml:id="sec022005" n="130"> Finally Pythagoras will exhort us «to feed
+                            the cock», that is, to nourish the divine part of the soul with the
+                            knowledge of divine things, as if with substantial food and heavenly
+                            ambrosia. </p>
+                        <p xml:id="sec022006" n="131"> This is the cock whose glance the lion, that
+                            is, all earthly power, holds in fear and awe. </p>
+                        <p xml:id="sec022007" n="132"> This the cock to whom, we read in Job,
+                            intelligence was given. </p>
+                        <p xml:id="sec022008" n="133"> When this cock crows, erring man comes to his
+                            senses. </p>
+                        <p xml:id="sec022009" n="134"> This cock in the morning twilight joins his
+                            voice every day to the lauds that morning stars raise to God. </p>
+                        <p xml:id="sec022010" n="135"> This is the cock which Socrates, at the hour
+                            of his death, when he hoped to join the divine of his soul to the
+                            divinity of a greater world, said that he owed to Aesculapius, that is,
+                            to the physician of souls, now that he was beyond danger of any bodily
+                            illness. </p>
+                    </div>
+                </div>
+                <div type="section" n="§23" xml:id="sec023">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec023001" n="136"> But let us review also the records of the
+                                Chaldeans,<anchor type="annotation" n="62" xml:id="legacy62"/> and we shall see (if
+                            they are to be trusted) that the arts that open for mortals the road to
+                            happiness are the same. </p>
+                        <p xml:id="sec023002" n="137"> The Chaldean interpreters write that it was a
+                            saying of Zoroaster's that the soul is winged and that, when the wings
+                            fall from her, she is plunged into the body; but she flies back to
+                            heaven when the wings grow again. </p>
+                        <p xml:id="sec023003" n="138"> When his disciples asked him in what manner
+                            they could obtain souls with well-plumed wings and able to fly, he
+                            replied: «Wet them well in the waters of life». </p>
+                        <p xml:id="sec023004" n="139"> And when they asked him again where they
+                            might obtain these waters, he answered them by a parable (as was his
+                            custom): «God's paradise is purified and watered by four rivers. </p>
+                        <p xml:id="sec023005" n="140"> From these you may draw the waters that will
+                            save you. </p>
+                        <p xml:id="sec023006" n="141"> The name of the river which flows from the
+                            north is [q-s-t], which means the right; that which flows from the west
+                            is named [k-?-r-n], which means expiation; that which comes from the
+                            east is named [n-h-r] , that is light, while that from the south is
+                            [r-h-m-n-t], which may be translated as piety». </p>
+                        <p xml:id="sec023007" n="142"> Now consider carefully and with full
+                            attention, Fathers, what these doctrines of Zoroaster aim at: surely at
+                            nothing else than inducing us to wash away, by moral science, as by
+                            Iberian ways, the uncleanness from our eyes; and to rectify our gaze by
+                            dialectic, as if by the northern line. </p>
+                        <p xml:id="sec023008" n="143"> Then we should become accustomed, in the
+                            contemplation of nature, to endure the still feeble light of truth, as
+                            if it were the first rays of the rising sun, so that through theological
+                            piety and the most holy worship of God, we become able finally to
+                            endure, like the eagles of heaven, the dazzling splendor of the meridian
+                            sun. </p>
+                        <p xml:id="sec023009" n="144"> These are, perhaps, those celebrated morning,
+                            midday and evening thoughts first sung by David and then given a larger
+                            explanation by Augustine. </p>
+                        <p xml:id="sec023010" n="145"> This is the noonday light that directly
+                            inflames the Seraphim and equally illuminates the Cherubim. </p>
+                        <p xml:id="sec023011" n="146"> This is the country towards which our ancient
+                            father Abraham was ever advancing. </p>
+                        <p xml:id="sec023012" n="147"> This is the region where, according to the
+                            doctrines of the Cabalists and the Arabs, there is no place for unclean
+                            spirits. </p>
+                        <p xml:id="sec023013" n="148"> And, if it may be permitted, even in the form
+                            of a riddle, to bring anything at all of the most hidden mysteries into
+                            the open,<anchor type="annotation" n="63" xml:id="legacy63"/> since the sudden fall from
+                            heaven has condemned the head of man to dizziness and, according to
+                            Jeremiah, death has come in through the windows to smite our livers and
+                            breasts, let us call upon Raphael,<anchor type="annotation" n="64" xml:id="legacy64"/> the
+                            heavenly physician, that he may release us by moral philosophy and
+                            dialectic, as though by healing drugs. </p>
+                        <p xml:id="sec023014" n="149"> Then, when we are restored to health,
+                            Gabriel, the strength of God, will abide in us and, leading us through
+                            the marvels of nature and showing us the merit and the power of God
+                            everywhere, he will finally deliver us to the high priest Michael, who
+                            in turn will adorn us, who have completed our service to philosophy,
+                            with the insignia of theological priesthood, as with a crown of precious
+                            stones. </p>
+                    </div>
+                </div>
+                <div type="section" n="§24" xml:id="sec024">
+                    <p>On the way the contemporary conception of philosophy differs from mine</p>
+                    <div type="body">
+                        <p xml:id="sec024001" n="150"> These are the reasons, most reverend fathers,
+                            which have not only encouraged<anchor type="annotation" n="65" xml:id="legacy65"/> me but
+                            even invested me with the duty of studying philosophy<anchor type="annotation" n="66" xml:id="legacy66"/>. </p>
+                        <p xml:id="sec024002" n="151"> And I was certainly not going to expound
+                            them, except to answer those who are accustomed to condemning the study
+                            of philosophy, especially among men of high rank, or more generally, in
+                            men of a certain fortune<anchor type="annotation" n="67" xml:id="legacy67"/>. </p>
+                        <p xml:id="sec024003" n="152"> For this whole philosophizing is now (and
+                            this is the misfortune of our age) considered with contempt and
+                                insulted<anchor type="annotation" n="68" xml:id="legacy68"/>, rather than being
+                            occasion for honor and glory. </p>
+                        <p xml:id="sec024004" n="153"> Thus this deadly and monstrous persuasion has
+                            much invaded the minds of almost everybody - so that either no one or
+                            few persons must philosophize<anchor type="annotation" n="69" xml:id="legacy69"/>. </p>
+                        <p xml:id="sec024005" n="154"> As if it were a thing of very little worth to
+                            have before our eyes and at our hands, with the evidence resulting from
+                            the most accurate research<anchor type="annotation" n="70" xml:id="legacy70"/>, the causes
+                            of things, the ways of nature, the reason of the universe, the plans of
+                            God, the mysteries of heaven and earth, unless by it one may avidly seek
+                            after some favor or procure a profit for oneself. </p>
+                        <p xml:id="sec024006" n="155"> Rather, we lowered ourselves to the point
+                            (and it's such a sorrow) that now those only are considered wise who
+                            reduce philosophy<anchor type="annotation" n="71" xml:id="legacy71"/> to a
+                                merchandise<anchor type="annotation" n="72" xml:id="legacy72"/>. This would be like
+                                seeing<anchor type="annotation" n="73" xml:id="legacy73"/> the chaste Pallas, who
+                            dwells among men by a gift of the gods, rejected, chased out, whistled
+                            at in scorn, and with no one to love her, no one to protect<anchor type="annotation" n="74" xml:id="legacy74"/> her unless she, as a prostitute who has
+                                accepted<anchor type="annotation" n="75" xml:id="legacy75"/> a pittance for her
+                            deflowered virginity<anchor type="annotation" n="76" xml:id="legacy76"/>, pays back into
+                            the pocket<anchor type="annotation" n="77" xml:id="legacy77"/> of her love the
+                            ill-procured money. </p>
+                    </div>
+                </div>
+                <div type="section" n="§25" xml:id="sec025">
+                    <p>Personal statement on the value and the meaning of philosophy</p>
+                    <div type="body">
+                        <p xml:id="sec025001" n="156"> And I say all these things (not without the
+                            deepest grief and indignation) not against the princes, but against the
+                            philosophers of this age, who are convinced and openly declare that no
+                            one should pursue philosophy for the reason that there is no recompense
+                            for philosophers, no prizes awarded them. And they say so, although they
+                            show evidently by this one word that they are not true philosophers. </p>
+                        <p xml:id="sec025002" n="157"> Therefore, since their whole life has been
+                            dedicated to money-making and ambition, they are unable to embrace the
+                            knowledge of truth for its own sake. </p>
+                        <p xml:id="sec025003" n="158"> This much shall I grant to myself (and I
+                            shall not blush at all for praising myself in this respect) that I have
+                            never philosophized for any other reason than for the sake of being a
+                            philosopher, nor have I ever hoped or sought from my studies, from my
+                            watches, any reward or fruit other than the nourishment of my mind and
+                            the knowledge of the truth, always so greatly desired by me<anchor type="annotation" n="78" xml:id="legacy78"/>. </p>
+                        <p xml:id="sec025004" n="159"> And I have always been so avid for it and so
+                            enamored of it that, setting aside all private and public concerns, I
+                            devoted my whole self to the leisure of contemplation<anchor type="annotation" n="79" xml:id="legacy79"/>, from which no calumny of the envious
+                            persons, no slander of the enemies of wisdom have been able to divert me
+                            so far, nor will it be able in the future. </p>
+                        <p xml:id="sec025005" n="160"> Philosophy herself has taught me to rely on
+                            my own conscience rather than on the judgments of others, and always to
+                            consider not so much how to avoid with my behavior that people speak
+                            badly of me, as, rather, how not to say or do myself anything evil. </p>
+                    </div>
+                </div>
+                <div type="section" n="§26" xml:id="sec026">
+                    <p>On the list of the accusations and the attitude of defense without
+                        resentment</p>
+                    <div type="body">
+                        <p xml:id="sec026001" n="161"> In fact, most reverend fathers, I was not
+                            unaware that this disputation proposal of mine<anchor type="annotation" n="80" xml:id="legacy80"/>, would reveal itself as grateful and enjoyable to all you,
+                            who favor the good arts and have been willing to honor this discussion
+                            with your very authoritative presence, as it would be, on the contrary,
+                            troublesome and unpleasant to many others. I am also aware that there is
+                            no lack of those who criticize my undertaking; that they have done so
+                            previously and continue to do so for various reasons. </p>
+                        <p xml:id="sec026002" n="162"> Sincere and holy actions aimed at the
+                            attainment of virtue have been known to have at least as many, if not
+                            more critics<anchor type="annotation" n="81" xml:id="legacy81"/>, as those wicked and
+                            unjust actions perpetrated in the interest of perversion. </p>
+                        <p xml:id="sec026003" n="163"> There are, undeniably, those who disapprove
+                            of this field of discussion as well as this particular use of public
+                            debate, maintaining that they serve more as an ostentatious form of
+                            displaying intelligence than an attempt to increase one's own knowledge. </p>
+                        <p xml:id="sec026004" n="164"> There are also those who in truth do not
+                            scorn this kind of exercise; neither do they approve of it in me,
+                            however, since at a mere age of twenty-three years, I have dared to
+                            propose a discussion on the sublime mysteries of Christian theology, the
+                            most grueling questions of philosophy and of unexplored fields of
+                            knowledge, in a famous city, before a vast assembly of learned men, in
+                            the presence of the apostolic senate. </p>
+                        <p xml:id="sec026005" n="165"> Still others, although they allow me the
+                            right to debate, do not wish to grant me the permission to dispute nine
+                            hundred theses, deeming the task and my desire to participate in it as
+                            superfluous and unnecessary as beyond my intellectual powers. </p>
+                        <p xml:id="sec026006" n="166"> I would surrender readily to their reproach,
+                            had I been so taught by the philosophy which I profess; nor should I
+                            attempt to respond to it, as my philosophy also teaches, if I believed
+                            that this discussion had been initiated with the purpose of litigation. </p>
+                        <p xml:id="sec026007" n="167"> Therefore, we shall set aside any intention
+                            of hostile provocation<anchor type="annotation" n="82" xml:id="legacy82"/>, ridding our
+                            own souls of that resentment and spite which Plato assures us to be
+                            nonexistent in the rank of the Gods. Let us then amiably decide whether
+                            I am to begin this discussion, and whether I should entertain so large a
+                            number of theses. </p>
+                    </div>
+                </div>
+                <div type="section" n="§27" xml:id="sec027">
+                    <p>Response to the first order of accusations</p>
+                    <div type="body">
+                        <p xml:id="sec027001" n="168"> Firstly, I shall say very little by way of
+                            response to those who maliciously criticize this use of public
+                            disputation. It is a crime, if we must call it so, that has been
+                            committed on numerous occasions not only by me and by all of you,
+                            eminent doctors, who have partaken quite often in it and not without
+                            high honor and praise, but also by Plato, Aristotle, and all the most
+                            revered philosophers of every age. </p>
+                        <p xml:id="sec027002" n="169"> And these men were certain that, in order to
+                            arrive at the knowledge for which they searched, wholehearted engagement
+                            in rigorous public debate was imperative. </p>
+                        <p xml:id="sec027003" n="170"> In fact, just as the body's muscles become
+                            robust through gymnastics, so undoubtedly, in this literary gymnasium of
+                            sorts, the forces of the soul and the mind become firm and vigorous. </p>
+                        <p xml:id="sec027004" n="171"> I have come to believe that the message of
+                            the poets, in their singing of the arms of Pallas, and of the Hebrews in
+                            calling <figure>
+                                <graphic url="brzl.gif"/>
+                            </figure><anchor type="annotation" n="83" xml:id="legacy83"/>, or the sword the symbol of
+                            wise men, cannot be other than that this honorable pursuit of public
+                            debate is absolutely necessary in the attainment of wisdom. </p>
+                        <p xml:id="sec027005" n="172"> Perhaps it is this principle that influenced
+                            the Chaldeans' hope that, in the horoscope<anchor type="annotation" n="84" xml:id="legacy84"/> of one who was to become a philosopher, Mars would behold
+                            Mercury from three separate angles<anchor type="annotation" n="85" xml:id="legacy85"/>; it
+                            is almost as if philosophy, in the absence of all these contests and
+                            encounters, would become sluggish and dormant. </p>
+                    </div>
+                </div>
+                <div type="section" n="§28" xml:id="sec028">
+                    <p>Reply to the second accusation</p>
+                    <div type="body">
+                        <p xml:id="sec028001" n="173"> It is more difficult for me, though, to
+                            defend myself against those who pronounce me unequal to this
+                            undertaking; in fact, it seems that in pronouncing myself equal to it, I
+                            shall be branded with judgments of immodesty and an excessively high
+                            opinion of myself. If, instead, I admit that I am unequal to it, I shall
+                            be charged with recklessness and imprudence. </p>
+                        <p xml:id="sec028002" n="174"> So you see the difficulties into which I have
+                                run<anchor type="annotation" n="86" xml:id="legacy86"/>, the situation in which I am
+                                placed<anchor type="annotation" n="87" xml:id="legacy87"/>, since I cannot without
+                            blame promise about myself that which I must then fulfill without blame. </p>
+                        <p xml:id="sec028003" n="175"> I can refer, perhaps, to Job's famous
+                                saying<anchor type="annotation" n="88" xml:id="legacy88"/>, that the spirit exists in
+                            all men; and find comfort in what Timothy was told: ìLet no man despise
+                            thy young age.î </p>
+                        <p xml:id="sec028004" n="176"> To speak, though, from my own conscience, I
+                            could say<anchor type="annotation" n="89" xml:id="legacy89"/> with all sincerity that
+                            there is nothing great or singular in me. While I strongly uphold my own
+                            eager commitment to the good sciences, I do not attribute myself nor
+                            expect the title of scholar. </p>
+                        <p xml:id="sec028005" n="177"> To he who may ask how and why I have
+                            encumbered myself with so heavy a burden, I shall respond that it was
+                            most certainly not because I am unaware of my weakness; rather, I
+                            recognize that in this kind<anchor type="annotation" n="90" xml:id="legacy90"/> of
+                            intellectual battle, true profit lies in defeat. </p>
+                        <p xml:id="sec028006" n="178"> It follows, then, that even--and
+                            especially--the weak should not only take refuge in such battles, but
+                            should literally seek them out. </p>
+                        <p xml:id="sec028007" n="179"> He who has been defeated receives not an
+                            injury, but an advantage, in that he returns home richer than when he
+                            had set out: well educated and better equipped for future contests. </p>
+                        <p xml:id="sec028008" n="180"> Though I am but a weak soldier, I am
+                            nonetheless enlivened by this hope, and I have no fear of combat in so
+                            difficult a battle against the strongest and most vigorous adversaries. </p>
+                        <p xml:id="sec028009" n="181"> As to whether this investigation is judged
+                            reckless or otherwise, it is my hope that such decisions will be reached
+                            with less regard to my age than to the ultimate outcome of the contest.
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="§29" xml:id="sec029">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec029001" n="182"> It remains in the third place for me to
+                            answer those who take offence by the large number of my propositions, as
+                            if this burden lay on their shoulders and it were not rather I alone who
+                            have to endure this toil, as great as it may be. </p>
+                        <p xml:id="sec029002" n="183"> It is surely unbecoming and excessively
+                            captious to wish to set limits to another's efforts and, as Cicero says,
+                            to desire mediocrity in a matter where the greater is the better. </p>
+                        <p xml:id="sec029003" n="184"> In undertaking so great a venture it was
+                            necessary for me either to fail or to succeed. If I should succeed, I do
+                            not see why what is praiseworthy to do over ten theses should be deemed
+                            blameworthy to do over nine hundred. </p>
+                        <p xml:id="sec029004" n="185"> If I should fail, they will have grounds for
+                            accusing me, if they hate me and for excusing me, if they love me. </p>
+                        <p xml:id="sec029005" n="186"> For a young man who has failed through
+                            weakness of talent or want of learning in so serious and great an
+                            undertaking will be more deserving of pardon than of blame. </p>
+                        <p xml:id="sec029006" n="187"> Indeed, according to the poet: "If strength
+                            fails, audacity will surely be praised; and in great undertaking to have
+                            willed is enough." </p>
+                        <p xml:id="sec029007" n="188"> And if many in our age, imitating Gorgias of
+                            Leontini, have been accustomed, not without praise, to propose a
+                            disputation not merely on nine hundred questions but on all questions
+                            about all arts, why should I not be allowed to dispute without blame on
+                            many questions indeed, but at least fixed and determined? </p>
+                    </div>
+                </div>
+                <div type="section" n="§30" xml:id="sec030">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec030001" n="189"> But they say this is needless and ambitious. </p>
+                        <p xml:id="sec030002" n="190"> Yet I contend that I did this not needlessly,
+                            but of necessity; and if they should consider with me my reasons for
+                            philosophizing, they must even reluctantly admit that it is clearly of
+                            necessity. </p>
+                        <p xml:id="sec030003" n="191"> For those who have devoted themselves to
+                            anyone of the schools of philosophy, siding for instance with Thomas or
+                            with Scotus, who are now most followed, can surely make trial of their
+                            doctrines in the discussion of but a few questions. </p>
+                        <p xml:id="sec030004" n="192"> But not to swear by anyone's word, I have
+                            resolved myself to range through all masters of philosophy, to examine
+                            all books, and to become acquainted with all schools. </p>
+                        <p xml:id="sec030005" n="193"> Therefore, since I had to speak of all
+                            philosophers, lest I might seem committed to a particular doctrine,
+                            should I have, as its defender, neglected the others, there could not
+                            fail to be very many questions concerning all of them together, even if
+                            only a few about each one were severally proposed. </p>
+                        <p xml:id="sec030006" n="194"> Nor should anyone condemn me for it, that
+                            "wherever the circumstances bear me, there I am brought as a guest." </p>
+                        <p xml:id="sec030007" n="195"> For it was a rule observed by all the
+                            ancients in studying every kind of writers never to pass over any
+                            commentaries they were able to read, and especially by Aristotle, who
+                            for this reason was called by Plato , that is, "the reader"; and it
+                            certainly shows narrowness of mind to confine oneself within one Porch
+                            or Academy. </p>
+                        <p xml:id="sec030008" n="196"> Nor can anyone rightly choose his own
+                            doctrine from all, unless he has first made himself familiar with all of
+                            them. </p>
+                        <p xml:id="sec030009" n="197"> Moreover, there is in each school something
+                            distinctive, which it has not in common with any other. </p>
+                    </div>
+                </div>
+                <div type="section" n="§31" xml:id="sec031">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec031001" n="198"> And now, to begin with the men of our own
+                            faith to whom philosophy came last, we find in John [Duns] Scotus a
+                            vigorous dialectic, in Thomas [Aquinas] a balanced solidity, in Giles
+                            [of Rome] a neat precision, in Francis [of Meyronnes] a penetrating
+                            acuteness, in Albert [the Great] an ancient and grand amplitude, in
+                            Henry [of Ghent], as it has seemed to me, a constant and venerable
+                            solemnity. </p>
+                        <p xml:id="sec031002" n="199"> Among the Arabs, we find in Averroes an
+                            unshaken firmness, in Avempace, as in Al-Farabi a thoughtful
+                            seriousness, in Avicenna a divine Platonic sublimity. </p>
+                        <p xml:id="sec031003" n="200"> Among the Greeks philosophy is certainly
+                            terse in general and chaste in particular; in Simplicius it is rich and
+                            copious, in Themistius elegant and compendious, in Alexander [of
+                            Aphrodisias] learned and self-consistent, in Theophrastus seriously
+                            worked out, in Ammonius smooth and agreeable. </p>
+                        <p xml:id="sec031004" n="201"> And if you turn to the Platonists, to mention
+                            but a few, in Porphyry you will be pleased by the wealth of his topics
+                            and the complexity of his religion; in Iamblichus you will be awed by an
+                            occult philosophy and the mysteries of the barbarians; in Plotinus there
+                            is no one thing in particular for you to admire, for he offers himself
+                            to admiration in every part, as the Platonists themselves take pains
+                            even in understanding his wisely allusive discourse, when he speaks
+                            divinely of things divine and far aloof humanity of human things. </p>
+                        <p xml:id="sec031005" n="202"> I pass over the more recent ones, Proclus,
+                            abunding in Asian fertility, and those who stem from him, Hermias,
+                            Damascius, Olympiodorus, and many others, in all of whom that , that is,
+                            that divine something which is the distinctive mark of the Platonists,
+                            always shines out. </p>
+                    </div>
+                </div>
+                <div type="section" n="§32" xml:id="sec032">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec032001" n="203"> It should be added that, if there is a school
+                            which attacks the more established truths and ridicules with calumny the
+                            valid arguments of reason, it strengthens rather than weakens the truth
+                            and, like a flame stirred by agitation, it excites rather than
+                            extinguishes it. </p>
+                        <p xml:id="sec032002" n="204"> This is the reason which has moved me in
+                            wishing to call to the attention the opinions not only of a single
+                            doctrine (as some would have liked), but of every sort of doctrine, so
+                            that through the comparison of many schools and the discussion of
+                            several philosophies that "effulgence of truth'' which Plato mentions in
+                            his letters might shine more intensely to our minds, like a sun rising
+                            from the high. </p>
+                        <p xml:id="sec032003" n="205"> What would have been the point of dealing
+                            only with the philosophy of the Latins, that is, of Albert, Thomas,
+                            Scotus, Giles, Francis and Henry, leaving /137r/ the Greek and Arab
+                            philosophers aside? </p>
+                        <p xml:id="sec032004" n="206"> For all wisdom has flowed from the barbarians
+                            to the Greeks and from the Greeks to us. </p>
+                        <p xml:id="sec032005" n="207"> So our authors have always thought it enough
+                            for them, in matters of philosophy, to rest on foreign discoveries and
+                            to cultivate the doctrines of others. </p>
+                        <p xml:id="sec032006" n="208"> What would have been the point of dealing
+                            with natural things with the Peripatetics, without summoning the Academy
+                            of the Platonists, whose doctrine on divine things, as Augustine
+                            witnesses, has always been held the most sacred of all philosophies and
+                            now, as far as I now, has been brought forward by me for the first time
+                            after many centuries (may there be no envy in my words) to be submitted
+                            to public disputation? </p>
+                        <p xml:id="sec032007" n="209"> And what would have been the point of dealing
+                            with the opinions of others, as many as they were, if like the one who
+                            comes to the banquet of the wise without contributing anything, I should
+                            bring nothing of mine, nothing produced and worked out by my own mind? </p>
+                        <p xml:id="sec032008" n="210"> It is certainly undignifying, as Seneca says,
+                            to know only through the books and, as though the discoveries of our
+                            ancestors had closed the way to our own industry and the power of nature
+                            were exhausted in us, to bring about nothing from ourselves which, if it
+                            could not demonstrate the truth, might at least hint to it even from
+                            afar. </p>
+                        <p xml:id="sec032009" n="211"> For if a farmer hates sterility in his field
+                            and a husband in his wife, certaily the divine mind the more will hate
+                            the barren soul which is joined and associated with itself, the more it
+                            expects from it a far nobler offspring. </p>
+                    </div>
+                </div>
+                <div type="section" n="§33" xml:id="sec033">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec033001" n="212"> Hence I have not been content to add, beside
+                            the common doctrines, many principles taken from the ancient theology of
+                            Hermes Trismegistus, many more drawn from the teachings of the Chaldeans
+                            and of Pythagoras, and many others deriving from the more secret
+                            mysteries of the Jews, and I have also proposed for disputation a good
+                            many discoveries and reflections of my own both on things natural and
+                            divine. </p>
+                    </div>
+                </div>
+                <div type="section" n="§34" xml:id="sec034">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec034001" n="213"> In the first place I have proposed the
+                            concord of Plato and Aristotle, believed by many before me, but
+                            adequately proved by no one. Among the Latins, Boethius promised to do
+                            it, but there is no evidence that he has ever done what he always wished
+                            to do. </p>
+                        <p xml:id="sec034002" n="214"> Among the Greeks, Simplicius made the same
+                            declaration, but would that he had fulfilled his promise. 215. Agustine
+                            too writes that there were not a few Achademics who tried with their
+                            most subtle arguments to prove the same thing, namely, that the
+                            philosophy of Plato and Aristotle was the same. </p>
+                        <p xml:id="sec034003" n="216"> John [Philoponos] the Grammarian likewise,
+                            although he says that Plato differs from Aristotle only for those who do
+                            not understand what Plato says, nevertheless left it to posterity to
+                            prove it. </p>
+                        <p xml:id="sec034004" n="217"> I have also added many theses where I
+                            maintain that several statements by Thomas and Scotus which are thought
+                            to be discordant are in agreement, and many others where I maintain the
+                            same about statements by Averroes and Avicenna. </p>
+                    </div>
+                </div>
+                <div type="section" n="§35" xml:id="sec035">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec035001" n="218"> In the second place, whoever holds not only
+                            the theses which I have discovered both in the Aritotelian and in the
+                            Platonic philosophy, but also the seventy-two new theses which I have
+                            proposed both in physics and in metaphysics (if I am not wrong, as will
+                            soon be clear to me) will be able to solve any question proposed about
+                            things natural and divine on a principle quite other than we are taught
+                            by that philosophy which is read in the schools and cultivated by the
+                            doctors of this age. </p>
+                        <p xml:id="sec035002" n="219"> Nor it ought to induce so much to amazement
+                            that in my early years, at a tender age at which, as some contend, one
+                            is hardly permitted to read the works of others, I should wish to
+                            introduce a new philosophy, as much as it ought to induce either to
+                            praise if it is defensible, or to condemnation, if it is refutable,
+                            those who in the end, when they will judge of my discoveries and my
+                            learning, should reckon up not the years of their author, but rather
+                            their own merits or demerits. </p>
+                    </div>
+                </div>
+                <div type="section" n="§36" xml:id="sec036">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec036001" n="220"> There is, beside this, still another way of
+                            philosophizing by means of numbers, which I have presented as new, but
+                            which is in fact old, and was observed by the ancient theologians, by
+                            Pythagoras in particular, by Aglaophamos, Philolaus and Plato, and by
+                            the earlier Platonists. </p>
+                        <p xml:id="sec036002" n="221"> But in this age, this doctrine, like other
+                            famous ones, has so passed out of use by the carelessness of posterity,
+                            that hardly any traces of it are to be found. </p>
+                        <p xml:id="sec036003" n="222"> Plato writes in the Epinomis that, among all
+                            liberal arts and contemplative sciences the science of number /137v/ is
+                            the chief and most divine. </p>
+                        <p xml:id="sec036004" n="223"> And again, asking why man is the wisest of
+                            animals, he answers, "Because he knows how to number". </p>
+                        <p xml:id="sec036005" n="224"> Aristotle also mentions this opinion in his
+                            Problems. </p>
+                        <p xml:id="sec036006" n="225"> Abumasar writes that it was a saying of
+                            Avenzoar of Babylon that he who knows how to number knows all things. </p>
+                        <p xml:id="sec036007" n="226"> These things could not possibly be true if
+                            they had understood by the art of number that art at which now the
+                            merchants are especially skilful. Also Plato witnesses this, when he
+                            openly warns us not to believe that this divine arithmetic be the
+                            arithmetic of the merchants. </p>
+                        <p xml:id="sec036008" n="227"> Since it seemed to me, after long nights of
+                            study, that I had thoroughly examined that arithmetic which is so
+                            praised, in order to put these matters to a test, I promised that I
+                            would answer in public through the art of number to seventy-four
+                            questions which are considered among the most important in physics and
+                            divinity. </p>
+                    </div>
+                </div>
+                <div type="section" n="§37" xml:id="sec037">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec037001" n="228"> I have also proposed some theses about magic,
+                            in which I have shown that there are two forms of magic, one of which
+                            depends entirely on the work and powers of demons and is, in my faith,
+                            an execrable and monstrous thing. </p>
+                        <p xml:id="sec037002" n="229"> The other is, when keenly examined, nothing
+                            but the absolute perfection of natural philosophy. </p>
+                        <p xml:id="sec037003" n="230"> The Greeks mentioned both of them, but they
+                            call the former * * * , by no means honouring it by the name of magic,
+                            wheres they call the latter by the proper and exclusive name of * * * ,
+                            the perfect and highest wisdom, as it were. </p>
+                        <p xml:id="sec037004" n="231"> As a matter fact, as Porphyry says, in the
+                            Persian language magus means the same as expert and interpreter of
+                            divine things with us. </p>
+                        <p xml:id="sec037005" n="232"> So there is a great or even, Fathers, the
+                            greatest difference and disparity between these two arts. </p>
+                        <p xml:id="sec037006" n="233"> The former is condemned and abhorred not only
+                            by the Christian religion, but by all laws and every well-constituted
+                            state. </p>
+                        <p xml:id="sec037007" n="234"> The latter is approved and embraced by all
+                            wise men and all peoples devoted to heavenly and divine things. </p>
+                        <p xml:id="sec037008" n="235"> The former is the most deceitful of arts, the
+                            latter is the highest and most holy philosophy. The former is sterile
+                            and vain, the latter is sure, reliable and firm. </p>
+                        <p xml:id="sec037009" n="236"> The former has always been concealed by
+                            whoever has practised it, because it would have been shameful and
+                            ignominious to its author, whereas since antiquity the highest renown
+                            and glory of letters has almost always been expected from the latter. </p>
+                        <p xml:id="sec037010" n="237"> No philosopher nor man eager to learn good
+                            arts has ever been studious the former, but to learn the latter
+                            Pythagoras, Empedocles, Plato and Democritus crossed the seas, taught it
+                            when they returned and held it chief among the arcane doctrines. </p>
+                        <p xml:id="sec037011" n="238"> The former is not based on any principles nor
+                            approved by any reliable author; the latter, ennobled as it were by most
+                            celebrated parents, has two authors above all: Zalmolxis, who was
+                            imitated by Abbaris the Hyperborean, and Zoroaster, not the one of whom
+                            perhaps you are thinking, but the son of Oromasius. </p>
+                        <p xml:id="sec037012" n="239"> If we ask Plato what is the magic of both
+                            these men, he will answer in the Alcibiades that the magic of Zoroaster
+                            is nothing else than that science of divine things in which the kings of
+                            the Persians educated their sons, so that they might learn to rule their
+                            state on the example of the order of the universe. </p>
+                        <p xml:id="sec037013" n="240"> And in the Charmides he will answer that the
+                            magic of Zamolxis is the medicine of the soul, or that medicine by which
+                            temperance is obtained for the soul, as by the other one health is
+                            obtained for the body. </p>
+                    </div>
+                </div>
+                <div type="section" n="§38" xml:id="sec038">
+                    <p/>
+                    <div type="body">
+                        <p xml:id="sec038001" n="241"> Afterwards Charondas, Damigeron, Apollonius,
+                            Osthanes and Dardanus persevered in their footsteps. </p>
+                        <p xml:id="sec038002" n="242"> And so did Homer, who concealed this wisdom
+                            too, in the manner he concealed all the other ones, under the wanderings
+                            of his Ulysses, as I shall sometime prove in my Poetic Theology. </p>
+                        <p xml:id="sec038003" n="243"> Eudoxus and Hermippus persevered. </p>
+                        <p xml:id="sec038004" n="244"> And almost all who have examined closely the
+                            Pythagorean and Platonic mysteries have persevered. </p>
+                        <p xml:id="sec038005" n="245"> Among the later philosophers, then, I find
+                            three who have scented it, the Arabian Al-Kindi, Roger Bacon and William
+                            of Paris. </p>
+                        <p xml:id="sec038006" n="246"> Plotinus also mentions it, where he shows
+                            that a magus is the minister and not the maker of nature. That most wise
+                            man approves /138r/ and justifies this kind of magic, so abhorring the
+                            other that, invited to the rites of evil demons, he said that it was
+                            more fitting for them to come to him than for him to go to them, and
+                            rightly so. </p>
+                        <p xml:id="sec038007" n="247"> For just as the former makes man a slave and
+                            pawn of wicked powers, the latter makes him their lord and master. </p>
+                        <p xml:id="sec038008" n="248"> The former, in the end, cannot claim for
+                            itself the name of euther art or science, whereas the latter, full as it
+                            is of the loftiest mysteries, comprises the deepest contemplation of the
+                            most secret things and ultimately the knowledge of all nature. </p>
+                        <p xml:id="sec038009" n="249"> The latter, in calling out, as it were, from
+                            their hiding places into the light the good powers scattered and sown in
+                            the world by the benevolent care of God, does not so much make miracles,
+                            as sedulously serve nature which makes them. </p>
+                        <p xml:id="sec038010" n="250"> Having looked with deeper insight into that
+                            harmony of the universe, which the Greeks more expressively call , and
+                            having observed the mutual cognition that natures have of each other,
+                            this latter, by addressing to each thing its innate charms, which are
+                            called called the of the magicians, brings out into the open, as if it
+                            were itself the maker, the miracles lying hidden in the recesses of the
+                            world, in the womb of nature, in the mysterious storerooms of God, and,
+                            as the farmer marries elm to vine, so does the magus marry earth to
+                            heaven, that is, the lower things to the endowments and powers of the
+                            higher. </p>
+                        <p xml:id="sec038011" n="251"> Hence it comes about that the former appears
+                            as monstrous and harmful, as the latter divine and salutary. </p>
+                        <p xml:id="sec038012" n="252"> And chiefly because the former, in subjecting
+                            man to the enemies of God, drives him away from Him, whereas the latter
+                            prompts him to admire the works of God, so that most surely follow such
+                            charity, faith and hope that lean on Him. </p>
+                        <p xml:id="sec038013" n="253"> For nothing induces us more to religion and
+                            the worship of God than the assiduous contemplation of His wonders, so
+                            that, should we have aptly examined them by means of this natural magic
+                            I am discussing, more ardently aroused to the worship and love of their
+                            maker, we would be forced to sing: "The heavens are full, all of the
+                            earth is full of the majesty of Thy glory." </p>
+                        <p xml:id="sec038014" n="254"> But this is enough about magic and I have
+                            said this much about it because I know that there are many who, just as
+                            dogs always bark at strangers, so they hate too what they do not
+                            understand. </p>
+                    </div>
+                </div>
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="../Template/schema/VHLTEINew.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<?TEIVERSION 1.3.0. Last updated on February 1st 2009.?>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Decameron - Florio</title>
+				<author>Boccaccio</author>
+				<respStmt>
+					<resp>Revised and edited by</resp>
+					<name>Andrew Ashton</name>
+					<name>Elli Mylonas</name>
+					<name>Dongbo Wang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Scholarly Technology Group, Brown University</distributor>
+				<address>
+					<addrLine>Box 1841, Brown University, Providence, RI 02912</addrLine>
+				</address>
+				<availability>
+					<p>Freely available on a non-commercial basis.</p>
+				</availability>
+				<date when="1968">2008</date>
+			</publicationStmt>
+			<sourceDesc n="[NUMBER FROM THE SOURCE FILE sourceDesc ELEMENT IF APPLICABLE]">
+				<bibl>[DESCRIPTION FROM SOURCE FILE IF APPLICABLE]</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>[PROJECT DESCRIPTION BY ELLI/ANDY]</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>[ANY EDITORIAL STATEMENTS BY MASSIMO/ELLI/ANDY]</p>
+			</editorialDecl>
+			<!-- THIS WILL NEED TO BE TWEAKED FOR EACH FILE? WILL CLARIFY
+				<refsDecl xml:id="ASLREF">
+				<cRefPattern
+				matchPattern="(\S+) ([^.]+)\.(.*)"
+				replacementPattern="#xpath(//div1[@n='$1']/div2/[@n='$2']//lb[@n='$3'])">
+				<p>A reference is created by assembling the following,
+				in the reverse order as that listed here:
+				<list>
+				<item>the <att>n</att> value of the preceding <gi>lb</gi>
+				</item>
+				<item>a period</item>
+				<item>the <att>n</att> value of the ancestor <gi>div2</gi>
+				</item>
+				<item>a space</item>
+				<item>the <att>n</att> value of the parent <gi>div1</gi>
+				</item>
+				</list>
+				</p>
+				</cRefPattern>
+				</refsDecl>-->
+		</encodingDesc>
+		<!-- NOT SURE ABOUT THESE, WILL TALK TO SYD 
+			<encodingDesc>
+			<tagsDecl>
+			<rendition id="r.head">indent(1)case(allcaps)</rendition>
+			<rendition id="r.p">break(yes)pre(¶)</rendition>
+			<rendition id="r.trailer">align(center)</rendition>
+			<tagUsage gi="trailer" render="r.trailer"></tagUsage>
+			<tagUsage gi="p" render="r.p"></tagUsage>
+			<tagUsage gi="head" render="r.head"></tagUsage>
+			</tagsDecl>
+			</encodingDesc>-->
+		<revisionDesc>
+			<change when="1991-11-11">Revised 06/2009 by STG</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="section" xml:id="sec001" n="§1">
+				<div type="body">
+					<p xml:id="sec001001" n="1">
+						<pb xml:id="page132r" n="1" ed="editioPrinceps" facs="1.jpg"/>
+						<pb xml:id="bon1" n="1" ed="exemplarBononiae" facs="11.jpg"/>
+						<pb xml:id="brun1" n="1" ed="exemplarBrunensis" facs="1.jpg"/> Legi,<anchor
+							type="annotation" n="1" xml:id="legacy1"/> Patres Colendissimi, in
+						Arabum monumentis,<anchor type="annotation" n="2" xml:id="legacy2"/>
+						interrogatum Abdalam<anchor type="annotation" n="3" xml:id="legacy3"/>
+							sarracenum,<anchor type="annotation" n="4" xml:id="legacy4"/> quid in
+						hac quasi mundana scena<anchor type="annotation" n="5" xml:id="legacy5"/>
+						admirandum maxime spectaretur, nihil spectari homine mirabilius
+							respondisse.<anchor type="annotation" n="6" xml:id="legacy6"/>
+					</p>
+					<p xml:id="sec001002" n="2"> Cui sententiae illud Mercurii adstipulatur:
+						«Magnum, o Asclepi, miraculum est homo».<anchor type="annotation" n="7"
+							xml:id="legacy7"/>
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec002" n="§2">
+				
+				<div type="body">
+					<p xml:id="sec002001" n="3"> Horum dictorum rationem cogitanti mihi<anchor
+							type="annotation" n="8" xml:id="legacy8"/> non satis illa faciebant,
+						quae multa de humanae naturae praestantia afferuntur a multis<anchor
+							type="annotation" n="9" xml:id="legacy9"/>: esse hominem creaturarum
+						internuntium, superis familiarem, regem inferiorum; sensuum perspicacia,
+						rationis indagine, intelligentiae lumine naturae interpretem; stabilis evi
+						et fluxi temporis interstitium, et (quod Persae<anchor type="annotation"
+							n="10" xml:id="legacy10"/> dicunt) mundi copulam, immo hymeneum,<anchor
+							type="annotation" n="11" xml:id="legacy11"/> ab angelis, teste Davide,
+						paulo deminutum.<anchor type="annotation" n="12" xml:id="legacy12"/>
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec003" n="§3">
+				
+				<div type="body">
+					<p xml:id="sec003001" n="4"> Magna haec quidem, sed non principalia, idest quae
+						summae admirationis privilegium sibi iure<anchor type="annotation" n="13"
+							xml:id="legacy13"/> vindicent. </p>
+					<p xml:id="sec003002" n="5"> Cur enim non ipsos angelos et beatissimos caeli
+						choros magis admiremur? </p>
+					<p xml:id="sec003003" n="6"> Tandem intellexisse mihi sum visus, cur
+						felicissimum proindeque dignum omni admiratione animal sit homo, et quae sit
+						demum illa conditio quam in universi serie sortitus sit, non brutis modo,
+						sed <pb xml:id="brun2" n="2" ed="exemplarBrunensis" facs="2.jpg"/><pb
+							xml:id="bon2" n="2" ed="exemplarBononiae" facs="12.jpg"/>etastris, sed
+						ultramundanis mentibus invidiosam. </p>
+					<p xml:id="sec003004" n="7"> Res supra fidem et mira. </p>
+					<p xml:id="sec003005" n="8"> Quidni? Nam et propterea magnum miraculum et
+						admirandum profecto animal iure homo et dicitur et existimatur. </p>
+					<p xml:id="sec003006" n="9"> Sed quae nam<anchor type="annotation" n="14"
+							xml:id="legacy14"/> ea sit audite, Patres, et benignis auribus<anchor
+							type="annotation" n="15" xml:id="legacy15"/> pro vestra humanitate hanc
+						mihi operam condonate. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec004" n="§4">
+				
+				<div type="body">
+					<p xml:id="sec004001" n="10"> Iam summus<anchor type="annotation" n="16"
+							xml:id="legacy16"/> Pater architectus deus hanc quam videmus<anchor
+							type="annotation" n="17" xml:id="legacy17"/> mundanam domum, divinitatis
+						templum augustissimum, archanae legibus sapientiae fabrefecerat. </p>
+					<p xml:id="sec004002" n="11"> Supercaelestem regionem mentibus decorarat;
+						ethereos globos aeternis animis vegetarat; excrementarias et feculentas
+						inferioris mundi partes<anchor type="annotation" n="18" xml:id="legacy18"/>
+						omnigena animalium turba complerat. </p>
+					<p xml:id="sec004003" n="12"> Sed, opere consumato, desiderabat artifex esse
+						aliquem qui tanti operis rationem perpenderet, pulchritudinem amaret,
+						magnitudinem admiraretur. </p>
+					<p xml:id="sec004004" n="13"> Idcirco iam rebus omnibus (ut Moses Timeusque
+						testantur) absolutis, de producendo homine postremo cogitavit.<anchor
+							type="annotation" n="19" xml:id="legacy19"/>
+					</p>
+					<p xml:id="sec004005" n="14"> Verum nec erat in archetipis unde novam sobolem
+							effingeret<anchor type="annotation" n="20" xml:id="legacy20"/> nec in
+						thesauris quod novo filio hereditarium largiretur,<anchor type="annotation"
+							n="21" xml:id="legacy21"/> nec in subsellis<anchor type="annotation"
+							n="22" xml:id="legacy22"/> totius orbis, ubi universi contemplator iste
+						sederet. </p>
+					<p xml:id="sec004006" n="15"> Iam plena omnia; omnia summis, mediis infimisque
+						ordinibus fuerant distributa. </p>
+					<p xml:id="sec004007" n="16"> Sed non erat paternae potestatis in extrema
+						faetura quasi effetam defecisse; non erat sapientiae, consilii inopia in re
+						necessaria fluctuasse; non erat benefici amoris, ut qui in aliis esset
+							divinam<anchor type="annotation" n="23" xml:id="legacy23"/>
+						liberalitatem laudaturus in se illam damnare cogeretur. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec005" n="§5">	
+				<div type="body">
+					<p xml:id="sec005001" n="17"> Statuit tandem optimus artifex, ut cui dari nihil
+						proprium poterat<anchor type="annotation" n="24" xml:id="legacy24"/> commune
+						esset quicquid privatum singulis fuerat. </p>
+					<p xml:id="sec005002" n="18"> Igitur hominem accepit indiscretae opus
+							imaginis<anchor type="annotation" n="25" xml:id="legacy25"/> atque in
+						mundi positum meditullio<anchor type="annotation" n="26" xml:id="legacy26"/>
+						sic est alloquutus: «Nec certam sedem, nec propriam faciem, nec munus ullum
+						peculiare tibi dedimus, o Adam, ut quam sedem, quam faciem, quae munera tute
+						optaveris, ea, pro voto, pro tua sententia, habeas et possideas. </p>
+					<p xml:id="sec005003" n="19"> Definita caeteris natura intra praescriptas a
+						nobis leges cohercetur. </p>
+					<p xml:id="sec005004" n="20">
+						<pb xml:id="brun3" n="3" ed="exemplarBrunensis" facs="3.jpg"/>Tu, nullis
+						angustiis cohercitus, pro tuo arbitrio, in cuius manu te posui, tibi illam
+						prefinies. </p>
+					<p xml:id="sec005005" n="21"> Medium te<anchor type="annotation" n="27"
+							xml:id="legacy27"/> mundi posui, ut circumspiceres inde commodius
+						quidquid est in mundo. </p>
+					<p xml:id="sec005006" n="22"> Nec te celestem neque terrenum, neque mortalem
+						neque immortalem fecimus, ut tui ipsius quasi arbitrarius
+							honorariusque<anchor type="annotation" n="28" xml:id="legacy28"/>
+						<anchor type="annotation" n="29" xml:id="legacy29"/> plastes in quam <pb
+							xml:id="page132v" n="2" ed="editioPrinceps" facs="2.jpg"/> malueris tute
+							formam<anchor type="annotation" n="30" xml:id="legacy30"/> effingas. </p>
+					<p xml:id="sec005007" n="23"> Poteris in inferiora quae sunt bruta<anchor
+							type="annotation" n="31" xml:id="legacy31"/> degenerare; poteris in
+						superiora quae sunt divina ex tui animi sententia regenerari». </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec006" n="§6">			
+				<div type="body">
+					<p xml:id="sec006001" n="24"> O summam Dei patris liberalitatem<anchor
+							type="annotation" n="32" xml:id="legacy32"/>, summam et admirandam
+						hominis foelicitatem<anchor type="annotation" n="33" xml:id="legacy33"/>
+						<anchor type="annotation" n="34" xml:id="legacy34"/>! </p>
+					<p xml:id="sec006002" n="25"> Cui datum id habere quod optat, id esse quod
+						velit. </p>
+					<p xml:id="sec006003" n="26"> Bruta simul atque nascuntur<anchor
+							type="annotation" n="35" xml:id="legacy35"/> id secum afferunt (ut ait
+						Lucilius) e bulga<anchor type="annotation" n="36" xml:id="legacy36"/> matris
+						quod possessura sunt. </p>
+					<p xml:id="sec006004" n="27"> Supremi spiritus aut ab initio aut paulo mox id
+						fuerunt, quod sunt futuri in perpetuas aeternitates. </p>
+					<p xml:id="sec006005" n="28"> Nascenti homini omnifaria semina et omnigenae
+						vitae germina<anchor type="annotation" n="37" xml:id="legacy37"/> indidit
+							Pater<anchor type="annotation" n="38" xml:id="legacy38"/>. </p>
+					<p xml:id="sec006006" n="29"> Quae quisque excoluerit illa adolescent, et
+						fructus suos ferent in illo. </p>
+					<p xml:id="sec006007" n="30"> Si vegetalia planta fiet, si sensualia obrutescet,
+						si rationalia caeleste evadet animal<anchor type="annotation" n="39"
+							xml:id="legacy39"/>, si intellectualia angelus erit et Dei
+							filius.<anchor type="annotation" n="40" xml:id="legacy40"/>
+					</p>
+					<p xml:id="sec006008" n="31"> Et si nulla creaturarum sorte contentus in
+						unitatis centrum suae se receperit, unus cum Deo spiritus factus<anchor
+							type="annotation" n="41" xml:id="legacy41"/>, in solitaria Patris
+							caligine<anchor type="annotation" n="42" xml:id="legacy42"/> qui est
+						super omnia constitutus omnibus antestabit. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec007" n="§7">
+				
+				<div type="body">
+					<p xml:id="sec007001" n="32"> Quis hunc nostrum chamaeleonta non
+							admiretur?<anchor type="annotation" n="43" xml:id="legacy43"/>
+					</p>
+					<p xml:id="sec007002" n="33"> Aut omnino quis aliud quicquam<anchor
+							type="annotation" n="44" xml:id="legacy44"/> admiretur magis? </p>
+					<p xml:id="sec007003" n="34"> Quem non immerito Asclepius Atheniensis
+						versipellis huius et se ipsam transformantis naturae argumento per Protheum
+						in mysteriis significari dixit.<anchor type="annotation" n="45"
+							xml:id="legacy45"/>
+					</p>
+					<p xml:id="sec007004" n="35"> Hinc illae apud Hebreos et Pythagoricos
+						methamorphoses celebratae. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec008" n="§8">
+				
+				<div type="body">
+					<p xml:id="sec008001" n="36"> Nam et Hebreorum theologia secretior nunc Enoch
+						sanctum in angelum divinitatis, quem vocant<figure>
+							<graphic url="Metatron.jpg"/>
+						</figure> Metatron, nunc in alia alios numina reformant.<anchor
+							type="annotation" n="46" xml:id="legacy46"/>
+					</p>
+					<p xml:id="sec008002" n="37"> Et Pythagorici scelestos homines in bruta
+						deformant et, si Empedocli creditur, etiam in plantas.<anchor
+							type="annotation" n="47" xml:id="legacy47"/>
+					</p>
+					<p xml:id="sec008003" n="38"> Quos imitatus Maumeth illud frequens habebat in
+						ore, qui a divina lege recesserit brutum evadere, et merito quidem.<anchor
+							type="annotation" n="48" xml:id="legacy48"/>
+					</p>
+					<p xml:id="sec008004" n="39"> Neque enim plantam cortex, sed stupida et nihil
+						sentiens natura; neque iumenta corium, sed bruta anima et sensualis; nec
+							caelum<anchor type="annotation" n="49" xml:id="legacy49"/> orbiculatum
+						corpus, sed recta ratio; nec <pb xml:id="bon3" n="3" ed="exemplarBononiae"
+							facs="13.jpg"/><pb xml:id="brun4" n="4" ed="exemplarBrunensis"
+							facs="4.jpg"/>sequestratio corporis, sed spiritalis<anchor
+							type="annotation" n="50" xml:id="legacy50"/> intelligentia angelum
+						facit. </p>
+					<p xml:id="sec008005" n="40"> Si quem enim videris deditum ventri, humi
+						serpentem hominem, frutex est, non homo, quem vides; si quem in fantasiae
+						quasi Calipsus vanis praestigiis cecucientem et subscalpenti delinitum
+						illecebra sensibus mancipatum, brutum est, non homo, quem vides.<anchor
+							type="annotation" n="51" xml:id="legacy51"/>
+					</p>
+					<p xml:id="sec008006" n="41"> Si recta philosophum ratione omnia discernentem,
+						hunc venereris; caeleste est animal, non terrenum. </p>
+					<p xml:id="sec008007" n="42"> Si purum contemplatorem corporis nescium, in
+						penetralia mentis relegatum, hic non terrenum, non caeleste animal: hic
+						augustius est numen humana carne circumvestitum<anchor type="annotation"
+							n="52" xml:id="legacy52"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec009" n="§9">
+				
+				<div type="body">
+					<p xml:id="sec009001" n="43"> Ecquis hominem non admiretur? </p>
+					<p xml:id="sec009002" n="44"> Qui non immerito in sacris litteris Mosaicis et
+						Christianis, nunc omnis carnis, nunc omnis creaturae appellatione
+						designatur, quando se ipsum ipse in omnis carnis faciem, in omnis creaturae
+						ingenium effingit,<anchor type="annotation" n="53" xml:id="legacy53"/>
+						fabricat et transformat. </p>
+					<p xml:id="sec009003" n="45"> Idcirco scribit Evantes Persa, ubi Chaldaicam
+						theologiam enarrat, non esse homini suam ullam et nativam imaginem,
+						extrarias multas et adventitias. </p>
+					<p xml:id="sec009004" n="46"> Hinc illud Chaldeorum[] idest homo variae ac
+						multiformis et desultoriae naturae animal.<anchor type="annotation" n="54"
+							xml:id="legacy54"/>
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec010" n="§10">
+				
+				<div type="body">
+					<p xml:id="sec010001" n="47"> Sed quorsum haec? </p>
+					<p xml:id="sec010002" n="48"> Ut intelligamus, postquam hac nati sumus
+						conditione, ut id simus quod esse volumus, curare hoc potissimum debere nos,
+						ut illud quidem in nos non dicatur, cum in honore essemus non cognovisse
+						similes factos brutis et iumentis insipientibus.<anchor type="annotation"
+							n="55" xml:id="legacy55"/>
+					</p>
+					<p xml:id="sec010003" n="49"> Sed illud potius Asaph prophetae: «Dii estis et
+						filii Excelsi omnes», ne, abutentes indulgentissima Patris liberalitate,
+						quam dedit ille liberam optionem, e salutari noxiam faciamus nobis. </p>
+					<p xml:id="sec010004" n="50"> Invadat animum sacra quaedam ambitio<anchor
+							type="annotation" n="56" xml:id="legacy56"/> ut mediocribus non contenti
+						anhelemus ad summa, adque illa (quando possumus si volumus) consequenda
+						totis viribus enitamur.<anchor type="annotation" n="57" xml:id="legacy57"/>
+					</p>
+					<p xml:id="sec010005" n="51"> Dedignemur terrestria <pb xml:id="page133r" n="3"
+							ed="editioPrinceps" facs="3.jpg"/>, caelestia contemnamus, et quicquid
+						mundi est denique posthabentes, ultramundanam curiam eminentissimae
+						divinitati proximam advolemus. </p>
+					<p xml:id="sec010006" n="52"> Ibi, ut sacra tradunt mysteria, Seraphin, Cherubin
+						et Throni primas possident; horum nos iam cedere nescii et secundarum
+						impatientes et dignitatem et gloriam emulemur. </p>
+					<p xml:id="sec010007" n="53"> Erimus illis, cum voluerimus, nihilo inferiores.
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec011" n="§11">
+				
+				<div type="body">
+					<p xml:id="sec011001" n="54">
+						<pb xml:id="brun5" n="5" ed="exemplarBrunensis" facs="5.jpg"/>Sed qua
+						ratione, aut quid tandem agentes? </p>
+					<p xml:id="sec011002" n="55"> Videamus quid illi agant, quam vivant vitam. </p>
+					<p xml:id="sec011003" n="56"> Eam si et nos vixerimus (possumus enim) illorum
+						sortem iam equaverimus<anchor type="annotation" n="58" xml:id="legacy58"/>. </p>
+					<p xml:id="sec011004" n="57"> Ardet Saraph charitatis igne; fulget Cherub
+						intelligentiae splendore; stat Thronus iudicii firmitate<anchor
+							type="annotation" n="59" xml:id="legacy59"/>. </p>
+					<p xml:id="sec011005" n="58"> Igitur si actuosae<anchor type="annotation" n="60"
+							xml:id="legacy60"/> ad[d]icti vitae inferiorum curam recto examine
+						susceperimus, Thronorum stata soliditate firmabimur. </p>
+					<p xml:id="sec011006" n="59"> Si ab actionibus feriati, in opificio opificem, in
+						opifice opificium meditantes<anchor type="annotation" n="61"
+							xml:id="legacy61"/>, in contemplandi ocio<anchor type="annotation"
+							n="62" xml:id="legacy62"/> negociabimur, luce Cherubica undique
+						corruscabimus. </p>
+					<p xml:id="sec011007" n="60"> Si charitate ipsum opificem solum ardebimus<anchor
+							type="annotation" n="63" xml:id="legacy63"/>, illius igne, qui edax est,
+						in Saraphicam effigiem repente flammabimur. </p>
+					<p xml:id="sec011008" n="61"> Super Throno, idest iusto iudice, sedet Deus iudex
+							seculorum<anchor type="annotation" n="64" xml:id="legacy64"/>. </p>
+					<p xml:id="sec011009" n="62"> Super Cherub, idest contemplatore, volat atque eum
+						quasi incubando fovet<anchor type="annotation" n="65" xml:id="legacy65"/>. </p>
+					<p xml:id="sec011010" n="63"> Spiritus enim Domini fertur super aquas<anchor
+							type="annotation" n="66" xml:id="legacy66"/>, has, inquam quae super
+						caelos sunt, quae apud Iob Dominum laudant anteluchanis hynnis<anchor
+							type="annotation" n="67" xml:id="legacy67"/>
+						<anchor type="annotation" n="68" xml:id="legacy68"/>. </p>
+					<p xml:id="sec011011" n="64"> Qui Saraph, idest amator est, in Deo est, et Deus
+						in eo, immo et Deus et ipse unum sunt<anchor type="annotation" n="69"
+							xml:id="legacy69"/>. </p>
+					<p xml:id="sec011012" n="65"> Magna Thronorum potestas, quam iudicando; summa
+						Saraphinorum sublimitas, quam amando assequimur<anchor type="annotation"
+							n="70" xml:id="legacy70"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec012" n="§12">
+				
+				<div type="body">
+					<p xml:id="sec012001" n="66"> Sed quo nam<anchor type="annotation" n="71"
+							xml:id="legacy71"/> pacto vel iudicare quisquam vel<anchor
+							type="annotation" n="72" xml:id="legacy72"/> amare potest
+							incognita?<anchor type="annotation" n="73" xml:id="legacy73"/>
+					</p>
+					<p xml:id="sec012002" n="67"> Amavit Moses Deum quem vidit, et administravit
+						iudex in populo quae<anchor type="annotation" n="74" xml:id="legacy74"/>
+						vidit prius contemplator in monte<anchor type="annotation" n="75"
+							xml:id="legacy75"/>. </p>
+					<p xml:id="sec012003" n="68"> Ergo medius Cherub sua luce et Saraphico igni nos
+						praeparat et ad Thronorum iudicium pariter illuminat. </p>
+					<p xml:id="sec012004" n="69"> Hic est nodus primarum mentium, ordo Palladicus,
+						philosophiae contemplativae preses<anchor type="annotation" n="76"
+							xml:id="legacy76"/>
+						<anchor type="annotation" n="77" xml:id="legacy77"/>; hic nobis et
+							emulandus<anchor type="annotation" n="78" xml:id="legacy78"/> primo et
+							ambiendus<anchor type="annotation" n="79" xml:id="legacy79"/>, atque
+						adeo comprehendendus est, unde et ad<anchor type="annotation" n="80"
+							xml:id="legacy80"/> amoris rapiamur fastigia et ad munera actionum bene
+						instructi paratique descendamus. </p>
+					<p xml:id="sec012005" n="70"> At vero opereprecium<anchor type="annotation"
+							n="81" xml:id="legacy81"/>, si ad exemplar vitae Cherubicae vita nostra
+						formanda est, quae illa et qualis sit, quae actiones, quae illorum opera,
+							pre<anchor type="annotation" n="82" xml:id="legacy82"/> oculis et in
+							numerato<anchor type="annotation" n="83" xml:id="legacy83"/> habere. </p>
+					<p xml:id="sec012006" n="71"> Quod cum nobis per nos, qui caro sumus et quae
+						humi sunt sapimus, consequi non liceat<anchor type="annotation" n="84"
+							xml:id="legacy84"/>
+						<anchor type="annotation" n="85" xml:id="legacy85"/>, adeamus antiquos
+						patres, qui <pb xml:id="bon4" n="4" ed="exemplarBononiae" facs="14.jpg"/><pb
+							xml:id="brun6" n="6" ed="exemplarBrunensis" facs="6.jpg"/>de his rebus
+						utpote sibi domesticis et cognatis locuplectissimam<anchor type="annotation"
+							n="86" xml:id="legacy86"/> nobis et certam fidem facere possunt<anchor
+							type="annotation" n="87" xml:id="legacy87"/>. </p>
+					<p xml:id="sec012007" n="72"> Consulamus Paulum apostolum vas electionis<anchor
+							type="annotation" n="88" xml:id="legacy88"/>, quid ipse cum ad tertium
+						sublimatus est caelum<anchor type="annotation" n="89" xml:id="legacy89"/>,
+						agentes Cherubinorum exercitus viderit. </p>
+					<p xml:id="sec012008" n="73"> Respondebit utique Dyonisio interprete: purgari
+						illos, tum illuminari, postremo perfici<anchor type="annotation" n="90"
+							xml:id="legacy90"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec013" n="§13">
+				
+				<div type="body">
+					<p xml:id="sec013001" n="74"> Ergo et nos Cherubicam in terris vitam
+							emulantes<anchor type="annotation" n="91" xml:id="legacy91"/>, per
+						moralem scientiam affectuum impetus cohercentes<anchor type="annotation"
+							n="92" xml:id="legacy92"/>, per dialecticam<anchor type="annotation"
+							n="93" xml:id="legacy93"/> rationis caliginem discutientes, quasi
+						ignorantiae et vitiorum eluentes sordes animam purgemus, ne aut affectus
+						temere debac[c]hentur aut ratio imprudens quandoque deliret. </p>
+					<p xml:id="sec013002" n="75"> Tum bene compositam ac expiatam animam naturalis
+						philosophiae lumine perfundamus, ut postremo divinarum rerum eam cognitione
+						perficiamus. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec014" n="§14">
+				
+				<div type="body">
+					<p xml:id="sec014001" n="76"> Et ne nobis nostri sufficiant<anchor
+							type="annotation" n="94" xml:id="legacy94"/> consulamus Iacob
+						patriarcham cuius imago in sede gloriae sculpta corruscat. </p>
+					<p xml:id="sec014002" n="77"> Admonebit nos pater sapientissimus in inferno
+						dormiens, mundo in superno vigilans<anchor type="annotation" n="95"
+							xml:id="legacy95"/>. </p>
+					<p xml:id="sec014003" n="78"> Sed admonebit per figuram (ita eis omnia
+						contingebant) esse scalas<anchor type="annotation" n="96" xml:id="legacy96"
+						/> ab immo<anchor type="annotation" n="97" xml:id="legacy97"/> solo ad caeli
+						summa protensas multorum graduum serie distinctas; fastigio Dominum
+						insidere, contemplatores angelos per eas vicibus alternantes ascendere et
+							descendere<anchor type="annotation" n="98" xml:id="legacy98"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec015" n="§15">
+				
+				<div type="body">
+					<p xml:id="sec015001" n="79"> Quod si hoc idem nobis angelicam <pb
+							xml:id="page133v" n="4" ed="editioPrinceps" facs="4.jpg"/> affectantibus
+						vitam factitandum<anchor type="annotation" n="99" xml:id="legacy99"/> est,
+							queso<anchor type="annotation" n="100" xml:id="legacy100"/>, quis Domini
+						scalas vel sordidato<anchor type="annotation" n="101" xml:id="legacy101"/>
+						pede, vel male mundis manibus attinget? </p>
+					<p xml:id="sec015002" n="80"> Impuro, ut habent mysteria<anchor
+							type="annotation" n="102" xml:id="legacy102"/>, purum attingere
+							nephas<anchor type="annotation" n="103" xml:id="legacy103"/>. </p>
+					<p xml:id="sec015003" n="81"> Sed qui hi pedes? </p>
+					<p xml:id="sec015004" n="82"> Quae manus? </p>
+					<p xml:id="sec015005" n="83"> Profecto pes animae<anchor type="annotation"
+							n="104" xml:id="legacy104"/> illa est portio despicatissima<anchor
+							type="annotation" n="105" xml:id="legacy105"/>, qua ipsa materiae
+						tanquam terrae solo<anchor type="annotation" n="106" xml:id="legacy106"/>
+						innititur, altrix inquam potestas et cibaria<anchor type="annotation"
+							n="107" xml:id="legacy107"/>, fomes libidinis et voluptariae
+						mollitudinis magistra<anchor type="annotation" n="108" xml:id="legacy108"/>. </p>
+					<p xml:id="sec015006" n="84"> Manus animae cur irascentiam<anchor
+							type="annotation" n="109" xml:id="legacy109"/> non dixerimus, quae
+						appetentiae propugnatrix pro ea decertat et sub pulvere ac sole<anchor
+							type="annotation" n="110" xml:id="legacy110"/> p[r]edatrix<anchor
+							type="annotation" n="111" xml:id="legacy111"/> rapit, <pb xml:id="brun7"
+							n="7" ed="exemplarBrunensis" facs="7.jpg"/>quae illa sub umbra
+							dormitans<anchor type="annotation" n="112" xml:id="legacy112"/>
+							helluetur?<anchor type="annotation" n="113" xml:id="legacy113"/>
+					</p>
+					<p xml:id="sec015007" n="85"> Has manus, hos pedes, idest totam sensualem partem
+						in qua sedet corporis illecebra quae animam obtorto (ut aiunt) detinet
+							collo<anchor type="annotation" n="114" xml:id="legacy114"/>, ne a scalis
+							tamquam<anchor type="annotation" n="115" xml:id="legacy115"/> prophani
+						pollutique reiciamur, morali philosophia quasi vivo flumine abluamus<anchor
+							type="annotation" n="116" xml:id="legacy116"/>. </p>
+					<p xml:id="sec015008" n="86"> At nec satis hoc erit, si per Iacob scalam
+							discursantibus<anchor type="annotation" n="117" xml:id="legacy117"/>
+						angelis comites esse volumus, nisi et a gradu in gradum rite promoveri, et a
+						scalarum tramite deorbitare<anchor type="annotation" n="118"
+							xml:id="legacy118"/> nusquam, et reciprocos obire excursus<anchor
+							type="annotation" n="119" xml:id="legacy119"/> bene apti prius
+						instructique fuerimus. </p>
+					<p xml:id="sec015009" n="87"> Quod cum per artem sermocinalem sive
+							rationariam<anchor type="annotation" n="120" xml:id="legacy120"/> erimus
+							consequuti<anchor type="annotation" n="121" xml:id="legacy121"/>, iam
+						Cherubico spiritu animati, per scalarum, idest naturae gradus
+						philosophantes, a centro ad centrum omnia pervadentes<anchor
+							type="annotation" n="122" xml:id="legacy122"/>, nunc unum quasi Osyrim
+						in multitudinem vi titanica dis[c]erpentes descendemus, nunc multitudinem
+						quasi Osyridis membra in unum vi Phebea colligentes ascendemus, donec in
+						sinu Patris qui super scalas est tandem quiescentes, theologica<anchor
+							type="annotation" n="123" xml:id="legacy123"/> foelicitate
+						consum[m]abimur. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec016" n="§16">
+				
+				<div type="body">
+					<p xml:id="sec016001" n="88"> Percontemur<anchor type="annotation" n="124"
+							xml:id="legacy124"/> et iustum Iob<anchor type="annotation" n="125"
+							xml:id="legacy125"/>, qui fedus<anchor type="annotation" n="126"
+							xml:id="legacy126"/> iniit cum Deo vitae<anchor type="annotation"
+							n="127" xml:id="legacy127"/> prius quam ipse ederetur in vitam quid
+						summus Deus in decem illis centenis millibus qui assistunt ei, potissimum
+						desideret: pacem utique respondebit, iuxta id quod apud eum legitur: «Qui
+						facit pacem in excelsis»<anchor type="annotation" n="128" xml:id="legacy128"
+						/>. </p>
+					<p xml:id="sec016002" n="89"> Et quoniam supremi ordinis monita medius ordo
+						inferioribus interpretatur<anchor type="annotation" n="129"
+							xml:id="legacy129"/>, interpretetur nobis Iob theologi verba Empedocles
+						philosophus. </p>
+					<p xml:id="sec016003" n="90"> Hic duplicem naturam in nostris animis sitam,
+						quarum altera sursum tollimur ad celestia, altera deorsum trudimur ad
+						inferna, per litem et amicitiam, sive bellum et pacem, ut sua testantur
+						carmina, nobis significat<anchor type="annotation" n="130"
+							xml:id="legacy130"/>. </p>
+					<p xml:id="sec016004" n="91"> In quibus se lite et discordia actum, furenti
+						similem profugum a diis, in altum iactari conqueritur<anchor
+							type="annotation" n="131" xml:id="legacy131"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec017" n="§17">
+				
+				<div type="body">
+					<p xml:id="sec017001" n="92"> Multiplex profecto, Patres, in nobis discordia;
+						gravia et intestina domi habemus et plusquam civilia bella<anchor
+							type="annotation" n="132" xml:id="legacy132"/>. </p>
+					<p xml:id="sec017002" n="93"> Quae si noluerimus, si illam affectaverimus pacem,
+						quae in sublime ita nos tollat ut inter excelsos Domini statuamur, sola in
+						nobis compescet prorsus et sedabit philosophia: moralis primum, si noster
+							homo<anchor type="annotation" n="133" xml:id="legacy133"/> ab hostibus
+						indutias tantum quesierit, multiplicis bruti effrenes excursiones et leonis
+						iurgia, iras animosque contundet. </p>
+					<p xml:id="sec017003" n="94"> Tum si rectius consulentes nobis perpetue <pb
+							xml:id="bon5" n="5" ed="exemplarBononiae" facs="15.jpg"/><pb
+							xml:id="brun8" n="8" ed="exemplarBrunensis" facs="8.jpg"/>pacis
+						securitatem desideraverimus, aderit illa et vota nostra liberaliter
+						implebit, quippe quae cesa utraque bestia, quasi icta porca, inviolabile
+						inter carnem et spiritum foedus sanctissime pacis sanciet. </p>
+					<p xml:id="sec017004" n="95"> Sedabit dyalectica rationis turbas inter orationum
+						pugnantias et sillogismo<anchor type="annotation" n="134" xml:id="legacy134"
+						/> captiones anxie tumultuantis. </p>
+					<p xml:id="sec017005" n="96"> Sedabit naturalis philosophia opinionis lites et
+						dis[s]idia, quae inquietam hinc inde animam vexant, distrahunt et lacerant. </p>
+					<p xml:id="sec017006" n="97"> Sed ita sedabit, ut meminisse nos iubeat esse
+						naturam iuxta Heraclytum ex bello genitam, ob id ab Homero contentionem
+							vocitatam<anchor type="annotation" n="135" xml:id="legacy135"/>. </p>
+					<p xml:id="sec017007" n="98"> Idcirco in ea veram quietem et solidam pacem se
+						nobis prestare non posse, esse hoc dominae suae, idest sanctissimae
+						th[e]ologiae, munus et privilegium. </p>
+					<p xml:id="sec017008" n="99"> Ad illam ipsa et viam monstrabit et comes ducet,
+						quae procul nos videns properantes: «Venite, inclamabit, ad me qui
+							laborastis<anchor type="annotation" n="136" xml:id="legacy136"/>; venite
+						et ego reficiam vos; venite ad <pb xml:id="page134r" n="5"
+							ed="editioPrinceps" facs="5.jpg"/> me et dabo vobis pacem quam mundus et
+						natura vobis dare non possunt»<anchor type="annotation" n="137"
+							xml:id="legacy137"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec018" n="§18">
+				
+				<div type="body">
+					<p xml:id="sec018001" n="100"> Tam blande vocati, tam benigniter invitati,
+						alatis pedibus quasi terrestres Mercurii<anchor type="annotation" n="138"
+							xml:id="legacy138"/>, in beatissimae amplexus matris evolantes, optata
+						pace perfruemur: pace sanctissima, individua copula, unianimi amicitia, qua
+						omnes animi in una mente<anchor type="annotation" n="139" xml:id="legacy139"
+						/>, quae est super omnem mentem, non concordent adeo, sed ineffabili
+						quodammodo unum penitus evadant. </p>
+					<p xml:id="sec018002" n="101"> Haec est illa amicitia quam totius philosophiae
+						finem esse Pythagorici dicunt<anchor type="annotation" n="140"
+							xml:id="legacy140"/>, haec illa pax quam facit Deus in excelsis
+							suis<anchor type="annotation" n="141" xml:id="legacy141"/>, quam angeli
+						in terram descendentes annuntiarunt<anchor type="annotation" n="142"
+							xml:id="legacy142"/> hominibus bonae voluntatis<anchor type="annotation"
+							n="143" xml:id="legacy143"/>, ut per eam ipsi homines ascendentes in
+						caelum angeli fierent. </p>
+					<p xml:id="sec018003" n="102"> Hanc pacem amicis, hanc nostro optemus seculo,
+						optemus unicuique domui quam ingredimur<anchor type="annotation" n="144"
+							xml:id="legacy144"/>, optemus animae nostrae, ut per eam ipsa Dei domus
+						fiat; ut, postquam per moralem et dyalecticam suas sordes excusserit,
+						multiplici philosophia quasi aulico apparatu se oxornarit, portarum fastigia
+						theologicis sertis<anchor type="annotation" n="145" xml:id="legacy145"/>
+						coronarit, descendat Rex gloriae<anchor type="annotation" n="146"
+							xml:id="legacy146"/> et cum Patre veniens mansionem faciat apud
+							eam<anchor type="annotation" n="147" xml:id="legacy147"/>. </p>
+					<p xml:id="sec018004" n="103"> Quo tanto hospite si se dignam praestiterit,
+							qua<anchor type="annotation" n="148" xml:id="legacy148"/> est illius
+						immensa clementia<anchor type="annotation" n="149" xml:id="legacy149"/>,
+						deaurato vestitu quasi toga <pb xml:id="brun9" n="9" ed="exemplarBrunensis"
+							facs="9.jpg"/>nuptiali<anchor type="annotation" n="150"
+							xml:id="legacy150"/> multiplici scientiarum circumdata varietate,
+						speciosum hospitem, non ut hospitem iam, sed ut sponsum excipiet<anchor
+							type="annotation" n="151" xml:id="legacy151"/>, a quo ne unquam
+						dissolvatur dissolvi cupiet a populo suo et domum patris sui, immo se ipsam
+						oblita, in se ipsa cupiet mori ut vivat in sponso<anchor type="annotation"
+							n="152" xml:id="legacy152"/>, in cuius conspectu preciosa profecto mors
+						sanctorum eius<anchor type="annotation" n="153" xml:id="legacy153"/>, mors,
+						inquam, illa, si dici mors debet plenitudo vitae<anchor type="annotation"
+							n="154" xml:id="legacy154"/> cuius meditationem esse studium
+						philosophiae dixerunt sapientes<anchor type="annotation" n="155"
+							xml:id="legacy155"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec019" n="§19">
+				
+				<div type="body">
+					<p xml:id="sec019001" n="104"> Citemus et Mosen<anchor type="annotation" n="156"
+							xml:id="legacy156"/> ipsum a sacrosanctae<anchor type="annotation"
+							n="157" xml:id="legacy157"/> et ineffabilis intelligentiae fontana
+							plenitudine<anchor type="annotation" n="158" xml:id="legacy158"/>, unde
+						angeli suo nectare inebriantur<anchor type="annotation" n="159"
+							xml:id="legacy159"/>, paulo deminutum<anchor type="annotation" n="160"
+							xml:id="legacy160"/>
+						<anchor type="annotation" n="161" xml:id="legacy161"/>. </p>
+					<p xml:id="sec019002" n="105"> Audiemus venerandum iudicem<anchor
+							type="annotation" n="162" xml:id="legacy162"/> nobis in deserta huius
+						corporis solitudine habitantibus leges sic edicentem: «Qui polluti adhuc
+						morali indigent, cum plebe habitent extra tabernaculum sub divo, quasi
+						Thessali sacerdotes interim se expiantes<anchor type="annotation" n="163"
+							xml:id="legacy163"/>. </p>
+					<p xml:id="sec019003" n="106"> Qui mores iam composuerunt, in sanctuarium
+						recepti, nondum quidem sacra attractent, sed prius dyaletico<anchor
+							type="annotation" n="164" xml:id="legacy164"/> famulatu seduli levitae
+						philosophiae sacris ministrent. </p>
+					<p xml:id="sec019004" n="107"> Tum ad ea et ipsi admissi, nunc superioris Dei
+						regiae multicolorem, idest sydereum<anchor type="annotation" n="165"
+							xml:id="legacy165"/> aulicum ornatum, nunc caeleste<anchor
+							type="annotation" n="166" xml:id="legacy166"/>
+						<anchor type="annotation" n="167" xml:id="legacy167"/> candelabrum septem
+						luminibus distinctum, nunc pellicea elementa, in philosophiae sacerdotio
+						contemplentur, ut postremo per theologicae sublimitatis merita in templi
+							adita<anchor type="annotation" n="168" xml:id="legacy168"/> recepti,
+						nullo imaginis intercedente velo<anchor type="annotation" n="169"
+							xml:id="legacy169"/>, divinitatis gloria perfruantur» <anchor
+							type="annotation" n="170" xml:id="legacy170"/>. </p>
+					<p xml:id="sec019005" n="108"> Haec nobis profecto Moses et imperat et imperando
+						admonet, excitat, inhortatur, ut per philosophiam ad futuram caelestem
+						gloriam, dum possumus iter paremus nobis. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec020" n="§20">
+				
+				<div type="body">
+					<p xml:id="sec020001" n="109"> Verum enimvero<anchor type="annotation" n="171"
+							xml:id="legacy171"/>, nec Mosayca tantum aut Christiana mysteria, sed
+						priscorum quoque theologia harum, de quibus disputaturus accessi, liberalium
+						artium et emolumenta nobis et dignitatem ostendit. </p>
+					<p xml:id="sec020002" n="110"> Quid enim aliud sibi volunt in Graecorum archanis
+						observati initiatorum gradus, quibus primo<anchor type="annotation" n="172"
+							xml:id="legacy172"/> per illas quas diximus quasi februales artes,
+						moralem <pb xml:id="bon6" n="6" ed="exemplarBononiae" facs="1.jpg"/><pb
+							xml:id="brun10" n="10" ed="exemplarBrunensis" facs="10.jpg"/>et
+						dialecticam, purificatis, contingebat mysteriorum susceptio? </p>
+					<p xml:id="sec020003" n="111"> Quae quid aliud esse potest quam secretioris per
+						philosophiam naturae interpretatio? </p>
+					<p xml:id="sec020004" n="112"> Tum demum ita dispositis illa adveniebat<figure>
+							<graphic url="epopteia.gif"/>
+						</figure>, idest rerum divinarum per theologiae lumen inspectio. </p>
+					<p xml:id="sec020005" n="113"> Quis talibus sacris<anchor type="annotation"
+							n="173" xml:id="legacy173"/> initiari non appetat? </p>
+					<p xml:id="sec020006" n="114"> Quis humana <pb xml:id="page134v" n="6"
+							ed="editioPrinceps" facs="6.jpg"/> omnia postahabens, fortunae
+						contemnens bona, corporis negligens, deorum conviva adhuc degens in terris
+						fieri non cupiat, et aeternitatis nectare madidus mortale animal
+						immortalitatis munere donari?<anchor type="annotation" n="174"
+							xml:id="legacy174"/>
+					</p>
+					<p xml:id="sec020007" n="115"> Quis non Socraticis illis furoribus, a Platone in
+						Fedro decantatis,<anchor type="annotation" n="175" xml:id="legacy175"/> sic
+						afflari non velit ut alarum pedumque remigio hinc, idest ex mundo, qui est
+						positus in maligno,<anchor type="annotation" n="176" xml:id="legacy176"/>
+						propere aufugiens, ad caelestem Hierusalem concitatissimo cursu
+							feratur?<anchor type="annotation" n="177" xml:id="legacy177"/>
+					</p>
+					<p xml:id="sec020008" n="116"> Agemur, Patres, agemur Socraticis furoribus, qui
+						extra mentem<anchor type="annotation" n="178" xml:id="legacy178"/> ita nos
+						ponant, ut mentem nostram et nos ponant in Deo. </p>
+					<p xml:id="sec020009" n="117"> Agemur<anchor type="annotation" n="179"
+							xml:id="legacy179"/> ab illis utique, si quid est in nobis ipsi prius
+						egerimus; nam si et per moralem affectuum vires ita per debitas competentias
+						ad modulos fuerint intentae, ut immota invicem consonent concinentia,<anchor
+							type="annotation" n="180" xml:id="legacy180"/> et per dyalecticam ratio
+						ad numerum se progrediendo moverit, Musarum perciti furore<anchor
+							type="annotation" n="181" xml:id="legacy181"/> celestem armoniam intimis
+						auribus combibemus. </p>
+					<p xml:id="sec020010" n="118"> Tum Musarum dux Bacchus in suis mysteriis,<anchor
+							type="annotation" n="182" xml:id="legacy182"/> idest visibilibus naturae
+						signis invisibilia Dei<anchor type="annotation" n="183" xml:id="legacy183"/>
+						philosophantibus nobis ostendens, inebriabit nos ab ubertate domus
+							Dei,<anchor type="annotation" n="184" xml:id="legacy184"/> in qua tota
+						si uti Moses erimus fideles, accedens sacratissima theologia duplici furore
+						nos animabit. </p>
+					<p xml:id="sec020011" n="119"> Nam in illius eminentissimam sublimati speculam,
+						inde et quae sunt, quae erunt quaeque<anchor type="annotation" n="185"
+							xml:id="legacy185"/> fuerint<anchor type="annotation" n="186"
+							xml:id="legacy186"/> insectili metientes evo, et primevam pulchritudinem
+						suspicientes, illorum Phebei vates,<anchor type="annotation" n="187"
+							xml:id="legacy187"/> huius alati erimus amatores<anchor
+							type="annotation" n="188" xml:id="legacy188"/> et ineffabili demum
+						charitate quasi aestro perciti, quasi Saraphini ardentes extra nos positi,
+						numine pleni, iam non ipsi nos,<anchor type="annotation" n="189"
+							xml:id="legacy189"/> sed ille<anchor type="annotation" n="190"
+							xml:id="legacy190"/> erimus ipse qui fecit nos. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec021" n="§21">
+				
+				<div type="body">
+					<p xml:id="sec021001" n="120">
+						<pb xml:id="brun11" n="11" ed="exemplarBrunensis" facs="11.jpg"
+							/>Sacra<anchor type="annotation" n="191" xml:id="legacy191"/> Apollinis
+						nomina, si quis eorum significantias et latitantia perscrutetur
+							misteria,<anchor type="annotation" n="192" xml:id="legacy192"/> satis
+							ostendunt<anchor type="annotation" n="193" xml:id="legacy193"/> esse
+						Deum illum non minus philosophum quam vatem.<anchor type="annotation"
+							n="194" xml:id="legacy194"/>
+					</p>
+					<p xml:id="sec021002" n="121"> Quod cum Ammonius<anchor type="annotation"
+							n="195" xml:id="legacy195"/> satis sit exequutus, non est cur ego
+							nunc<anchor type="annotation" n="196" xml:id="legacy196"/> aliter
+						pertractem; sed subeant animum, Patres, tria Delphica precepta<anchor
+							type="annotation" n="197" xml:id="legacy197"/> oppido his necessaria,
+						qui non ficti sed veri Apollinis, qui illuminat omnem animam venientem in
+						hunc mundum,<anchor type="annotation" n="198" xml:id="legacy198"/>
+						sacrosanctum et augustissimum templum ingressuri<anchor type="annotation"
+							n="199" xml:id="legacy199"/> sunt; videbitis nihil aliud illa nos
+						admonere, quam ut tripartitam hanc, de qua est praesens disputatio,
+						philosophiam totis viribus amplectamur. </p>
+					<p xml:id="sec021003" n="122"> Illud enim <figure>
+							<graphic url="meden.gif"/>
+						</figure>,<anchor type="annotation" n="200" xml:id="legacy200"/> idest ne
+						quid nimis, virtutum<anchor type="annotation" n="201" xml:id="legacy201"/>
+						omnium normam et regulam per mediocratits rationem, de qua moralis agit,
+						recte praescribit. </p>
+					<p xml:id="sec021004" n="123"> Tum illud<figure>
+							<graphic url="gnothi.gif"/>
+						</figure>,<anchor type="annotation" n="202" xml:id="legacy202"/> idest
+						cognosce te ipsum, ad totius naturae nos cognitionem, cuius et interstitium
+						et quasi cynnus<anchor type="annotation" n="203" xml:id="legacy203"/> natura
+						est hominis, excitat et inhortatur. </p>
+					<p xml:id="sec021005" n="124"> Qui enim se cognoscit, in se omnia cognoscit, ut
+						Zoroaster prius, deinde Plato in Alcibiade scripserunt.<anchor
+							type="annotation" n="204" xml:id="legacy204"/>
+					</p>
+					<p xml:id="sec021006" n="125"> Postremo hac cognitione per naturalem
+						philosophiam illuminati iam Deo proximi,<figure>
+							<graphic url="ei.gif"/>
+						</figure>,<anchor type="annotation" n="205" xml:id="legacy205"/> idest es
+						dicentes, theologica salutatione verum Apollinem familariter proindeque
+						foeliciter appellabimus.<anchor type="annotation" n="206" xml:id="legacy206"
+						/>
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec022" n="§22">
+				
+				<div type="body">
+					<p xml:id="sec022001" n="126"> Consulamus et Pythagoram sapientissimum,<anchor
+							type="annotation" n="207" xml:id="legacy207"/> ob id praecipue<anchor
+							type="annotation" n="208" xml:id="legacy208"/> sapientem, quod sapientis
+						se dignum nomine nunquam existimavit. </p>
+					<p xml:id="sec022002" n="127"> Precipiet primo ne super modium sedeamus,<anchor
+							type="annotation" n="209" xml:id="legacy209"/> idest rationalem partem,
+						qua anima omnia metitur, iudicat et examinat, ociosa desidia ne
+							remittentes<anchor type="annotation" n="210" xml:id="legacy210"/>
+						amittamus, sed dyalectica exercitatione ac regula et dirigamus assidue et
+						excitemus. </p>
+					<p xml:id="sec022003" n="128"> Tum cavenda in primis duo nobis significabit ne
+						aut adversus solem emingamus, aut inter sacrificandum ungues
+							resecemus.<anchor type="annotation" n="211" xml:id="legacy211"/>
+					</p>
+					<p xml:id="sec022004" n="129"> Sed postquam per moralem et superfluentium
+						voluptatum fluxas eminxerimus appetentias, et unguium presegmina, quasi
+						acuta irae prominentias et animorum aculeos resecuerimus, tum demum sacris,
+						idest de quibus mentionem fecimus Bacchi mysteriis, interesse, et cuius
+						pater ac dux merito sol<anchor type="annotation" n="212" xml:id="legacy212"
+						/> dicitur nostrae contempla<pb xml:id="page135r" n="7" ed="editioPrinceps"
+							facs="7.jpg"/>tioni vacare incipiamus. </p>
+					<p xml:id="sec022005" n="130"> Postremo ut gallum nutriamus<anchor
+							type="annotation" n="213" xml:id="legacy213"/> nos admonebit, idest ut
+						divinam animae nostrae partem<anchor type="annotation" n="214"
+							xml:id="legacy214"/> divinarum rerum <pb xml:id="bon7" n="7"
+							ed="exemplarBononiae" facs="2.jpg"/><pb xml:id="brun12" n="12"
+							ed="exemplarBrunensis" facs="12.jpg"/> cognitione quasi solido cibo et
+						caelesti ambrosia pascamus. </p>
+					<p xml:id="sec022006" n="131"> Hic est gallus cuius aspectum leo, idest omnis
+						terrena potestas, formidat et reveretur.<anchor type="annotation" n="215"
+							xml:id="legacy215"/>
+					</p>
+					<p xml:id="sec022007" n="132"> Hic ille gallus, cui datam esse intelligentiam
+						apud Iob legimus.<anchor type="annotation" n="216" xml:id="legacy216"/>
+					</p>
+					<p xml:id="sec022008" n="133"> Hoc gallo canente aberrans homo
+							resipiscit.<anchor type="annotation" n="217" xml:id="legacy217"/>
+					</p>
+					<p xml:id="sec022009" n="134"> Hic gallus in matutino crepusculo, matutinis
+						astris Deum laudantibus,<anchor type="annotation" n="218" xml:id="legacy218"
+						/> quotidie commodulatur. </p>
+					<p xml:id="sec022010" n="135"> Hunc gallum moriens Socrates, cum divinitatem
+						animi sui divinitati maioris mundi copulaturum se speraret, Esculapio, idest
+						animarum medico, iam extra omne morbi discrimen positus, debere se
+							dixit.<anchor type="annotation" n="219" xml:id="legacy219"/>
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec023" n="§23">
+				
+				<div type="body">
+					<p xml:id="sec023001" n="136"> Recenseamus et Chaldeorum monumenta, videbimus
+						(si illis creditur) per easdem artes patere viam mortalibus ad felicitatem. </p>
+					<p xml:id="sec023002" n="137"> Scribunt intepretes Chaldei verbum fuisse
+						Zoroastris alatam esse animam, cumque alae exciderent ferri illam praeceps
+						in corpus, tum illis subcrescentibus ad superos revolare.<anchor
+							type="annotation" n="220" xml:id="legacy220"/>
+					</p>
+					<p xml:id="sec023003" n="138"> Percunctantibus eum discipulis quo pacto alis
+						bene plumantibus volucres animos<anchor type="annotation" n="221"
+							xml:id="legacy221"/> sortirentur: «Irrigetis, dixit, alas aquis vitae». </p>
+					<p xml:id="sec023004" n="139"> Iterum sciscitantibus unde has aquas peterent,
+						sic per parabolam (qui erat hominis mos) illis respondit: «Quatuor amnibus
+						paradisus Dei abluitur et irrigatur. </p>
+					<p xml:id="sec023005" n="140"> Indidem vobis salutares<anchor type="annotation"
+							n="222" xml:id="legacy222"/> aquas hauriatis. </p>
+					<p xml:id="sec023006" n="141"> Nomen ei qui ab aquilone [ ], quod rectum
+						denotat, et qui ab occasu [ ], quod expiationem significat, et qui ab ortu [
+						], quod lumen sonat, ei qui a meridie [ ], quod nos pietatem interpretari
+							possumus».<anchor type="annotation" n="223" xml:id="legacy223"/>
+					</p>
+					<p xml:id="sec023007" n="142"> Advertite animum et diligenter considerate,
+						Patres, quid haec sibi velint Zoroastris dogmata;<anchor type="annotation"
+							n="224" xml:id="legacy224"/> profecto nihil aliud nisi ut morali
+						scientia, quasi undis Hibericis, oculorum sordes expiemus; dialetica,<anchor
+							type="annotation" n="225" xml:id="legacy225"/> quasi boreali amussi,
+						illorum aciem lineemus<anchor type="annotation" n="226" xml:id="legacy226"/>
+						ad rectum. </p>
+					<p xml:id="sec023008" n="143"> Tum in naturali contemplatione debile adhuc
+						veritatis lumen, quasi nascentis solis incunabula, pati assuescamus, ut
+						tandem per theologicam pietatem et sacratissimum Dei<anchor
+							type="annotation" n="227" xml:id="legacy227"/> cultum, quasi caelestes
+						aquilae, meridiantis<anchor type="annotation" n="228" xml:id="legacy228"/>
+						solis fulgidissimum iubar fortiter perferamus. </p>
+					<p xml:id="sec023009" n="144"> Hae illae <pb xml:id="brun13" n="13"
+							ed="exemplarBrunensis" facs="13.jpg"/>forsan<anchor type="annotation"
+							n="229" xml:id="legacy229"/> et a Davide<anchor type="annotation"
+							n="230" xml:id="legacy230"/> decantatae primum et<anchor
+							type="annotation" n="231" xml:id="legacy231"/> ab Augustino<anchor
+							type="annotation" n="232" xml:id="legacy232"/> explicatae latius,
+						matutinae, meridianae et vespertinae cognitiones. </p>
+					<p xml:id="sec023010" n="145"> Haec est illa lux meridialis, quae
+							Saraphinos<anchor type="annotation" n="233" xml:id="legacy233"/> ad
+						lineam inflammat<anchor type="annotation" n="234" xml:id="legacy234"/> et
+						Cherubinos pariter<anchor type="annotation" n="235" xml:id="legacy235"/>
+						illuminat. </p>
+					<p xml:id="sec023011" n="146"> Haec illa regio, quam versus semper antiquus
+						pater Abraham<anchor type="annotation" n="236" xml:id="legacy236"/>
+							proficiscebatur.<anchor type="annotation" n="237" xml:id="legacy237"/>
+					</p>
+					<p xml:id="sec023012" n="147"> Hic ille<anchor type="annotation" n="238"
+							xml:id="legacy238"/> locus, ubi immundis spiritibus<anchor
+							type="annotation" n="239" xml:id="legacy239"/> locum non esse et
+						Cabalistarum et Maurorum dogmata tradiderunt. </p>
+					<p xml:id="sec023013" n="148"> Et si secretiorum aliquid misteriorum fas est vel
+						sub enigmate<anchor type="annotation" n="240" xml:id="legacy240"/> in
+						publicum proferre, postquam et repens e caelo casus nostri hominis caput
+						vertigine damnavit et<anchor type="annotation" n="241" xml:id="legacy241"/>
+						iuxta Hieremiam, ingressa per fenestras mors<anchor type="annotation"
+							n="242" xml:id="legacy242"/> iecur pectusque male affecit, Raphaelem
+						coelestem medicum<anchor type="annotation" n="243" xml:id="legacy243"/>
+						advocemus, qui nos morali et dialetica<anchor type="annotation" n="244"
+							xml:id="legacy244"/> uti pharmacis salutaribus liberet. </p>
+					<p xml:id="sec023014" n="149"> Tum ad valetudinem bonam restitutos, iam Dei
+						robur Gabriel<anchor type="annotation" n="245" xml:id="legacy245"/>
+						inhabitabit, qui nos per naturae ducens miracula, ubique Dei virtutem
+						potestatemque indicans, tandem sacerdoti summo Michaeli<anchor
+							type="annotation" n="246" xml:id="legacy246"/> nos tradet qui, sub
+						stipendiis philosophiae emeritos, theologiae sacerdotio quasi corona
+							preciosi<anchor type="annotation" n="247" xml:id="legacy247"/>
+							lapidis<anchor type="annotation" n="248" xml:id="legacy248"/> insignet.
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec024" n="§24">
+				
+				<div type="body">
+					<p xml:id="sec024001" n="150">
+						<!--<pb xml:id="page135r_2" n="7" ed="editioPrinceps" facs="7.jpg" />-->
+						Haec sunt, Patres colendissimi, quae me ad philosophiae studium<anchor
+							type="annotation" n="249" xml:id="legacy249"/> non animarunt modo<anchor
+							type="annotation" n="250" xml:id="legacy250"/> sed compulerunt<anchor
+							type="annotation" n="251" xml:id="legacy251"/>. </p>
+					<p xml:id="sec024002" n="151"> Quae dicturus certe non eram, nisi his
+						responderem qui philosophiae studium in principibus presertim viris, aut his
+						omnino qui mediocri fortuna<anchor type="annotation" n="252"
+							xml:id="legacy252"/> vivunt, damnare solent. </p>
+					<p xml:id="sec024003" n="152"> Est enim iam hoc totum philosophari (quae est
+						nostrae etatis infoelicitas) in contemptum potius et contumeliam, quam in
+						honorem et gloriam. </p>
+					<p xml:id="sec024004" n="153"> Ita invasit fere omnium mentes exitialis haec et
+						monstrosa persuasio, aut nihil aut paucis philosophandum<anchor
+							type="annotation" n="253" xml:id="legacy253"/>. </p>
+					<p xml:id="sec024005" n="154"> Quasi rerum causas<anchor type="annotation"
+							n="254" xml:id="legacy254"/>, naturae vias, universi rationem, <pb
+							xml:id="page135v" n="8" ed="editioPrinceps" facs="8.jpg"/> Dei consilia,
+						caelorum terraeque<anchor type="annotation" n="255" xml:id="legacy255"/>
+						mysteria, pre oculis, pre manibus exploratissima habere nihil sit prorsus,
+						nisi vel gratiam inde aucupari aliquam, vel lucrum sibi quis comparare
+						possit. </p>
+					<p xml:id="sec024006" n="155"> Quin eo deventum est ut iam (proh dolor!) non
+						existimentur sapientes nisi qui mercennarium faciunt<anchor
+							type="annotation" n="256" xml:id="legacy256"/> studium sapientiae<anchor
+							type="annotation" n="257" xml:id="legacy257"/>, ut sit videre pudicam
+							Palladem<anchor type="annotation" n="258" xml:id="legacy258"/>, deorum
+						munere inter homines diversantem, <pb xml:id="bon8" n="8"
+							ed="exemplarBononiae" facs="3.jpg"/><pb xml:id="brun14" n="14"
+							ed="exemplarBrunensis" facs="14.jpg"/>eteiici, explodi, exsibilari, non
+						habere qui amet, qui faveat, nisi ipsa, quasi prostans<anchor
+							type="annotation" n="259" xml:id="legacy259"/> et praefloratae<anchor
+							type="annotation" n="260" xml:id="legacy260"/> virginitatis accepta
+						mercedula, male paratum aes in amatoris arculam<anchor type="annotation"
+							n="261" xml:id="legacy261"/> referat. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec025" n="§25">
+				
+				<div type="body">
+					<p xml:id="sec025001" n="156"> Quae omnia ego non sine summo dolore et
+						indignatione in huius temporis, non principes, sed philosophos dico, qui
+						ideo non esse philosophandum et credunt et praedicant, quod philosophis
+						nulla merces, nulla sint praemia constituta, quasi non ostendant ipsi, hoc
+						uno nomine, se non esse philosophos. </p>
+					<p xml:id="sec025002" n="157"> Quod cum tota eorum vita sit vel in questu<anchor
+							type="annotation" n="262" xml:id="legacy262"/>, vel in ambitione posita,
+						ipsam per se veritatis cognitionem non amplectuntur. </p>
+					<p xml:id="sec025003" n="158"> Dabo hoc mihi, et me ipsum hac ex parte laudare
+						nihil erubescam, me numquam alia de causa philosophatum nisi ut
+						philosopharer, nec ex studiis meis, ex meis lucubrationibus, mercedem ullam
+						aut fructum vel sperasse alium vel quesiisse, quam animi cultum et a me
+						semper plurimum desideratae veritatis cognitionem. </p>
+					<p xml:id="sec025004" n="159"> Cuius ita cupidus semper et amantissimus fui ut,
+						relicta omni privatarum et publicarum rerum cura, contemplandi<anchor
+							type="annotation" n="263" xml:id="legacy263"/> ocio<anchor
+							type="annotation" n="264" xml:id="legacy264"/> totum me tradiderim; a
+						quo nullae invidorum obtrectationes, nulla hostium sapientiae maledicta, vel
+						potuerunt ante hac, vel in posterum me deterrere poterunt. </p>
+					<p xml:id="sec025005" n="160"> Docuit me ipsa philosophia a propria potius
+						conscientia quam ab externis pendere iuditiis, cogitareque semper, non tam
+						ne male audiam, quam ne quid male vel dicam ipse vel agam. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec026" n="§26">
+				
+				<div type="body">
+					<p xml:id="sec026001" n="161"> Equidem non eram nescius, Patres colendissimi,
+						futuram hanc ipsam meam disputationem quam vobis omnibus qui bonis artibus
+						favetis et augustissima vestra praesentia illam honestare voluistis, gratam
+						atque iocundam, tam multis aliis gravem atque molestam; et scio non deesse
+						qui inceptum meum et damnarint ante hac et in praesentia multis nominibus
+						damnent. </p>
+					<p xml:id="sec026002" n="162"> Ita consueverunt non pauciores, ne dicam plures,
+						habere oblatratores quae bene sancteque aguntur ad virtutem, quam quae
+						inique et perperam ad vitium. </p>
+					<p xml:id="sec026003" n="163"> Sunt autem qui totum hoc<anchor type="annotation"
+							n="265" xml:id="legacy265"/> disputandi genus et hanc de litteris
+						publice disceptandi institutionem non approbent, ad pompam potius ingenii et
+						doctrinae ostentationem<anchor type="annotation" n="266" xml:id="legacy266"
+						/> quam ad comparandam eruditionem esse illam asseverantes<anchor
+							type="annotation" n="267" xml:id="legacy267"/>. </p>
+					<p xml:id="sec026004" n="164">
+						<pb xml:id="brun15" n="15" ed="exemplarBrunensis" facs="15.jpg"/>Sunt qui
+						hoc quidem exercitationis genus non improbent, sed in me nullo modo probent,
+							quod<anchor type="annotation" n="268" xml:id="legacy268"/> ego hac
+						aetate, quartum scilicet et vigesimum modo<anchor type="annotation" n="269"
+							xml:id="legacy269"/> natus annum, de sublimibus Christianae theologiae
+						mysteriis, de altissimis philosophiae locis<anchor type="annotation" n="270"
+							xml:id="legacy270"/>, de incognitis disciplinis, in celebratissima urbe,
+						in amplissimo doctissimorum hominum consessu, in apostolico senatu,
+						disputationem proponere sim ausus<anchor type="annotation" n="271"
+							xml:id="legacy271"/>. </p>
+					<p xml:id="sec026005" n="165"> Alii, hoc mihi dantes quod disputem, id dare
+						nolunt quod de nongentis disputem questionibus, tam superfluo et ambitiose
+						quam supra vires id factum calumniantes. </p>
+					<p xml:id="sec026006" n="166"> Horum ego obiectamentis et manus illico dedissem,
+						si ita quam profiteor philosophia me edocuisset et nunc, illa ita me
+						docente, non responderem, si rixandi iurgandique proposito constitutam hanc
+						inter nos disceptationem crederem. </p>
+					<p xml:id="sec026007" n="167"> Quare, obtrectandi omne lacessendique propositum,
+						et quem scribit Plato a divino semper abesse choro<anchor type="annotation"
+							n="272" xml:id="legacy272"/>, a nostris quoque mentibus facessat livor,
+						et an disputandum a me, an de tot etiam quaestionibus<anchor
+							type="annotation" n="273" xml:id="legacy273"/>, amice
+							incognoscamus<anchor type="annotation" n="274" xml:id="legacy274"/>.
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec027" n="§27">
+				
+				<div type="body">
+					<p xml:id="sec027001" n="168"> Primum quidem ad eos, qui hunc publice disputandi
+						morem calumniantur, multa non sum dicturus, quando haec culpa, si culpa
+						censetur, non solum vobis omnibus, doctores excellentissimi<anchor
+							type="annotation" n="275" xml:id="legacy275"/>, qui sepius hoc munere,
+						non sine summa et laude et gloria, functi <pb xml:id="page136r" n="9"
+							ed="editioPrinceps" facs="9.jpg"/> estis, sed Platoni, sed Aristoteli,
+						sed probatissimis omnium etatum philosophis mecum est communis<anchor
+							type="annotation" n="276" xml:id="legacy276"/>. </p>
+					<p xml:id="sec027002" n="169"> Quibus<anchor type="annotation" n="277"
+							xml:id="legacy277"/> erat<anchor type="annotation" n="278"
+							xml:id="legacy278"/> certissimum nihil ad consequendam quam
+							quaerebant<anchor type="annotation" n="279" xml:id="legacy279"/>
+						veritatis cognitionem sibi esse, potius quam ut essent in disputandi
+						exercitatione frequentissimi<anchor type="annotation" n="280"
+							xml:id="legacy280"/>. </p>
+					<p xml:id="sec027003" n="170"> Sicut enim per gymnasticam corporis vires
+						firmiores fiunt, ita dubio<anchor type="annotation" n="281"
+							xml:id="legacy281"/> procul<anchor type="annotation" n="282"
+							xml:id="legacy282"/>, in hac quasi litteraria palestra, animi vires et
+						fortiores longe et vegetiores evadunt. </p>
+					<p xml:id="sec027004" n="171"> Nec crediderim ego aut poetas aliud per decantata
+						Palladis arma<anchor type="annotation" n="283" xml:id="legacy283"/>, aut
+						Hebreos, cum [ ]<anchor type="annotation" n="284" xml:id="legacy284"/>,
+						ferrum, sapientum<anchor type="annotation" n="285" xml:id="legacy285"/>
+						symbolum esse dicunt, significasse nobis quam honestissima hoc genus
+						certamina, adipiscendae sapientiae oppido quam<anchor type="annotation"
+							n="286" xml:id="legacy286"/> necessaria. </p>
+					<p xml:id="sec027005" n="172"> Quo forte fit ut et Caldei in eius genesi<anchor
+							type="annotation" n="287" xml:id="legacy287"/> qui philosophus sit<pb
+							xml:id="brun16" n="16" ed="exemplarBrunensis" facs="16.jpg"/> futurus,
+						illud desiderent, ut Mars et<anchor type="annotation" n="288"
+							xml:id="legacy288"/> Mercurium <pb xml:id="bon9" n="9"
+							ed="exemplarBononiae" facs="4.jpg"/>ettriquetro<anchor type="annotation"
+							n="289" xml:id="legacy289"/> aspectu<anchor type="annotation" n="290"
+							xml:id="legacy290"/> conspiciat<anchor type="annotation" n="291"
+							xml:id="legacy291"/>, quasi<anchor type="annotation" n="292"
+							xml:id="legacy292"/> si hos congressus, haec bella substuleris,
+						somniculosa et dormitans futura sit omnis philosophia<anchor
+							type="annotation" n="293" xml:id="legacy293"/>. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec028" n="§28">
+				
+				<div type="body">
+					<p xml:id="sec028001" n="173"> At vero cum his qui me huic provintiae imparem
+						dicunt, difficilior est mihi ratio defensionis: nam<anchor type="annotation"
+							n="294" xml:id="legacy294"/> si parem<anchor type="annotation" n="295"
+							xml:id="legacy295"/> me dixero<anchor type="annotation" n="296"
+							xml:id="legacy296"/>, forsitan<anchor type="annotation" n="297"
+							xml:id="legacy297"/> immodesti et de se nimia sentientis, si imparem
+							fatebor<anchor type="annotation" n="298" xml:id="legacy298"/>, temerarii
+						et inconsulti notam videor<anchor type="annotation" n="299"
+							xml:id="legacy299"/> subiturus. </p>
+					<p xml:id="sec028002" n="174"> Videte quas incidi<anchor type="annotation"
+							n="300" xml:id="legacy300"/> angustias<anchor type="annotation" n="301"
+							xml:id="legacy301"/>, quo loco sim constitutus<anchor type="annotation"
+							n="302" xml:id="legacy302"/>, dum non possum sine culpa de me promittere
+						quod non possum mox<anchor type="annotation" n="303" xml:id="legacy303"/>
+						sine culpa non praestare. </p>
+					<p xml:id="sec028003" n="175"> Forte et<anchor type="annotation" n="304"
+							xml:id="legacy304"/> illud Iob afferre possem spiritum esse<anchor
+							type="annotation" n="305" xml:id="legacy305"/>, spiritum esse in
+							omnibus<anchor type="annotation" n="306" xml:id="legacy306"/>, et cum
+						Timotheo audire<anchor type="annotation" n="307" xml:id="legacy307"/>: "Nemo
+						contemnat adolescentiam tuam"<anchor type="annotation" n="308"
+							xml:id="legacy308"/>. </p>
+					<p xml:id="sec028004" n="176"> Sed ex mea verius hoc conscientia dixero, nihil
+						esse in nobis<anchor type="annotation" n="309" xml:id="legacy309"/> magnum
+						vel singulare; studiosum me forte et cupidum bonarum artium<anchor
+							type="annotation" n="310" xml:id="legacy310"/> non inficiatus, docti
+						tamen nomen mihi nec sumo<anchor type="annotation" n="311"
+							xml:id="legacy311"/> nec arrogo<anchor type="annotation" n="312"
+							xml:id="legacy312"/>. </p>
+					<p xml:id="sec028005" n="177"> Quare et quod tam grande humeris onus imposuerim,
+						non fuit propterea quod mihi conscius nostrae infirmitatis non essem, sed
+						quod sciebam<anchor type="annotation" n="313" xml:id="legacy313"/> hoc genus
+						pugnis, idest litterariis, esse peculiare<anchor type="annotation" n="314"
+							xml:id="legacy314"/> quod in eis lucrum est vinci<anchor
+							type="annotation" n="315" xml:id="legacy315"/>. </p>
+					<p xml:id="sec028006" n="178"> Quo fit ut imbecillissimus<anchor
+							type="annotation" n="316" xml:id="legacy316"/> quisque non detrectare
+						modo, sed appetere ultro eas<anchor type="annotation" n="317"
+							xml:id="legacy317"/> iure possit et debeat. </p>
+					<p xml:id="sec028007" n="179"> Quandoquidem qui succumbit beneficium a victore
+						accipit, non iniuriam, quippe qui per eum et locupletior<anchor
+							type="annotation" n="318" xml:id="legacy318"/> domum, idest<anchor
+							type="annotation" n="319" xml:id="legacy319"/> doctior et ad futuras
+						pugnas redit instructior. </p>
+					<p xml:id="sec028008" n="180"> Hac<anchor type="annotation" n="320"
+							xml:id="legacy320"/> spe animatus, ego infirmus miles<anchor
+							type="annotation" n="321" xml:id="legacy321"/> cum fortissimis omnium
+							strenuissimisque<anchor type="annotation" n="322" xml:id="legacy322"/>
+						tam gravem pugnam<anchor type="annotation" n="323" xml:id="legacy323"/>
+						decernere nihil sum veritus. </p>
+					<p xml:id="sec028009" n="181"> Quod tamen temere sit factum nec ne, rectius
+						utique de eventu pugnae quam de nostra aetate potest<anchor
+							type="annotation" n="324" xml:id="legacy324"/> quis iudicare. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec029" n="§29">
+				
+				<div type="body">
+					<p xml:id="sec029001" n="182"> Restat ut tertio loco <anchor type="annotation"
+							n="325" xml:id="legacy325"/> his respondeam, qui numerosa propositarum
+						rerum multitudine offenduntur, quasi hoc eorum humeris sederet onus, et non
+						potius hic mihi soli quantuscumque est labor, <anchor type="annotation"
+							n="326" xml:id="legacy326"/> esset exanclandus. <anchor
+							type="annotation" n="327" xml:id="legacy327"/>
+					</p>
+					<p xml:id="sec029002" n="183"> Indecens profecto hoc et morosum nimis, velle
+						alienae industriae <anchor type="annotation" n="328" xml:id="legacy328"/>
+						modum ponere, et, ut inquit Cicero in ea re quae <anchor type="annotation"
+							n="329" xml:id="legacy329"/> eo melior quo maior, mediocritatem
+						desiderare. <anchor type="annotation" n="330" xml:id="legacy330"/>
+					</p>
+					<p xml:id="sec029003" n="184"> Omnino tam grandibus ausis erat necesse me vel
+						succumbere vel satisfacere; si satisfacerem, non video cur quod in decem
+						praestare <anchor type="annotation" n="331" xml:id="legacy331"/>
+						questionibus est laudabile, in nongentis etiam praestitisse <anchor
+							type="annotation" n="332" xml:id="legacy332"/> culpabile existimetur.
+							<anchor type="annotation" n="333" xml:id="legacy333"/>
+					</p>
+					<p xml:id="sec029004" n="185"> Si succumberem, habebunt ipsi, si me oderunt, <pb
+							xml:id="brun17" n="17" ed="exemplarBrunensis" facs="17.jpg"/>unde
+						accusarent, <anchor type="annotation" n="334" xml:id="legacy334"/> si amant
+						unde excusent. <anchor type="annotation" n="335" xml:id="legacy335"/>
+					</p>
+					<p xml:id="sec029005" n="186"> Quoniam <anchor type="annotation" n="336"
+							xml:id="legacy336"/> in re tam gravi, tam magna, tenui ingenio,
+						exiguaque doctrina, adolescentem hominem defecisse, venia potius dignum erit
+							<anchor type="annotation" n="337" xml:id="legacy337"/> quam accusatione. </p>
+					<p xml:id="sec029006" n="187"> Quin et iuxta poetam: «Si deficiunt <anchor
+							type="annotation" n="338" xml:id="legacy338"/> vires, audacia certe laus
+						erit: in magnis et voluisse sat est». <anchor type="annotation" n="339"
+							xml:id="legacy339"/>
+					</p>
+					<p xml:id="sec029007" n="188"> Quod si nostra aetate multi, <anchor
+							type="annotation" n="340" xml:id="legacy340"/> Gorgiam Leontinum
+						imitati, non modo de nongentis sed de omnibus etiam omnium artium
+						questionibus soliti sunt, <anchor type="annotation" n="341"
+							xml:id="legacy341"/> non sine laude, proponere disputationem, cur mihi
+						non liceat, vel sine culpa, de multis quidem, sed tamen certis et
+						determinatis disputare? </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec030" n="§30">
+				
+				<div type="body">
+					<p xml:id="sec030001" n="189"> At superfluum inquiunt hoc et ambitiosum. </p>
+					<p xml:id="sec030002" n="190"> Ego vero non superfluo modo, sed necessario
+						factum hoc a me contendo, quod et si ipsi mecum <anchor type="annotation"
+							n="342" xml:id="legacy342"/> philo <pb xml:id="page136v" n="10"
+							ed="editioPrinceps" facs="10.jpg"/>sophandi rationem considerarent,
+						inviti etiam fateantur plane necesse est. </p>
+					<p xml:id="sec030003" n="191"> Qui enim se cuipiam ex philosophorum familiis
+						addixerunt, Thomae videlicet aut Scoto, qui nunc plurimum in manibus,
+						faventes, possunt illi quidem vel in paucarum <anchor type="annotation"
+							n="343" xml:id="legacy343"/> questionum discussione suae doctrinae
+							<anchor type="annotation" n="344" xml:id="legacy344"/> periculum facere. </p>
+					<p xml:id="sec030004" n="192"> At ego ita me institui, ut in nullius verba
+						iuratus, <anchor type="annotation" n="345" xml:id="legacy345"/> me per omnes
+						philosophiae <anchor type="annotation" n="346" xml:id="legacy346"/>
+						magistros funderem, omnes scedas excuterem, omnes familias agnoscerem.
+							<anchor type="annotation" n="347" xml:id="legacy347"/>
+					</p>
+					<p xml:id="sec030005" n="193"> Quare, cum mihi de illis omnibus esset dicendum,
+						ne, si privati dogmatis defensor reliqua posthabuissem, illi viderer
+						obstrictus, non potuerunt, etiam si pauca de singulis proponerentur, non
+						esse plurima quae <anchor type="annotation" n="348" xml:id="legacy348"/>
+						simul de omnibus afferebantur. </p>
+					<p xml:id="sec030006" n="194"> Nec id in me quisquam damnet, quod me quocumque
+							<anchor type="annotation" n="349" xml:id="legacy349"/> ferat tempestas
+						deferar <anchor type="annotation" n="350" xml:id="legacy350"/> hospes.
+							<anchor type="annotation" n="351" xml:id="legacy351"/>
+						<anchor type="annotation" n="352" xml:id="legacy352"/>
+					</p>
+					<p xml:id="sec030007" n="195"> Fuit enim cum ab antiquis omnibus hoc observatum,
+							<anchor type="annotation" n="353" xml:id="legacy353"/> ut omne
+						scriptorum genus evolventes, nullas <anchor type="annotation" n="354"
+							xml:id="legacy354"/> quas possent commentationes illectas preterirent,
+							<anchor type="annotation" n="355" xml:id="legacy355"/> tum maxime ab
+						Aristotele, qui eam ob causam <figure>
+							<graphic url="text_clip_image001.gif"/>
+						</figure>, <anchor type="annotation" n="356" xml:id="legacy356"/> idest
+						lector, a Platone nuncupabatur, <anchor type="annotation" n="357"
+							xml:id="legacy357"/> et profecto angustae <anchor type="annotation"
+							n="358" xml:id="legacy358"/> est mentis intra unam se Porticum aut
+						Achademiam continuisse. </p>
+					<p xml:id="sec030008" n="196"> Nec potest <anchor type="annotation" n="359"
+							xml:id="legacy359"/> ex omnibus sibi recte propriam <anchor
+							type="annotation" n="360" xml:id="legacy360"/> selegisse, <anchor
+							type="annotation" n="361" xml:id="legacy361"/> qui omnes prius <anchor
+							type="annotation" n="362" xml:id="legacy362"/> familiariter <anchor
+							type="annotation" n="363" xml:id="legacy363"/> non agnoverit. <anchor
+							type="annotation" n="364" xml:id="legacy364"/>
+					</p>
+					<p xml:id="sec030009" n="197"> Adde quod <anchor type="annotation" n="365"
+							xml:id="legacy365"/> in una quaque familia est <pb xml:id="bon10" n="10"
+							ed="exemplarBononiae" facs="5.jpg"/><pb xml:id="brun18" n="18"
+							ed="exemplarBrunensis" facs="18.jpg"/>aliquid insigne, quod non sit ei
+						commune cum caeteris. <anchor type="annotation" n="366" xml:id="legacy366"/>
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec031" n="§31">
+				
+				<div type="body">
+					<p xml:id="sec031001" n="198"> Atque ut a nostris, ad quos postremo philosophia
+						pervenit, nunc exordiar, est in Ioanne Scoto vegetum quiddam <anchor
+							type="annotation" n="367" xml:id="legacy367"/> atque discussum, in Thoma
+						solidum et equabile, <anchor type="annotation" n="368" xml:id="legacy368"/>
+						in Egidio <anchor type="annotation" n="369" xml:id="legacy369"/> tersum et
+						exactum, <anchor type="annotation" n="370" xml:id="legacy370"/> in Francisco
+						acre et acutum, in Alberto priscum, amplum et grande, <anchor
+							type="annotation" n="371" xml:id="legacy371"/> in Henrico, ut mihi visum
+						est, semper sublime et venerandum. </p>
+					<p xml:id="sec031002" n="199"> Est apud Arabes, in Averroe firmum et inconcusum,
+							<anchor type="annotation" n="372" xml:id="legacy372"/> in Avempace, in
+						Alpharabio grave et meditatum, in Avicenna divinum atque <anchor
+							type="annotation" n="373" xml:id="legacy373"/> Platonicum. </p>
+					<p xml:id="sec031003" n="200"> Est apud Graecos <anchor type="annotation"
+							n="374" xml:id="legacy374"/> in universum quidem nitida, in primis et
+						casta philosophia; apud Simplicium locuplex <anchor type="annotation"
+							n="375" xml:id="legacy375"/> et copiosa, apud Themistium <anchor
+							type="annotation" n="376" xml:id="legacy376"/> elegans et compendiaria,
+						apud Alexandrum constans et docta, apud Theophrastum graviter elaborata,
+						apud Ammonium enodis et gratiosa. </p>
+					<p xml:id="sec031004" n="201"> Et si ad Platonicos te converteris, ut paucos
+						percenseam, in Porphyrio <anchor type="annotation" n="377"
+							xml:id="legacy377"/> rerum copia et multiiuga religione delectaberis, in
+						Iamblico secretiorem philosophiam et barbarorum mysteria <anchor
+							type="annotation" n="378" xml:id="legacy378"/> veneraberis, in Plotino
+						privum <anchor type="annotation" n="379" xml:id="legacy379"/> quicquam non
+						est quod admireris, qui se undique prebet <anchor type="annotation" n="380"
+							xml:id="legacy380"/> admirandum, quem de divinis divine, de humanis
+						longe supra hominem docta sermonis obliquitate loquentem, sudantes Platonici
+						vix intelligunt. </p>
+					<p xml:id="sec031005" n="202"> Pretereo <anchor type="annotation" n="381"
+							xml:id="legacy381"/> magis novitios, <anchor type="annotation" n="382"
+							xml:id="legacy382"/> Proclum <anchor type="annotation" n="383"
+							xml:id="legacy383"/> Asiatica fertilitate luxuriantem et qui ab eo
+						fluxerunt Hermiam, Damascium, <anchor type="annotation" n="384"
+							xml:id="legacy384"/> Olympiodorum et complures alios, in quibus omnibus
+						illud <figure>
+							<graphic url="text_clip_image002.gif"/>
+						</figure>, <anchor type="annotation" n="385" xml:id="legacy385"/> idest
+						divinum peculiare Platonicorum simbolum <anchor type="annotation" n="386"
+							xml:id="legacy386"/> elucet semper. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec032" n="§32">
+				
+				<div type="body">
+					<p xml:id="sec032001" n="203"> Accedit quod, si qua est secta <anchor
+							type="annotation" n="387" xml:id="legacy387"/> quae <anchor
+							type="annotation" n="388" xml:id="legacy388"/> veriora incessat dogmata
+						et bonas causas ingenii calumnia ludificetur, ea <anchor type="annotation"
+							n="389" xml:id="legacy389"/> veritatem firmat, non infirmat, et, velut
+						motu quassatam flammam, excitat, non extinguit. <anchor type="annotation"
+							n="390" xml:id="legacy390"/>
+					</p>
+					<p xml:id="sec032002" n="204"> Hac ego ratione motus, non unius modo (ut
+						quibusdam placebat), sed omnigenae doctrinae <anchor type="annotation"
+							n="391" xml:id="legacy391"/> placita in medium afferre volui, ut hac
+						complurium sectarum collatione ac multifariae <anchor type="annotation"
+							n="392" xml:id="legacy392"/> discussione <anchor type="annotation"
+							n="393" xml:id="legacy393"/> philosophiae, <anchor type="annotation"
+							n="394" xml:id="legacy394"/>
+						<pb xml:id="brun19" n="19" ed="exemplarBrunensis" facs="19.jpg"/>ille
+							<anchor type="annotation" n="395" xml:id="legacy395"/> veritatis fulgor,
+						cuius Plato meminit in Epistolis, animis nostris quasi sol oriens ex alto
+						clarius illucesceret. <anchor type="annotation" n="396" xml:id="legacy396"/>
+					</p>
+					<p xml:id="sec032003" n="205"> Quid erat, si Latinorum tantum, Alberti scilicet,
+						Thomae, <anchor type="annotation" n="397" xml:id="legacy397"/> Scoti,
+						Egidii, Francisci, Henricique philosophia, obmissis <pb xml:id="page137r"
+							n="11" ed="editioPrinceps" facs="11.jpg"/> Graecorum <anchor
+							type="annotation" n="398" xml:id="legacy398"/> Arabumque philosophis,
+						tractabatur? </p>
+					<p xml:id="sec032004" n="206"> Quando <anchor type="annotation" n="399"
+							xml:id="legacy399"/> omnis sapientia a Barbaris ad Graecos, <anchor
+							type="annotation" n="400" xml:id="legacy400"/> a Graecis <anchor
+							type="annotation" n="401" xml:id="legacy401"/> ad <anchor
+							type="annotation" n="402" xml:id="legacy402"/> nos manavit. </p>
+					<p xml:id="sec032005" n="207"> Ita nostrates semper in philosophandi <anchor
+							type="annotation" n="403" xml:id="legacy403"/> ratione peregrinis
+						inventis stare, et aliena excoluisse sibi duxerunt satis. <anchor
+							type="annotation" n="404" xml:id="legacy404"/>
+					</p>
+					<p xml:id="sec032006" n="208"> Quid erat cum Peripateticis <anchor
+							type="annotation" n="405" xml:id="legacy405"/> egisse de naturalibus
+						nisi et Platonicorum accersebatur Achademia, quorum doctrina et de divinis
+						semper inter omnes philosophias, teste Augustino, <anchor type="annotation"
+							n="406" xml:id="legacy406"/> habita est sancitissima et a me nunc
+						primum, quod sciam, (verbo absit invidia) post multa secula sub disputandi
+						examen est in publicum allata. </p>
+					<p xml:id="sec032007" n="209"> Quid erat et aliorum quot quot erant tractasse
+						opiniones, si quasi ad sapientum symposium asymboli <anchor
+							type="annotation" n="407" xml:id="legacy407"/> accedentes, <anchor
+							type="annotation" n="408" xml:id="legacy408"/> nihil nos quod esset
+						nostrum, nostro partum et elaboratum ingenio, afferebamus? </p>
+					<p xml:id="sec032008" n="210"> Profecto ingenerosum <anchor type="annotation"
+							n="409" xml:id="legacy409"/> est (ut ait Seneca) <anchor
+							type="annotation" n="410" xml:id="legacy410"/> sapere solum ex
+						commentario et quasi maiorum inventa nostrae industriae <anchor
+							type="annotation" n="411" xml:id="legacy411"/> viam <anchor
+							type="annotation" n="412" xml:id="legacy412"/> praecluserint, <anchor
+							type="annotation" n="413" xml:id="legacy413"/> quasi in nobis effaeta
+							<anchor type="annotation" n="414" xml:id="legacy414"/> sit vis naturae,
+							<anchor type="annotation" n="415" xml:id="legacy415"/> nihil ex se
+						parere, quod veritatem, si non demonstret, saltem innuat vel de longinquo. </p>
+					<p xml:id="sec032009" n="211"> Quod si in agro colonus, in uxore maritus odit
+						sterilitatem, certe tanto magis infecundam <anchor type="annotation" n="416"
+							xml:id="legacy416"/> animam oderit illi complicita et associata divina
+						mens, quanto inde nobilior longe proles desideratur. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec033" n="§33">
+				
+				<div type="body">
+					<p xml:id="sec033001" n="212"> Propterea non contentus ego, praeter <anchor
+							type="annotation" n="417" xml:id="legacy417"/> comunes doctrinas multa
+						de Mercurii Trismegisti prisca theologia, multa de Caldeorum, de Pythagorae
+							<anchor type="annotation" n="418" xml:id="legacy418"/> disciplinis,
+						multa de secretioribus Hebreorum addidisse mysteriis, <anchor
+							type="annotation" n="419" xml:id="legacy419"/> plurima quoque per nos
+						inventa et meditata, de naturalibus et divinis rebus disputanda proposuimus.
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec034" n="§34">
+				
+				<div type="body">
+					<p xml:id="sec034001" n="213"> Proposuimus primo Platonis Aristotelisque
+						concordiam a multis ante hac creditam, a nemine satis probatam. Boetius,
+						apud Latinos id se facturum pollicitus, non invenitur fecisse unquam quod
+						semper facere voluit. <anchor type="annotation" n="420" xml:id="legacy420"/>
+					</p>
+					<p xml:id="sec034002" n="214"> Simplicius, <pb xml:id="bon11" n="11"
+							ed="exemplarBononiae" facs="6.jpg"/><pb xml:id="brun20" n="20"
+							ed="exemplarBrunensis" facs="20.jpg"/>apud Graecos <anchor
+							type="annotation" n="421" xml:id="legacy421"/> idem professus, utinam id
+						tam praestaret <anchor type="annotation" n="422" xml:id="legacy422"/> quam
+						pollicetur. <anchor type="annotation" n="423" xml:id="legacy423"/>
+					</p>
+					<p xml:id="sec034003" n="215"> Scribit et Augustinus <anchor type="annotation"
+							n="424" xml:id="legacy424"/> in Achademicis <anchor type="annotation"
+							n="425" xml:id="legacy425"/> non defuisse plures qui subtilissimis suis
+						disputationibus idem probare conati sint, Platonis scilicet et Aristotelis
+						eandem esse philosophiam. </p>
+					<p xml:id="sec034004" n="216"> Ioannes item Grammaticus cum dicat apud eos
+						tantum dissidere Platonem ab Aristotele, qui Platonis dicta non <anchor
+							type="annotation" n="426" xml:id="legacy426"/> intelligunt probandum
+						tamen posteris hoc reliquit. </p>
+					<p xml:id="sec034005" n="217"> Addidimus autem et plures locos in quibus Scoti
+						et Thomae, <anchor type="annotation" n="427" xml:id="legacy427"/> plures in
+						quibus Averrois et Avicennae <anchor type="annotation" n="428"
+							xml:id="legacy428"/> sententias, quae <anchor type="annotation" n="429"
+							xml:id="legacy429"/> discordes existimantur, concordes esse nos
+						asseveramus. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec035" n="§35">
+				
+				<div type="body">
+					<p xml:id="sec035001" n="218"> Secundo loco quae in philosophia cum <anchor
+							type="annotation" n="430" xml:id="legacy430"/> Aristotelica tum
+						Platonica excogitavimus nos, tum duo et septuaginta <anchor
+							type="annotation" n="431" xml:id="legacy431"/> nova dogmata physica
+							<anchor type="annotation" n="432" xml:id="legacy432"/> et methaphysica
+							<anchor type="annotation" n="433" xml:id="legacy433"/> collocavimus,
+						quae <anchor type="annotation" n="434" xml:id="legacy434"/> si quis teneat,
+						poterit, nisi fallor, quod mihi erit mox manifestum, <anchor
+							type="annotation" n="435" xml:id="legacy435"/> quamcumque de rebus
+						naturalibus divinisque propositam questionem longe alia dissolvere ratione
+							<anchor type="annotation" n="436" xml:id="legacy436"/> quam per eam
+						edoceamur quae <anchor type="annotation" n="437" xml:id="legacy437"/> et
+						legitur in scolis et ab huius evi doctoribus colitur philosophiam. </p>
+					<p xml:id="sec035002" n="219"> Nec tam admirari quis debet, Patres, <anchor
+							type="annotation" n="438" xml:id="legacy438"/> me in primis <anchor
+							type="annotation" n="439" xml:id="legacy439"/> annis, in tenera etate,
+						per quam vix licuit (ut iactant quidam) aliorum legere commentationes, novam
+						afferre velle philosophiam, quam vel laudare illam, si defenditur, vel
+						damnare, si reprobatur et <anchor type="annotation" n="440"
+							xml:id="legacy440"/> denique, cum nostra inventa haec <anchor
+							type="annotation" n="441" xml:id="legacy441"/> nostrasque sint <anchor
+							type="annotation" n="442" xml:id="legacy442"/> litteras iudicaturi, non
+						auctoris annos, sed illorum merita potius vel demerita numerare. </p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec036" n="§36">
+				
+				<div type="body">
+					<p xml:id="sec036001" n="220"> Est autem, et praeter <anchor type="annotation"
+							n="443" xml:id="legacy443"/> illam, alia, quam nos attulimus, nova per
+						numeros philosophandi institutio antiqua, illa quidem et a priscis
+						theologis, a Pythagora presertim, ab Aglaophemo, <anchor type="annotation"
+							n="444" xml:id="legacy444"/> a Philolao, <anchor type="annotation"
+							n="445" xml:id="legacy445"/> a Platone prioribusque Platonicis
+						observata. <anchor type="annotation" n="446" xml:id="legacy446"/>
+					</p>
+					<p xml:id="sec036002" n="221"> Sed quae <anchor type="annotation" n="447"
+							xml:id="legacy447"/> hac tempestate, ut preclara alia, posteriorum
+						incuria sic exolevit, ut vix vestigia ipsius ulla reperiantur. </p>
+					<p xml:id="sec036003" n="222"> Scribit Plato in Epinomide, <anchor
+							type="annotation" n="448" xml:id="legacy448"/>
+						<anchor type="annotation" n="449" xml:id="legacy449"/> inter omnes liberales
+						artes et scientias contemplatrices praecipuam <anchor type="annotation"
+							n="450" xml:id="legacy450"/> maximeque divinam <pb xml:id="page137v"
+							n="12" ed="editioPrinceps" facs="12.jpg"/> esse scientiam numerandi. </p>
+					<p xml:id="sec036004" n="223"><pb xml:id="brun21" n="21" ed="exemplarBrunensis"
+							facs="21.jpg"/>Querens item, cur homo animal sapientissimum? Respondet:
+						«Quia numerare novit». <anchor type="annotation" n="451" xml:id="legacy451"
+						/>
+					</p>
+					<p xml:id="sec036005" n="224"> Cuius sententiae <anchor type="annotation"
+							n="452" xml:id="legacy452"/> et Aristoteles meminit in Problematis.
+							<anchor type="annotation" n="453" xml:id="legacy453"/>
+					</p>
+					<p xml:id="sec036006" n="225"> Scribit Abumasar verbum fuisse Avenzoar
+						Babilonii, eum omnia nosse qui noverat numerare. </p>
+					<p xml:id="sec036007" n="226"> Quae <anchor type="annotation" n="454"
+							xml:id="legacy454"/> vera esse nullo modo possunt, si per numerandi
+						artem eam artem intellexerunt cuius nunc mercatores in primis <anchor
+							type="annotation" n="455" xml:id="legacy455"/> sunt peritissimi, quod et
+						Plato testatur, <anchor type="annotation" n="456" xml:id="legacy456"/>
+						exerta nos admonens voce ne divinam hanc arithmeticam mercatoriam esse
+						arithmeticam intelligamus. </p>
+					<p xml:id="sec036008" n="227"> Illam ergo <anchor type="annotation" n="457"
+							xml:id="legacy457"/> arithmeticam, quae <anchor type="annotation"
+							n="458" xml:id="legacy458"/> ita extollitur, cum mihi videar post multas
+						lucubrationes exploratam habere, huiusce rei periculum facturus, ad quator
+						et lxx <anchor type="annotation" n="459" xml:id="legacy459"/> questiones,
+						quae <anchor type="annotation" n="460" xml:id="legacy460"/> inter physicas
+							<anchor type="annotation" n="461" xml:id="legacy461"/> et divinas
+						principales existimantur, responsurum per numeros publice me sum pollicitus.
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec037" n="§37">
+				
+				<div type="body">
+					<p xml:id="sec037001" n="228"> Proposuimus et magica theoremata, in quibus
+						duplicem esse magiam significavimus, quarum altera demonum tota opere et
+						auctoritate constat, res medius fidius execranda et portentosa. </p>
+					<p xml:id="sec037002" n="229"> Altera nihil est aliud, cum bene exploratur, quam
+						naturalis philosophiae <anchor type="annotation" n="462" xml:id="legacy462"
+						/> absoluta consumatio. </p>
+					<p xml:id="sec037003" n="230"> Utriusque cum meminerint Greci, illam magiae
+							<anchor type="annotation" n="463" xml:id="legacy463"/> nullo modo nomine
+						dignantes <figure>
+							<graphic url="text_clip_image003.gif"/>
+						</figure>, <anchor type="annotation" n="464" xml:id="legacy464"/> quasi
+						perfectam summamque sapientiam <anchor type="annotation" n="465"
+							xml:id="legacy465"/> vocant. </p>
+					<p xml:id="sec037004" n="231"> Idem enim, ut ait Porphyrius, <anchor
+							type="annotation" n="466" xml:id="legacy466"/>
+						<anchor type="annotation" n="467" xml:id="legacy467"/> Persarum lingua magus
+						sonat quod apud nos divinorum interpres et cultor. </p>
+					<p xml:id="sec037005" n="232"> Magna autem, immo <anchor type="annotation"
+							n="468" xml:id="legacy468"/> maxima, Patres, <anchor type="annotation"
+							n="469" xml:id="legacy469"/> inter has artes disparilitas et
+						dissimilitudo. </p>
+					<p xml:id="sec037006" n="233"> Illam non modo Christiana religio, <anchor
+							type="annotation" n="470" xml:id="legacy470"/> sed omnes leges, omnis
+						bene instituta respublica damnat et execratur. </p>
+					<p xml:id="sec037007" n="234"> Hanc omnes sapientes, <anchor type="annotation"
+							n="471" xml:id="legacy471"/> omnes caelestium <anchor type="annotation"
+							n="472" xml:id="legacy472"/> et divinarum rerum studiosae <anchor
+							type="annotation" n="473" xml:id="legacy473"/> nationes, approbant et
+						amplectuntur. </p>
+					<p xml:id="sec037008" n="235"> Illa artium fraudulentissima, haec <anchor
+							type="annotation" n="474" xml:id="legacy474"/> altior sanctiorque
+						philosophia, <anchor type="annotation" n="475" xml:id="legacy475"/> illa
+						irrita et vana, haec <anchor type="annotation" n="476" xml:id="legacy476"/>
+						firma fidelis et solida. </p>
+					<p xml:id="sec037009" n="236"> Illam quisquis coluit semper dissimulavit, quod
+						in auctoris esset ignominiam et contumeliam, ex hac summa <pb xml:id="bon12"
+							n="12" ed="exemplarBononiae" facs="7.jpg"/><pb xml:id="brun22" n="22"
+							ed="exemplarBrunensis" facs="22.jpg"/> litterarum claritas gloriaque
+						antiquitus et pene semper petita. <anchor type="annotation" n="477"
+							xml:id="legacy477"/>
+					</p>
+					<p xml:id="sec037010" n="237"> Illius nemo unquam studiosus fuit vir philosophus
+						et cupidus discendi bonas artes; ad hanc Pythagoras, Empedocles, Democritus,
+						Plato, discendam navigavere, hanc predicaverunt <anchor type="annotation"
+							n="478" xml:id="legacy478"/> reversi, et in archanis precipuam
+							habuerunt.<anchor type="annotation" n="479" xml:id="legacy479"/>
+					</p>
+					<p xml:id="sec037011" n="238"> Illa, ut nullis rationibus, ita nec certis
+						probatur auctoribus; haec, <anchor type="annotation" n="480"
+							xml:id="legacy480"/> clarissimis quasi parentibus honestata, duos
+						precipue habet auctores: Xamolsidem, quem imitatus est Abbaris Hyperboreus,
+							<anchor type="annotation" n="481" xml:id="legacy481"/> et Zoroastrem,
+							<anchor type="annotation" n="482" xml:id="legacy482"/> non quem forte
+						creditis, <anchor type="annotation" n="483" xml:id="legacy483"/>
+						<anchor type="annotation" n="484" xml:id="legacy484"/> sed illum Oromasi
+						filium. <anchor type="annotation" n="485" xml:id="legacy485"/>
+					</p>
+					<p xml:id="sec037012" n="239"> Utriusque magia quid sit, Platonem si
+						percontemur, respondebit in Alcibiade: Zoroastris magiam non esse aliud quam
+						divinorum scientiam, qua filios Persarum reges erudiebant, ut ad exemplar
+						mundanae reipublicae <anchor type="annotation" n="486" xml:id="legacy486"/>
+						suam ipsi regere rempublicam edocerentur. <anchor type="annotation" n="487"
+							xml:id="legacy487"/>
+					</p>
+					<p xml:id="sec037013" n="240"> Respondebit in Carmide, magiam Xamolsidis esse
+						animi medicinam, per quam scilicet animo temperantia, ut per illam corpori
+						sanitas comparatur. <anchor type="annotation" n="488" xml:id="legacy488"/>
+					</p>
+				</div>
+			</div>
+			<div type="section" xml:id="sec038" n="§38">
+				
+				<div type="body">
+					<p xml:id="sec038001" n="241"> Horum vestigiis postea perstiterunt Carondas,
+						Damigeron, Apollonius, Hostanes et Dardanus. <anchor type="annotation"
+							n="489" xml:id="legacy489"/>
+					</p>
+					<p xml:id="sec038002" n="242"> Perstitit Homerus, quem ut omnes alias
+						sapientias, ita hanc quoque sub sui Ulixis erroribus dissimulasse <anchor
+							type="annotation" n="490" xml:id="legacy490"/> in poetica nostra
+						theologia aliquando probabimus. </p>
+					<p xml:id="sec038003" n="243"> Perstiterunt Eudoxus et Hermippus. <anchor
+							type="annotation" n="491" xml:id="legacy491"/>
+					</p>
+					<p xml:id="sec038004" n="244"> Perstiterunt fere omnes qui Pythagorica
+						Platonicaque mysteria <anchor type="annotation" n="492" xml:id="legacy492"/>
+						sunt perscrutati. </p>
+					<p xml:id="sec038005" n="245"> Ex iunioribus autem, qui eam olfecerint tres
+						reperio, Alchindum Arabem, Rogerium Baconem <anchor type="annotation"
+							n="493" xml:id="legacy493"/> et Guilielmum Parisiensem. <anchor
+							type="annotation" n="494" xml:id="legacy494"/>
+					</p>
+					<p xml:id="sec038006" n="246"> Meminit et Plotinus, ubi naturae <anchor
+							type="annotation" n="495" xml:id="legacy495"/> ministrum esse <anchor
+							type="annotation" n="496" xml:id="legacy496"/> et non artificem magum
+						demonstrat: <anchor type="annotation" n="497" xml:id="legacy497"/> hanc
+						magiam probat <pb xml:id="page138r" n="13" ed="editioPrinceps" facs="13.jpg"
+						/> asseveratque vir sapientissimus, alteram ita abhorrens ut, cum ad malorum
+						demonum sacra vocaretur, rectius esse, dixerit, ad se illos quam se ad illos
+						accedere, et merito quidem. <anchor type="annotation" n="498"
+							xml:id="legacy498"/>
+					</p>
+					<p xml:id="sec038007" n="247"> Ut enim illa obnoxium mancipatumque improbis
+						potestatibus hominem reddit, ita haec <anchor type="annotation" n="499"
+							xml:id="legacy499"/> illarum principem et dominum. </p>
+					<p xml:id="sec038008" n="248">
+						<pb xml:id="brun23" n="23" ed="exemplarBrunensis" facs="23.jpg"/>Illa
+						denique nec artis nec scientiae <anchor type="annotation" n="500"
+							xml:id="legacy500"/> sibi potest nomen vendicare; haec <anchor
+							type="annotation" n="501" xml:id="legacy501"/> altissimis plena
+						misteriis, profundissimam rerum secretissimarum contemplationem, et demum
+						totius naturae <anchor type="annotation" n="502" xml:id="legacy502"/>
+						cognitionem complectitur. </p>
+					<p xml:id="sec038009" n="249"> Haec, <anchor type="annotation" n="503"
+							xml:id="legacy503"/> inter sparsas Dei beneficio et inter seminatas
+						mundo virtutes, quasi de latebris evocans in lucem, non tam facit miranda
+						quam facienti naturae <anchor type="annotation" n="504" xml:id="legacy504"/>
+						sedula famulatur. </p>
+					<p xml:id="sec038010" n="250"> Haec <anchor type="annotation" n="505"
+							xml:id="legacy505"/> universi consensum, quem significantius Graeci
+							<anchor type="annotation" n="506" xml:id="legacy506"/>
+						<figure>
+							<graphic url="text_clip_image005.gif"/>
+						</figure>
+						<anchor type="annotation" n="507" xml:id="legacy507"/>
+						<anchor type="annotation" n="508" xml:id="legacy508"/>dicunt, introrsum
+						perscrutatius rimata et mutuam naturarum cognitionem habens perspectam,
+						nativas adhibens <anchor type="annotation" n="509" xml:id="legacy509"/>
+						unicuique rei et suas illecebras, quae <anchor type="annotation" n="510"
+							xml:id="legacy510"/> magorum<figure>
+							<graphic url="text_clip_image006.gif"/>
+						</figure>
+						<anchor type="annotation" n="511" xml:id="legacy511"/> nominantur, in mundi
+						recessibus, in naturae <anchor type="annotation" n="512" xml:id="legacy512"
+						/> gremio, in promptuariis arcanisque <anchor type="annotation" n="513"
+							xml:id="legacy513"/> Dei latitantia miracula, quasi ipsa sit artifex,
+						promit in publicum, et sicut agricola ulmos vitibus, <anchor
+							type="annotation" n="514" xml:id="legacy514"/> ita magus terram caelo,
+							<anchor type="annotation" n="515" xml:id="legacy515"/> idest inferiora
+						superiorum <anchor type="annotation" n="516" xml:id="legacy516"/> dotibus
+						virtutibusque maritat. </p>
+					<p xml:id="sec038011" n="251"> Quo fit ut quam illa prodigiosa et noxia, tam
+						haec <anchor type="annotation" n="517" xml:id="legacy517"/> divina et
+						salutaris appareat. </p>
+					<p xml:id="sec038012" n="252"> Ob hoc praecipue <anchor type="annotation"
+							n="518" xml:id="legacy518"/> quod illa hominem, Dei hostibus mancipans,
+						avocat a Deo, haec <anchor type="annotation" n="519" xml:id="legacy519"/> in
+						eam operum Dei admirationem excitat, quam propensa charitas, fides ac spes,
+						certissime consequuntur. </p>
+					<p xml:id="sec038013" n="253"> Neque enim ad religionem, ad Dei cultum quicquam
+						promovet magis quam assidua contemplatio mirabilium Dei, quae <anchor
+							type="annotation" n="520" xml:id="legacy520"/> ut per hanc de qua agimus
+						naturalem magiam bene exploraverimus, <anchor type="annotation" n="521"
+							xml:id="legacy521"/> in opificis cultum amoremque ardentius animati
+						illud canere compellemur: «Pleni sunt caeli, <anchor type="annotation"
+							n="522" xml:id="legacy522"/> plena est omnis terra maiestate gloriae
+						tuae». <anchor type="annotation" n="523" xml:id="legacy523"/>
+						<anchor type="annotation" n="524" xml:id="legacy524"/>
+					</p>
+					<p xml:id="sec038014" n="254"> Et haec <anchor type="annotation" n="525"
+							xml:id="legacy525"/> satis de magia, de qua haec <anchor
+							type="annotation" n="526" xml:id="legacy526"/> diximus, quod scio
+							<anchor type="annotation" n="527" xml:id="legacy527"/> esse <anchor
+							type="annotation" n="528" xml:id="legacy528"/> plures qui, sicut canes
+						ignotos semper adlatrant, ita et ipsi saepe <anchor type="annotation"
+							n="529" xml:id="legacy529"/> damnant oderuntque quae <anchor
+							type="annotation" n="530" xml:id="legacy530"/> non intelligunt. </p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
